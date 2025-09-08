@@ -163,6 +163,18 @@ def mock_validation_results():
                 'total_columns': 13,
                 'issues': [],
                 'issue_count': 0
+            },
+            'sales': {
+                'total_records': 2000,
+                'total_columns': 12,
+                'issues': [],
+                'issue_count': 0
+            },
+            'payments': {
+                'total_records': 1800,
+                'total_columns': 8,
+                'issues': [],
+                'issue_count': 0
             }
         },
         'bad': {
@@ -176,6 +188,18 @@ def mock_validation_results():
                 'total_records': 100,
                 'total_columns': 13,
                 'issues': ['Negative values in price: 25', 'Empty strings: {\'name\': 10}'],
+                'issue_count': 2
+            },
+            'sales': {
+                'total_records': 500,
+                'total_columns': 12,
+                'issues': ['Missing values: {\'user_id\': 10}', 'Invalid amounts: 15'],
+                'issue_count': 2
+            },
+            'payments': {
+                'total_records': 400,
+                'total_columns': 8,
+                'issues': ['Invalid payment methods: 5', 'Negative amounts: 8'],
                 'issue_count': 2
             }
         }

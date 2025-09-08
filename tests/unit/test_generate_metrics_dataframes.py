@@ -120,7 +120,7 @@ class TestGenerateMetricsDataframes:
         # Check total_sales is non-negative
         assert all(sellers_df['total_sales'] >= 0)
     
-    def test_generate_sales(self):
+    def test_generate_sales(self, sample_users_data, sample_products_data):
         """Test sales data generation."""
         users_df = sample_users_data
         products_df = sample_products_data
@@ -167,7 +167,7 @@ class TestGenerateMetricsDataframes:
         # Check status values
         assert all(sales_df['status'].isin(['completed', 'pending', 'cancelled']))
     
-    def test_generate_sales_with_invalid_inputs(self):
+    def test_generate_sales_with_invalid_inputs(self, sample_users_data, sample_products_data):
         """Test sales generation with invalid inputs."""
         with pytest.raises(ValueError, match="Users, products, and sellers DataFrames must be provided"):
             generate_sales(5, None, sample_products_data, pd.DataFrame())
@@ -178,7 +178,7 @@ class TestGenerateMetricsDataframes:
         with pytest.raises(ValueError, match="Users, products, and sellers DataFrames must be provided"):
             generate_sales(5, sample_users_data, sample_products_data, None)
     
-    def test_generate_payments(self):
+    def test_generate_payments(self, sample_sales_data):
         """Test payments data generation."""
         sales_df = sample_sales_data
         payments_df = generate_payments(sales_df)
@@ -220,7 +220,8 @@ class TestGenerateMetricsDataframes:
     @patch('generate_metrics_dataframes.generate_users')
     def test_main_function(self, mock_generate_users, mock_generate_products, 
                           mock_generate_sellers, mock_generate_sales, 
-                          mock_generate_payments, mock_makedirs, mock_to_csv):
+                          mock_generate_payments, mock_makedirs, mock_to_csv, 
+                          sample_users_data, sample_products_data, sample_sales_data, sample_payments_data):
         """Test main function execution."""
         # Mock return values
         mock_generate_users.return_value = sample_users_data

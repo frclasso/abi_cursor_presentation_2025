@@ -30,10 +30,10 @@
 3) Pytest step, create a pytest.ini file
 
 4) Create unit testing meethod with pytest lib to test:
-    - ecommerce_analysis.py (use Pytest patch)
     - generate_metrics_dataframes.py  (use Pytest fixtures)
     - generate_bad_records.py (use Pytest Mock, MagicMock)
     - generate_fake_data.py (use Pytest Mock, MagicMock)
+    - ecommerce_analysis.py (use Pytest patch)
     -  Save the tests files at tests/
 
 5) Create a qualty check class with Pydantic to validate schema from sales, sellers, users, products and payments
@@ -52,3 +52,5 @@ python ecommerce_analysis.py
 
 ## TESTS
 python -m pytest tests/ -v
+python -m pytest tests/unit/
+python -m pytest tests/unit/test_ecommerce_analyzer.py -v --tb=short

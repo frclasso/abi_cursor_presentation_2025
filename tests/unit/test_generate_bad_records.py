@@ -88,7 +88,7 @@ class TestGenerateBadRecords:
         # At least one of these issues should be present
         assert has_empty_strings or has_negative_prices or has_negative_stock or has_xss_attempts
     
-    def test_generate_bad_sales(self):
+    def test_generate_bad_sales(self, sample_bad_users_data, sample_bad_products_data):
         """Test bad sales data generation."""
         bad_users_df = sample_bad_users_data
         bad_products_df = sample_bad_products_data
@@ -125,7 +125,7 @@ class TestGenerateBadRecords:
         # At least one of these issues should be present
         assert has_null_values or has_negative_quantities or has_invalid_amounts or has_invalid_status
     
-    def test_generate_bad_sales_with_invalid_inputs(self):
+    def test_generate_bad_sales_with_invalid_inputs(self, sample_products_data):
         """Test bad sales generation with invalid inputs."""
         with pytest.raises(ValueError, match="Users and products DataFrames must be provided"):
             generate_bad_sales(5, None, sample_products_data)
@@ -176,7 +176,8 @@ class TestGenerateBadRecords:
     @patch('generate_bad_records.generate_bad_users')
     def test_main_function(self, mock_generate_users, mock_generate_products, 
                           mock_generate_sales, mock_generate_payments, 
-                          mock_makedirs, mock_to_csv):
+                          mock_makedirs, mock_to_csv, 
+                          sample_bad_users_data, sample_bad_products_data):
         """Test main function execution."""
         # Mock return values
         mock_generate_users.return_value = sample_bad_users_data
@@ -294,7 +295,7 @@ class TestGenerateBadRecords:
         if sales_product_ids:  # Only check if there are valid product_ids
             assert sales_product_ids.issubset(products_product_ids)
     
-    def test_bad_data_vs_good_data_comparison(self):
+    def test_bad_data_vs_good_data_comparison(self, sample_users_data):
         """Test that bad data has more issues than good data."""
         good_users = sample_users_data
         bad_users = generate_bad_users(10)

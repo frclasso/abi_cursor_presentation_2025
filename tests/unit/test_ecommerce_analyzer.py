@@ -8,6 +8,8 @@ import numpy as np
 from unittest.mock import Mock, patch, MagicMock
 import os
 import sys
+import matplotlib
+matplotlib.use('Agg')  # Use non-interactive backend for testing
 
 # Add parent directory to path to import the module
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
@@ -38,7 +40,7 @@ class TestEcommerceAnalyzer:
         assert analyzer.validation_results == {}
     
     @patch('pandas.read_csv')
-    def test_load_metrics_data_success(self, mock_read_csv, temp_directories):
+    def test_load_metrics_data_success(self, mock_read_csv, temp_directories, sample_metrics_data):
         """Test successful loading of metrics data."""
         # Mock the CSV files
         mock_dataframes = {
@@ -93,7 +95,7 @@ class TestEcommerceAnalyzer:
         assert result is False
     
     @patch('pandas.read_csv')
-    def test_load_raw_data_success(self, mock_read_csv, temp_directories):
+    def test_load_raw_data_success(self, mock_read_csv, temp_directories, sample_users_data, sample_products_data, sample_sales_data, sample_payments_data, sample_bad_users_data, sample_bad_products_data):
         """Test successful loading of raw data."""
         mock_dataframes = {
             'users.csv': sample_users_data,
@@ -127,7 +129,7 @@ class TestEcommerceAnalyzer:
         assert 'users' in analyzer.raw_data['valid']
         assert 'users' in analyzer.raw_data['bad']
     
-    def test_validate_data_quality(self, temp_directories):
+    def test_validate_data_quality(self, temp_directories, sample_users_data, sample_products_data, sample_bad_users_data, sample_bad_products_data):
         """Test data quality validation."""
         analyzer = EcommerceAnalyzer(
             metrics_path=str(temp_directories['metrics_dir']),
@@ -162,7 +164,7 @@ class TestEcommerceAnalyzer:
     
     @patch('matplotlib.pyplot.savefig')
     @patch('matplotlib.pyplot.close')
-    def test_create_sales_overview_chart(self, mock_close, mock_savefig, temp_directories):
+    def test_create_sales_overview_chart(self, mock_close, mock_savefig, temp_directories, sample_metrics_data):
         """Test sales overview chart creation."""
         analyzer = EcommerceAnalyzer(
             metrics_path=str(temp_directories['metrics_dir']),
@@ -185,7 +187,7 @@ class TestEcommerceAnalyzer:
     
     @patch('matplotlib.pyplot.savefig')
     @patch('matplotlib.pyplot.close')
-    def test_create_data_quality_dashboard(self, mock_close, mock_savefig, temp_directories):
+    def test_create_data_quality_dashboard(self, mock_close, mock_savefig, temp_directories, mock_validation_results):
         """Test data quality dashboard creation."""
         analyzer = EcommerceAnalyzer(
             metrics_path=str(temp_directories['metrics_dir']),
@@ -203,7 +205,7 @@ class TestEcommerceAnalyzer:
     
     @patch('matplotlib.pyplot.savefig')
     @patch('matplotlib.pyplot.close')
-    def test_create_validation_comparison_chart(self, mock_close, mock_savefig, temp_directories):
+    def test_create_validation_comparison_chart(self, mock_close, mock_savefig, temp_directories, mock_validation_results):
         """Test validation comparison chart creation."""
         analyzer = EcommerceAnalyzer(
             metrics_path=str(temp_directories['metrics_dir']),
@@ -242,7 +244,7 @@ class TestEcommerceAnalyzer:
     
     @patch('matplotlib.pyplot.savefig')
     @patch('matplotlib.pyplot.close')
-    def test_create_payment_analysis(self, mock_close, mock_savefig, temp_directories):
+    def test_create_payment_analysis(self, mock_close, mock_savefig, temp_directories, sample_metrics_data):
         """Test payment analysis chart creation."""
         analyzer = EcommerceAnalyzer(
             metrics_path=str(temp_directories['metrics_dir']),
@@ -305,7 +307,7 @@ class TestEcommerceAnalyzer:
     
     @patch('matplotlib.pyplot.savefig')
     @patch('matplotlib.pyplot.close')
-    def test_create_comprehensive_dashboard(self, mock_close, mock_savefig, temp_directories):
+    def test_create_comprehensive_dashboard(self, mock_close, mock_savefig, temp_directories, sample_metrics_data):
         """Test comprehensive dashboard creation."""
         analyzer = EcommerceAnalyzer(
             metrics_path=str(temp_directories['metrics_dir']),
@@ -321,7 +323,8 @@ class TestEcommerceAnalyzer:
             'gender_dist': sample_metrics_data['gender_dist'],
             'payment_dist': sample_metrics_data['payment_dist'],
             'top_buyers_amount': pd.DataFrame({'first_name': ['John'], 'last_name': ['Doe'], 'total_spent': [500]}),
-            'gender_purchases': pd.DataFrame({'gender': ['M'], 'total_spent': [500], 'average_purchase': [100]})
+            'gender_purchases': pd.DataFrame({'gender': ['M'], 'total_spent': [500], 'average_purchase': [100], 'transactions_per_buyer': [5]}),
+            'state_dist': pd.DataFrame({'state': ['NY', 'CA', 'TX'], 'user_count': [50, 40, 30]})
         }
         
         analyzer.create_comprehensive_dashboard()
@@ -345,7 +348,7 @@ class TestEcommerceAnalyzer:
                                                 mock_validate, mock_sales, mock_geo, 
                                                 mock_payment, mock_customer, mock_product,
                                                 mock_comprehensive, mock_quality, mock_comparison,
-                                                mock_listdir, temp_directories):
+                                                mock_listdir, temp_directories, mock_validation_results):
         """Test successful generation of all visualizations."""
         # Mock return values
         mock_load_metrics.return_value = True
@@ -358,6 +361,19 @@ class TestEcommerceAnalyzer:
             data_path=str(temp_directories['data_dir']),
             output_path=str(temp_directories['images_dir'])
         )
+        
+        # Set up the analyzer with mock data to avoid KeyError
+        analyzer.data = {
+            'sales_status': pd.DataFrame({'status': ['completed'], 'count': [100]}),
+            'monthly_sales': pd.DataFrame({'total_amount': [1000]}),
+            'top_products_qty': pd.DataFrame({'product_name': ['Product A'], 'total_quantity_sold': [10]}),
+            'gender_dist': pd.DataFrame({'gender': ['M'], 'user_count': [50]}),
+            'payment_dist': pd.DataFrame({'payment_method': ['credit_card'], 'transaction_count': [50]}),
+            'top_buyers_amount': pd.DataFrame({'first_name': ['John'], 'last_name': ['Doe'], 'total_spent': [500]}),
+            'gender_purchases': pd.DataFrame({'gender': ['M'], 'total_spent': [500], 'average_purchase': [100], 'transactions_per_buyer': [5]}),
+            'state_dist': pd.DataFrame({'state': ['NY'], 'user_count': [30]})
+        }
+        analyzer.validation_results = mock_validation_results
         
         result = analyzer.generate_all_visualizations()
         
@@ -374,7 +390,7 @@ class TestEcommerceAnalyzer:
         mock_quality.assert_called_once()
         mock_comparison.assert_called_once()
     
-    def test_print_validation_summary(self, temp_directories, capsys):
+    def test_print_validation_summary(self, temp_directories, capsys, mock_validation_results):
         """Test validation summary printing."""
         analyzer = EcommerceAnalyzer(
             metrics_path=str(temp_directories['metrics_dir']),

@@ -3,4 +3,7 @@
 .venv/
 venv/
 *.pyc
-tests/__pycache__/
+__pycache__/
+.pytest_cache/
+tests/unit/__pycache__/
+tests/fixtures/__pycache__/
