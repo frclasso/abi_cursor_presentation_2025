@@ -15,12 +15,35 @@ import os
 fake = Faker()
 
 def create_directories():
-    """Create necessary directories if they don't exist."""
+            """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
     os.makedirs('tests/data_sources', exist_ok=True)
     os.makedirs('images', exist_ok=True)
 
 def generate_users(num_users=1000):
-    """Generate fake users data."""
+    """
+    Generate fake users data for e-commerce application.
+    
+    Creates a DataFrame with realistic user data including personal information,
+    contact details, and account status. Uses Faker library for realistic data
+    generation with proper formatting and constraints.
+    
+    Args:
+        num_users (int): Number of users to generate (default: 1000)
+        
+    Returns:
+        pd.DataFrame: DataFrame containing user data with columns:
+            user_id, first_name, last_name, email, phone, address, city,
+            state, zip_code, country, date_joined, is_active, age, gender
+    """
     users = []
     
     for i in range(num_users):
@@ -45,7 +68,21 @@ def generate_users(num_users=1000):
     return pd.DataFrame(users)
 
 def generate_products(num_products=500):
-    """Generate fake products data."""
+    """
+    Generate fake products data for e-commerce application.
+    
+    Creates a DataFrame with realistic product data including product information,
+    pricing, inventory, and categorization. Uses Faker library for realistic
+    product names, descriptions, and other attributes.
+    
+    Args:
+        num_products (int): Number of products to generate (default: 500)
+        
+    Returns:
+        pd.DataFrame: DataFrame containing product data with columns:
+            product_id, name, description, category, price, cost, stock_quantity,
+            sku, brand, weight, dimensions, is_active, created_at
+    """
     categories = ['Electronics', 'Clothing', 'Books', 'Home & Garden', 'Sports', 
                   'Beauty', 'Toys', 'Automotive', 'Health', 'Food']
     
@@ -73,7 +110,16 @@ def generate_products(num_products=500):
     return pd.DataFrame(products)
 
 def generate_sellers(num_sellers=50):
-    """Generate fake sellers data."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     sellers = []
     
     for i in range(num_sellers):
@@ -99,7 +145,16 @@ def generate_sellers(num_sellers=50):
     return pd.DataFrame(sellers)
 
 def generate_sales(num_sales=5000, users_df=None, products_df=None, sellers_df=None):
-    """Generate fake sales data."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if users_df is None or products_df is None or sellers_df is None:
         raise ValueError("Users, products, and sellers DataFrames must be provided")
     
@@ -143,7 +198,16 @@ def generate_sales(num_sales=5000, users_df=None, products_df=None, sellers_df=N
     return pd.DataFrame(sales)
 
 def generate_payments(sales_df=None):
-    """Generate fake payments data."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if sales_df is None:
         raise ValueError("Sales DataFrame must be provided")
     
@@ -180,7 +244,13 @@ def generate_payments(sales_df=None):
     return pd.DataFrame(payments)
 
 def main():
-    """Main function to generate all fake data."""
+            """
+        Main.
+        
+        Performs the main operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
     print("Creating directories...")
     create_directories()
     

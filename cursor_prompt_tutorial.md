@@ -36,13 +36,13 @@
     - ecommerce_analysis.py (use Pytest patch)
     -  Save the tests files at tests/
 
-5) Create a qualty check class with Pydantic to validate schema from sales, sellers, users, products and payments
+5) Create a qualty check class with Pydantic to validate schema from sales, sellers, users, products and payments, and a pytest for this class.
 
-6) Create a qualty check class with Pydantic to validate data from sales, sellers, users, products and payments
+6) Create a qualty check class with Pydantic to validate data from sales, sellers, users, products and payments, and a pytest for this class.
 
-7) Generate Documetnantion (dosctring) for all *.py methods
+7) Generate Documentantion (dosctring) for all *.py methods
 
-8) Create a README.md file with a step by step teaching how to use this projetc.
+8) Create a simple README.md file with a step by step teaching how to use this projetc.
 
 # RUN COMMANDS
 python generate_fake_data.py

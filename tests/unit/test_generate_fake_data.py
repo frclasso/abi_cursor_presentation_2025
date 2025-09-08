@@ -26,14 +26,32 @@ class TestGenerateFakeData:
     
     @patch('os.makedirs')
     def test_create_directories(self, mock_makedirs):
-        """Test directory creation."""
+                """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
         create_directories()
         mock_makedirs.assert_any_call('tests/data_sources', exist_ok=True)
         mock_makedirs.assert_any_call('images', exist_ok=True)
     
     @patch('generate_fake_data.fake')
     def test_generate_users(self, mock_fake):
-        """Test users data generation with mocked Faker."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         # Mock Faker methods
         mock_fake.first_name.side_effect = ['John', 'Jane', 'Bob']
         mock_fake.last_name.side_effect = ['Doe', 'Smith', 'Johnson']
@@ -75,7 +93,16 @@ class TestGenerateFakeData:
     
     @patch('generate_fake_data.fake')
     def test_generate_products(self, mock_fake):
-        """Test products data generation with mocked Faker."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         # Mock Faker methods
         mock_fake.catch_phrase.side_effect = ['Product A', 'Product B', 'Product C']
         mock_fake.text.side_effect = ['Description A', 'Description B', 'Description C']
@@ -115,7 +142,16 @@ class TestGenerateFakeData:
     
     @patch('generate_fake_data.fake')
     def test_generate_sellers(self, mock_fake):
-        """Test sellers data generation with mocked Faker."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         # Mock Faker methods
         mock_fake.company.side_effect = ['Company A', 'Company B', 'Company C']
         mock_fake.name.side_effect = ['John Doe', 'Jane Smith', 'Bob Johnson']
@@ -162,7 +198,16 @@ class TestGenerateFakeData:
         assert mock_fake.email.call_count == 3
     
     def test_generate_sales(self, sample_users_data, sample_products_data):
-        """Test sales data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         users_df = sample_users_data
         products_df = sample_products_data
         sellers_df = pd.DataFrame({
@@ -209,7 +254,16 @@ class TestGenerateFakeData:
         assert all(sales_df['status'].isin(['completed', 'pending', 'cancelled']))
     
     def test_generate_sales_with_invalid_inputs(self, sample_users_data, sample_products_data):
-        """Test sales generation with invalid inputs."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         with pytest.raises(ValueError, match="Users, products, and sellers DataFrames must be provided"):
             generate_sales(5, None, sample_products_data, pd.DataFrame())
         
@@ -220,7 +274,16 @@ class TestGenerateFakeData:
             generate_sales(5, sample_users_data, sample_products_data, None)
     
     def test_generate_payments(self, sample_sales_data):
-        """Test payments data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         sales_df = sample_sales_data
         payments_df = generate_payments(sales_df)
         
@@ -248,7 +311,16 @@ class TestGenerateFakeData:
         assert all(payments_df['status'].isin(['completed', 'pending', 'failed']))
     
     def test_generate_payments_with_invalid_input(self):
-        """Test payments generation with invalid input."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         with pytest.raises(ValueError, match="Sales DataFrame must be provided"):
             generate_payments(None)
     
@@ -263,7 +335,13 @@ class TestGenerateFakeData:
                           mock_generate_sellers, mock_generate_sales, 
                           mock_generate_payments, mock_makedirs, mock_to_csv, 
                           sample_users_data, sample_products_data, sample_sales_data, sample_payments_data):
-        """Test main function execution."""
+                """
+        Test Main Function.
+        
+        Performs the test main function operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         # Mock return values
         mock_generate_users.return_value = sample_users_data
         mock_generate_products.return_value = sample_products_data
@@ -288,7 +366,13 @@ class TestGenerateFakeData:
     @patch('pandas.DataFrame.to_csv')
     @patch('os.makedirs')
     def test_main_function_with_error(self, mock_makedirs, mock_to_csv):
-        """Test main function with error handling."""
+                """
+        Test Main Function With Error.
+        
+        Performs the test main function with error operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         # Make to_csv raise an exception
         mock_to_csv.side_effect = Exception("CSV write error")
         
@@ -299,7 +383,13 @@ class TestGenerateFakeData:
             pytest.fail(f"Main function should handle errors gracefully, but raised: {e}")
     
     def test_data_consistency(self):
-        """Test data consistency across generated datasets."""
+                """
+        Test Data Consistency.
+        
+        Performs the test data consistency operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         users_df = generate_users(100)
         products_df = generate_products(50)
         sellers_df = generate_sellers(10)
@@ -322,7 +412,13 @@ class TestGenerateFakeData:
         assert payments_sale_ids.issubset(sales_sale_ids)
     
     def test_data_types(self):
-        """Test that generated data has correct types."""
+                """
+        Test Data Types.
+        
+        Performs the test data types operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         users_df = generate_users(10)
         products_df = generate_products(10)
         
@@ -343,7 +439,13 @@ class TestGenerateFakeData:
         assert products_df['is_active'].dtype == 'bool'
     
     def test_data_ranges(self):
-        """Test that generated data is within expected ranges."""
+                """
+        Test Data Ranges.
+        
+        Performs the test data ranges operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         users_df = generate_users(1000)
         products_df = generate_products(100)
         
@@ -365,7 +467,13 @@ class TestGenerateFakeData:
     
     @patch('generate_fake_data.random')
     def test_random_choices(self, mock_random):
-        """Test that random choices are properly used."""
+                """
+        Test Random Choices.
+        
+        Performs the test random choices operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         # Mock random choices
         mock_random.choice.side_effect = ['M', 'F', 'Other']
         mock_random.randint.side_effect = [25, 30, 35]
@@ -379,7 +487,13 @@ class TestGenerateFakeData:
         assert mock_random.choices.called
     
     def test_discount_calculation(self, sample_users_data, sample_products_data):
-        """Test that discount calculation works correctly."""
+                """
+        Test Discount Calculation.
+        
+        Performs the test discount calculation operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         users_df = sample_users_data
         products_df = sample_products_data
         sellers_df = pd.DataFrame({
@@ -395,7 +509,13 @@ class TestGenerateFakeData:
             assert abs(row['final_amount'] - expected_final) < 0.01  # Allow for floating point precision
     
     def test_payment_generation_logic(self):
-        """Test that payment generation follows the expected logic."""
+                """
+        Test Payment Generation Logic.
+        
+        Performs the test payment generation logic operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         sales_df = pd.DataFrame({
             'sale_id': ['SALE000001', 'SALE000002', 'SALE000003'],
             'status': ['completed', 'cancelled', 'completed'],

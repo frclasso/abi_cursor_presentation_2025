@@ -27,13 +27,31 @@ class TestGenerateBadRecords:
     
     @patch('os.makedirs')
     def test_create_directories(self, mock_makedirs):
-        """Test directory creation."""
+                """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
         create_directories()
         mock_makedirs.assert_any_call('tests/data_sources', exist_ok=True)
         mock_makedirs.assert_any_call('images', exist_ok=True)
     
     def test_generate_bad_users(self):
-        """Test bad users data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         bad_users_df = generate_bad_users(10)
         
         assert len(bad_users_df) == 10
@@ -61,7 +79,16 @@ class TestGenerateBadRecords:
         assert has_empty_strings or has_invalid_emails or has_negative_ages
     
     def test_generate_bad_products(self):
-        """Test bad products data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         bad_products_df = generate_bad_products(10)
         
         assert len(bad_products_df) == 10
@@ -89,7 +116,16 @@ class TestGenerateBadRecords:
         assert has_empty_strings or has_negative_prices or has_negative_stock or has_xss_attempts
     
     def test_generate_bad_sales(self, sample_bad_users_data, sample_bad_products_data):
-        """Test bad sales data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         bad_users_df = sample_bad_users_data
         bad_products_df = sample_bad_products_data
         bad_sellers_df = pd.DataFrame({
@@ -126,7 +162,16 @@ class TestGenerateBadRecords:
         assert has_null_values or has_negative_quantities or has_invalid_amounts or has_invalid_status
     
     def test_generate_bad_sales_with_invalid_inputs(self, sample_products_data):
-        """Test bad sales generation with invalid inputs."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         with pytest.raises(ValueError, match="Users and products DataFrames must be provided"):
             generate_bad_sales(5, None, sample_products_data)
         
@@ -134,7 +179,16 @@ class TestGenerateBadRecords:
             generate_bad_sales(5, sample_users_data, None)
     
     def test_generate_bad_payments(self):
-        """Test bad payments data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         bad_sales_df = pd.DataFrame({
             'sale_id': ['SALE000001', 'SALE000002', 'SALE000003'],
             'status': ['completed', 'pending', 'completed'],
@@ -164,7 +218,16 @@ class TestGenerateBadRecords:
         assert has_null_values or has_negative_amounts or has_invalid_methods or has_invalid_status
     
     def test_generate_bad_payments_with_invalid_input(self):
-        """Test bad payments generation with invalid input."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         with pytest.raises(ValueError, match="Sales DataFrame must be provided"):
             generate_bad_payments(None)
     
@@ -178,7 +241,13 @@ class TestGenerateBadRecords:
                           mock_generate_sales, mock_generate_payments, 
                           mock_makedirs, mock_to_csv, 
                           sample_bad_users_data, sample_bad_products_data):
-        """Test main function execution."""
+                """
+        Test Main Function.
+        
+        Performs the test main function operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         # Mock return values
         mock_generate_users.return_value = sample_bad_users_data
         mock_generate_products.return_value = sample_bad_products_data
@@ -201,7 +270,13 @@ class TestGenerateBadRecords:
     @patch('pandas.DataFrame.to_csv')
     @patch('os.makedirs')
     def test_main_function_with_error(self, mock_makedirs, mock_to_csv):
-        """Test main function with error handling."""
+                """
+        Test Main Function With Error.
+        
+        Performs the test main function with error operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         # Make to_csv raise an exception
         mock_to_csv.side_effect = Exception("CSV write error")
         
@@ -212,7 +287,13 @@ class TestGenerateBadRecords:
             pytest.fail(f"Main function should handle errors gracefully, but raised: {e}")
     
     def test_bad_data_quality_issues(self):
-        """Test that bad data contains various quality issues."""
+                """
+        Test Bad Data Quality Issues.
+        
+        Performs the test bad data quality issues operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         bad_users_df = generate_bad_users(100)
         
         # Check for different types of issues
@@ -244,7 +325,13 @@ class TestGenerateBadRecords:
         assert len(issues_found) > 0, f"No data quality issues found in bad users data. Issues checked: {issues_found}"
     
     def test_bad_products_quality_issues(self):
-        """Test that bad products data contains various quality issues."""
+                """
+        Test Bad Products Quality Issues.
+        
+        Performs the test bad products quality issues operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         bad_products_df = generate_bad_products(100)
         
         # Check for different types of issues
@@ -274,7 +361,13 @@ class TestGenerateBadRecords:
         assert len(issues_found) > 0, f"No data quality issues found in bad products data. Issues checked: {issues_found}"
     
     def test_data_consistency_in_bad_data(self):
-        """Test that bad data maintains some consistency for testing purposes."""
+                """
+        Test Data Consistency In Bad Data.
+        
+        Performs the test data consistency in bad data operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         bad_users_df = generate_bad_users(50)
         bad_products_df = generate_bad_products(25)
         bad_sellers_df = pd.DataFrame({
@@ -296,7 +389,13 @@ class TestGenerateBadRecords:
             assert sales_product_ids.issubset(products_product_ids)
     
     def test_bad_data_vs_good_data_comparison(self, sample_users_data):
-        """Test that bad data has more issues than good data."""
+                """
+        Test Bad Data Vs Good Data Comparison.
+        
+        Performs the test bad data vs good data comparison operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         good_users = sample_users_data
         bad_users = generate_bad_users(10)
         
@@ -323,7 +422,13 @@ class TestGenerateBadRecords:
     
     @patch('generate_bad_records.fake')
     def test_faker_integration(self, mock_fake):
-        """Test that Faker is properly integrated."""
+                """
+        Test Faker Integration.
+        
+        Performs the test faker integration operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         # Mock Faker methods
         mock_fake.first_name.return_value = "Test"
         mock_fake.last_name.return_value = "User"

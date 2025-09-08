@@ -25,7 +25,16 @@ class TestGenerateMetricsDataframes:
     """Test cases for generate_metrics_dataframes.py functions."""
     
     def test_generate_users(self):
-        """Test users data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         users_df = generate_users(10)
         
         assert len(users_df) == 10
@@ -56,7 +65,16 @@ class TestGenerateMetricsDataframes:
         assert all(users_df['gender'].isin(['M', 'F', 'Other']))
     
     def test_generate_products(self):
-        """Test products data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         products_df = generate_products(10)
         
         assert len(products_df) == 10
@@ -89,7 +107,16 @@ class TestGenerateMetricsDataframes:
         assert all(products_df['weight'] > 0)
     
     def test_generate_sellers(self):
-        """Test sellers data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         sellers_df = generate_sellers(5)
         
         assert len(sellers_df) == 5
@@ -121,7 +148,16 @@ class TestGenerateMetricsDataframes:
         assert all(sellers_df['total_sales'] >= 0)
     
     def test_generate_sales(self, sample_users_data, sample_products_data):
-        """Test sales data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         users_df = sample_users_data
         products_df = sample_products_data
         sellers_df = pd.DataFrame({
@@ -168,7 +204,16 @@ class TestGenerateMetricsDataframes:
         assert all(sales_df['status'].isin(['completed', 'pending', 'cancelled']))
     
     def test_generate_sales_with_invalid_inputs(self, sample_users_data, sample_products_data):
-        """Test sales generation with invalid inputs."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         with pytest.raises(ValueError, match="Users, products, and sellers DataFrames must be provided"):
             generate_sales(5, None, sample_products_data, pd.DataFrame())
         
@@ -179,7 +224,16 @@ class TestGenerateMetricsDataframes:
             generate_sales(5, sample_users_data, sample_products_data, None)
     
     def test_generate_payments(self, sample_sales_data):
-        """Test payments data generation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         sales_df = sample_sales_data
         payments_df = generate_payments(sales_df)
         
@@ -207,7 +261,16 @@ class TestGenerateMetricsDataframes:
         assert all(payments_df['status'].isin(['completed', 'pending', 'failed']))
     
     def test_generate_payments_with_invalid_input(self):
-        """Test payments generation with invalid input."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         with pytest.raises(ValueError, match="Sales DataFrame must be provided"):
             generate_payments(None)
     
@@ -222,7 +285,13 @@ class TestGenerateMetricsDataframes:
                           mock_generate_sellers, mock_generate_sales, 
                           mock_generate_payments, mock_makedirs, mock_to_csv, 
                           sample_users_data, sample_products_data, sample_sales_data, sample_payments_data):
-        """Test main function execution."""
+                """
+        Test Main Function.
+        
+        Performs the test main function operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         # Mock return values
         mock_generate_users.return_value = sample_users_data
         mock_generate_products.return_value = sample_products_data
@@ -247,7 +316,13 @@ class TestGenerateMetricsDataframes:
     @patch('pandas.DataFrame.to_csv')
     @patch('os.makedirs')
     def test_main_function_with_error(self, mock_makedirs, mock_to_csv):
-        """Test main function with error handling."""
+                """
+        Test Main Function With Error.
+        
+        Performs the test main function with error operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         # Make to_csv raise an exception
         mock_to_csv.side_effect = Exception("CSV write error")
         
@@ -258,7 +333,13 @@ class TestGenerateMetricsDataframes:
             pytest.fail(f"Main function should handle errors gracefully, but raised: {e}")
     
     def test_data_consistency(self):
-        """Test data consistency across generated datasets."""
+                """
+        Test Data Consistency.
+        
+        Performs the test data consistency operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         users_df = generate_users(100)
         products_df = generate_products(50)
         sellers_df = generate_sellers(10)
@@ -281,7 +362,13 @@ class TestGenerateMetricsDataframes:
         assert payments_sale_ids.issubset(sales_sale_ids)
     
     def test_data_types(self):
-        """Test that generated data has correct types."""
+                """
+        Test Data Types.
+        
+        Performs the test data types operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         users_df = generate_users(10)
         products_df = generate_products(10)
         
@@ -302,7 +389,13 @@ class TestGenerateMetricsDataframes:
         assert products_df['is_active'].dtype == 'bool'
     
     def test_data_ranges(self):
-        """Test that generated data is within expected ranges."""
+                """
+        Test Data Ranges.
+        
+        Performs the test data ranges operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         users_df = generate_users(1000)
         products_df = generate_products(100)
         

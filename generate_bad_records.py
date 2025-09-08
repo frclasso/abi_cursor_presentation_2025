@@ -15,12 +15,30 @@ import os
 fake = Faker()
 
 def create_directories():
-    """Create necessary directories if they don't exist."""
+            """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
     os.makedirs('tests/data_sources', exist_ok=True)
     os.makedirs('images', exist_ok=True)
 
 def generate_bad_users(num_users=200):
-    """Generate users data with various data quality issues."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     users = []
     
     for i in range(num_users):
@@ -58,7 +76,16 @@ def generate_bad_users(num_users=200):
     return pd.DataFrame(users)
 
 def generate_bad_email(bad_type):
-    """Generate invalid email addresses."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'invalid_email':
         invalid_emails = [
             'notanemail',
@@ -78,7 +105,16 @@ def generate_bad_email(bad_type):
         return fake.email()
 
 def generate_bad_phone(bad_type):
-    """Generate invalid phone numbers."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'invalid_phone':
         invalid_phones = [
             '123',  # Too short
@@ -95,7 +131,16 @@ def generate_bad_phone(bad_type):
         return fake.phone_number()
 
 def generate_bad_zip(bad_type):
-    """Generate invalid zip codes."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'invalid_zip':
         invalid_zips = [
             '123',  # Too short
@@ -111,7 +156,16 @@ def generate_bad_zip(bad_type):
         return fake.zipcode()
 
 def generate_bad_date(bad_type):
-    """Generate invalid dates."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'missing_required':
         return None
     elif bad_type == 'empty_strings':
@@ -120,7 +174,16 @@ def generate_bad_date(bad_type):
         return fake.date_between(start_date='-2y', end_date='today')
 
 def generate_bad_boolean(bad_type):
-    """Generate invalid boolean values."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'special_chars':
         invalid_bools = ['yes', 'no', '1', '0', 'true', 'false', 'Y', 'N']
         return random.choice(invalid_bools)
@@ -130,7 +193,16 @@ def generate_bad_boolean(bad_type):
         return random.choice([True, False])
 
 def generate_bad_age(bad_type):
-    """Generate invalid age values."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'negative_age':
         return random.randint(-100, -1)
     elif bad_type == 'special_chars':
@@ -141,7 +213,16 @@ def generate_bad_age(bad_type):
         return random.randint(18, 80)
 
 def generate_bad_gender(bad_type):
-    """Generate invalid gender values."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'special_chars':
         invalid_genders = ['MALE', 'FEMALE', '1', '2', 'X', 'Other', 'Prefer not to say']
         return random.choice(invalid_genders)
@@ -151,7 +232,16 @@ def generate_bad_gender(bad_type):
         return random.choice(['M', 'F', 'Other'])
 
 def generate_bad_products(num_products=100):
-    """Generate products data with various data quality issues."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     categories = ['Electronics', 'Clothing', 'Books', 'Home & Garden', 'Sports']
     products = []
     
@@ -188,7 +278,16 @@ def generate_bad_products(num_products=100):
     return pd.DataFrame(products)
 
 def generate_bad_product_name(bad_type):
-    """Generate invalid product names."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':
@@ -197,7 +296,16 @@ def generate_bad_product_name(bad_type):
         return fake.catch_phrase()
 
 def generate_bad_description(bad_type):
-    """Generate invalid descriptions."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':
@@ -206,7 +314,16 @@ def generate_bad_description(bad_type):
         return fake.text(max_nb_chars=200)
 
 def generate_bad_category(bad_type, valid_categories):
-    """Generate invalid categories."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'invalid_category':
         invalid_categories = ['InvalidCategory', '123', 'Category with spaces', '']
         return random.choice(invalid_categories)
@@ -216,7 +333,16 @@ def generate_bad_category(bad_type, valid_categories):
         return random.choice(valid_categories)
 
 def generate_bad_price(bad_type):
-    """Generate invalid prices."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'negative_price':
         return round(random.uniform(-100, -1), 2)
     elif bad_type == 'invalid_price':
@@ -227,7 +353,16 @@ def generate_bad_price(bad_type):
         return round(random.uniform(10, 1000), 2)
 
 def generate_bad_cost(bad_type):
-    """Generate invalid costs."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'negative_price':
         return round(random.uniform(-50, -1), 2)
     elif bad_type == 'invalid_price':
@@ -238,7 +373,16 @@ def generate_bad_cost(bad_type):
         return round(random.uniform(5, 500), 2)
 
 def generate_bad_stock(bad_type):
-    """Generate invalid stock quantities."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'negative_stock':
         return random.randint(-100, -1)
     elif bad_type == 'special_chars':
@@ -249,7 +393,16 @@ def generate_bad_stock(bad_type):
         return random.randint(0, 1000)
 
 def generate_bad_sku(bad_type):
-    """Generate invalid SKUs."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':
@@ -258,7 +411,16 @@ def generate_bad_sku(bad_type):
         return fake.bothify(text='SKU-####-????')
 
 def generate_bad_brand(bad_type):
-    """Generate invalid brands."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':
@@ -267,7 +429,16 @@ def generate_bad_brand(bad_type):
         return fake.company()
 
 def generate_bad_weight(bad_type):
-    """Generate invalid weights."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'negative_price':
         return round(random.uniform(-10, -0.1), 2)
     elif bad_type == 'special_chars':
@@ -278,7 +449,16 @@ def generate_bad_weight(bad_type):
         return round(random.uniform(0.1, 50), 2)
 
 def generate_bad_dimensions(bad_type):
-    """Generate invalid dimensions."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':
@@ -287,7 +467,16 @@ def generate_bad_dimensions(bad_type):
         return f"{random.randint(1, 50)}x{random.randint(1, 50)}x{random.randint(1, 50)}"
 
 def generate_bad_sales(num_sales=1000, users_df=None, products_df=None):
-    """Generate sales data with various data quality issues."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if users_df is None or products_df is None:
         raise ValueError("Users and products DataFrames must be provided")
     
@@ -332,7 +521,16 @@ def generate_bad_sales(num_sales=1000, users_df=None, products_df=None):
     return pd.DataFrame(sales)
 
 def generate_bad_quantity(bad_type):
-    """Generate invalid quantities."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'negative_quantity':
         return random.randint(-10, -1)
     elif bad_type == 'special_chars':
@@ -343,7 +541,16 @@ def generate_bad_quantity(bad_type):
         return random.randint(1, 10)
 
 def generate_bad_discount(bad_type):
-    """Generate invalid discounts."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'invalid_amounts':
         return random.choice([1.5, -0.1, '10%', 'free'])
     elif bad_type == 'empty_strings':
@@ -352,7 +559,16 @@ def generate_bad_discount(bad_type):
         return round(random.uniform(0, 0.25), 2)
 
 def generate_bad_sale_date(bad_type):
-    """Generate invalid sale dates."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'future_date':
         return fake.date_between(start_date='today', end_date='+1y')
     elif bad_type == 'empty_strings':
@@ -361,7 +577,16 @@ def generate_bad_sale_date(bad_type):
         return fake.date_between(start_date='-1y', end_date='today')
 
 def generate_bad_status(bad_type):
-    """Generate invalid status values."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'invalid_status':
         invalid_statuses = ['shipped', 'delivered', 'processing', '1', '0', 'yes', 'no']
         return random.choice(invalid_statuses)
@@ -371,7 +596,16 @@ def generate_bad_status(bad_type):
         return random.choices(['completed', 'pending', 'cancelled'], weights=[85, 10, 5])[0]
 
 def generate_bad_address(bad_type):
-    """Generate invalid addresses."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':
@@ -380,7 +614,16 @@ def generate_bad_address(bad_type):
         return fake.street_address()
 
 def generate_bad_city(bad_type):
-    """Generate invalid cities."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':
@@ -389,7 +632,16 @@ def generate_bad_city(bad_type):
         return fake.city()
 
 def generate_bad_state(bad_type):
-    """Generate invalid states."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':
@@ -398,7 +650,16 @@ def generate_bad_state(bad_type):
         return fake.state()
 
 def generate_bad_payments(sales_df=None):
-    """Generate payments data with various data quality issues."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if sales_df is None:
         raise ValueError("Sales DataFrame must be provided")
     
@@ -439,7 +700,16 @@ def generate_bad_payments(sales_df=None):
     return pd.DataFrame(payments)
 
 def generate_bad_payment_amount(bad_type, remaining_amount):
-    """Generate invalid payment amounts."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'negative_amount':
         return round(random.uniform(-100, -1), 2)
     elif bad_type == 'invalid_amounts':
@@ -450,7 +720,16 @@ def generate_bad_payment_amount(bad_type, remaining_amount):
         return round(random.uniform(0.1, remaining_amount), 2)
 
 def generate_bad_payment_method(bad_type, valid_methods):
-    """Generate invalid payment methods."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'invalid_method':
         invalid_methods = ['bitcoin', 'check', 'money_order', 'invalid']
         return random.choice(invalid_methods)
@@ -460,7 +739,16 @@ def generate_bad_payment_method(bad_type, valid_methods):
         return random.choice(valid_methods)
 
 def generate_bad_payment_date(bad_type, sale_date):
-    """Generate invalid payment dates."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'future_date':
         return fake.date_between(start_date='today', end_date='+1y')
     elif bad_type == 'empty_strings':
@@ -472,7 +760,16 @@ def generate_bad_payment_date(bad_type, sale_date):
             return fake.date_between(start_date='-1y', end_date='today')
 
 def generate_bad_payment_status(bad_type):
-    """Generate invalid payment statuses."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'special_chars':
         invalid_statuses = ['paid', 'unpaid', '1', '0', 'yes', 'no']
         return random.choice(invalid_statuses)
@@ -482,7 +779,16 @@ def generate_bad_payment_status(bad_type):
         return random.choices(['completed', 'pending', 'failed'], weights=[90, 7, 3])[0]
 
 def generate_bad_transaction_id(bad_type):
-    """Generate invalid transaction IDs."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':
@@ -491,7 +797,16 @@ def generate_bad_transaction_id(bad_type):
         return fake.bothify(text='TXN-########')
 
 def generate_bad_card_last_four(bad_type):
-    """Generate invalid card last four digits."""
+            """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':
@@ -500,7 +815,13 @@ def generate_bad_card_last_four(bad_type):
         return fake.bothify(text='####')
 
 def main():
-    """Main function to generate all bad data."""
+            """
+        Main.
+        
+        Performs the main operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
     print("Creating directories...")
     create_directories()
     

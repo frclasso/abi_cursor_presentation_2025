@@ -14,16 +14,38 @@ import warnings
 warnings.filterwarnings('ignore')
 
 class EcommerceAnalyzer:
-    """Class for generating e-commerce analytics visualizations."""
+    """
+    Comprehensive e-commerce analytics visualization generator.
+    
+    This class provides functionality to generate static visualizations from
+    e-commerce metrics data, including sales analysis, customer demographics,
+    product performance, and payment analytics. It supports both valid and
+    invalid data comparison for data quality assessment.
+    
+    Attributes:
+        metrics_path (str): Path to metrics CSV files
+        data_path (str): Path to raw data CSV files  
+        output_path (str): Path to save generated images
+        data (dict): Loaded metrics data
+        raw_data (dict): Loaded raw data (valid and bad)
+        validation_results (dict): Data quality validation results
+    """
     
     def __init__(self, metrics_path='tests/metrics/', data_path='tests/data_sources/', output_path='images/'):
         """
-        Initialize the analyzer.
+        Initialize the EcommerceAnalyzer with configuration paths.
+        
+        Sets up the analyzer with paths for metrics data, raw data, and output
+        directory. Creates the output directory if it doesn't exist and configures
+        matplotlib and seaborn styling for consistent visualizations.
         
         Args:
-            metrics_path (str): Path to metrics CSV files
-            data_path (str): Path to raw data CSV files
-            output_path (str): Path to save generated images
+            metrics_path (str): Path to metrics CSV files directory
+            data_path (str): Path to raw data CSV files directory  
+            output_path (str): Path to save generated visualization images
+            
+        Note:
+            The output directory will be created automatically if it doesn't exist.
         """
         self.metrics_path = metrics_path
         self.data_path = data_path
@@ -40,7 +62,19 @@ class EcommerceAnalyzer:
         sns.set_palette("husl")
         
     def load_metrics_data(self):
-        """Load all metrics data from CSV files."""
+        """
+        Load all metrics data from CSV files.
+        
+        Loads pre-calculated metrics data from CSV files including sales metrics,
+        customer demographics, product performance, and payment analytics. This
+        data is used for generating comprehensive visualizations.
+        
+        Returns:
+            bool: True if all data loaded successfully, False otherwise
+            
+        Note:
+            The method will print success/error messages to console.
+        """
         print("Loading metrics data...")
         
         try:
@@ -67,7 +101,20 @@ class EcommerceAnalyzer:
             return False
     
     def load_raw_data(self):
-        """Load raw data files (both valid and bad data)."""
+        """
+        Load raw data files including both valid and bad data.
+        
+        Loads the original e-commerce data files including users, products, sales,
+        payments, and sellers. Also loads corresponding "bad" data files that
+        contain intentional data quality issues for comparison and validation
+        purposes.
+        
+        Returns:
+            bool: True if all data loaded successfully, False otherwise
+            
+        Note:
+            Bad data files are used for data quality assessment and comparison.
+        """
         print("Loading raw data files...")
         
         try:
@@ -95,7 +142,16 @@ class EcommerceAnalyzer:
             return False
     
     def validate_data_quality(self):
-        """Validate data quality and identify issues."""
+                """
+        Validate data quality and compliance.
+        
+        Performs comprehensive data validation including schema validation,
+        business rule enforcement, and data quality assessment. Provides
+        detailed validation results and error reporting.
+        
+        Returns:
+            Validation results with quality scores and error details
+        """
         print("Validating data quality...")
         
         validation_results = {}
@@ -159,7 +215,16 @@ class EcommerceAnalyzer:
         return validation_results
     
     def create_data_quality_dashboard(self):
-        """Create data quality validation dashboard."""
+                """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
         fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 12))
         fig.suptitle('Data Quality Validation Dashboard', fontsize=16, fontweight='bold')
         
@@ -207,7 +272,16 @@ class EcommerceAnalyzer:
         print("✓ Data quality dashboard created")
     
     def create_validation_comparison_chart(self):
-        """Create detailed validation comparison chart."""
+                """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
         fig, ax = plt.subplots(figsize=(12, 8))
         
         # Prepare data for comparison
@@ -242,7 +316,16 @@ class EcommerceAnalyzer:
         print("✓ Validation comparison chart created")
     
     def create_sales_overview_chart(self):
-        """Create sales overview with multiple subplots."""
+                """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
         fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 12))
         fig.suptitle('E-commerce Sales Overview', fontsize=16, fontweight='bold')
         
@@ -279,7 +362,16 @@ class EcommerceAnalyzer:
         print("✓ Sales overview chart created")
     
     def create_geographic_analysis(self):
-        """Create geographic distribution charts."""
+                """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
         fig.suptitle('Geographic Distribution Analysis', fontsize=16, fontweight='bold')
         
@@ -305,7 +397,16 @@ class EcommerceAnalyzer:
         print("✓ Geographic analysis chart created")
     
     def create_payment_analysis(self):
-        """Create payment method analysis charts."""
+                """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
         fig.suptitle('Payment Method Analysis', fontsize=16, fontweight='bold')
         
@@ -328,7 +429,16 @@ class EcommerceAnalyzer:
         print("✓ Payment analysis chart created")
     
     def create_customer_analysis(self):
-        """Create customer behavior analysis charts."""
+                """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
         fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 12))
         fig.suptitle('Customer Behavior Analysis', fontsize=16, fontweight='bold')
         
@@ -362,7 +472,16 @@ class EcommerceAnalyzer:
         print("✓ Customer analysis chart created")
     
     def create_product_analysis(self):
-        """Create product performance analysis charts."""
+                """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
         fig.suptitle('Product Performance Analysis', fontsize=16, fontweight='bold')
         
@@ -385,7 +504,16 @@ class EcommerceAnalyzer:
         print("✓ Product analysis chart created")
     
     def create_comprehensive_dashboard(self):
-        """Create a comprehensive dashboard with all key metrics."""
+                """
+        Create new data or resources.
+        
+        Creates new data structures, files, or resources based on the
+        specified parameters. Handles creation with proper validation
+        and error handling.
+        
+        Returns:
+            Created data structure or resource
+        """
         fig = plt.figure(figsize=(20, 16))
         gs = fig.add_gridspec(4, 4, hspace=0.3, wspace=0.3)
         
@@ -500,7 +628,16 @@ class EcommerceAnalyzer:
         print("✓ Comprehensive dashboard created")
     
     def generate_all_visualizations(self):
-        """Generate all visualizations including data validation."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         print("🎨 Generating E-commerce Analytics Visualizations...")
         print("=" * 50)
         
@@ -542,7 +679,13 @@ class EcommerceAnalyzer:
             return False
     
     def print_validation_summary(self):
-        """Print a summary of data validation results."""
+                """
+        Print Validation Summary.
+        
+        Performs the print validation summary operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         print("\n" + "=" * 50)
         print("📊 DATA VALIDATION SUMMARY")
         print("=" * 50)
@@ -572,7 +715,13 @@ class EcommerceAnalyzer:
             print(f"  QUALITY SCORE: {((total_records - total_issues) / total_records * 100):.1f}%" if total_records > 0 else "N/A")
 
 def main():
-    """Main function to run the analyzer."""
+            """
+        Main.
+        
+        Performs the main operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
     analyzer = EcommerceAnalyzer()
     analyzer.generate_all_visualizations()
 

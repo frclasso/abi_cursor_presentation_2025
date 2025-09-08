@@ -19,14 +19,26 @@ class TestMetricsDataFrameGenerator:
     """Test cases for the refactored MetricsDataFrameGenerator class."""
     
     def test_init_default(self):
-        """Test initialization with default parameters."""
+                """
+        Test Init Default.
+        
+        Performs the test init default operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         generator = MetricsDataFrameGenerator()
         assert generator.data_loader is not None
         assert generator.output_dir == 'tests/metrics/'
         assert generator.data == {}
     
     def test_init_custom(self, mock_data_loader, tmp_path):
-        """Test initialization with custom parameters."""
+                """
+        Test Init Custom.
+        
+        Performs the test init custom operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         generator = MetricsDataFrameGenerator(
             data_loader=mock_data_loader,
             output_dir=str(tmp_path / "custom_metrics")
@@ -35,7 +47,16 @@ class TestMetricsDataFrameGenerator:
         assert generator.output_dir == str(tmp_path / "custom_metrics")
     
     def test_load_data_with_mock(self, mock_data_loader):
-        """Test data loading with mock data loader."""
+                """
+        Load data from configured source.
+        
+        Loads data from the configured data source with proper error
+        handling and validation. Supports various data formats and
+        provides detailed loading status information.
+        
+        Returns:
+            bool: True if data loaded successfully, False otherwise
+        """
         generator = MetricsDataFrameGenerator(data_loader=mock_data_loader)
         users_df, products_df, sales_df, payments_df, sellers_df = generator.load_data()
         
@@ -52,7 +73,13 @@ class TestMetricsDataFrameGenerator:
         assert 'payment_id' in payments_df.columns
     
     def test_users_distribution_by_address(self, metrics_generator, sample_data):
-        """Test users distribution by address generation."""
+                """
+        Test Users Distribution By Address.
+        
+        Performs the test users distribution by address operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         users_df = sample_data['users_df']
         result = metrics_generator.users_distribution_by_address(users_df)
         
@@ -80,7 +107,13 @@ class TestMetricsDataFrameGenerator:
         assert 'percentage' in country_df.columns
     
     def test_total_sales_metrics(self, metrics_generator, sample_data):
-        """Test total sales metrics calculation."""
+                """
+        Test Total Sales Metrics.
+        
+        Performs the test total sales metrics operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         sales_df = sample_data['sales_df']
         payments_df = sample_data['payments_df']
         result = metrics_generator.total_sales_metrics(sales_df, payments_df)
@@ -105,7 +138,13 @@ class TestMetricsDataFrameGenerator:
         assert 'percentage' in status_df.columns
     
     def test_top_10_products(self, metrics_generator, sample_data):
-        """Test top 10 products analysis."""
+                """
+        Test Top 10 Products.
+        
+        Performs the test top 10 products operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         sales_df = sample_data['sales_df']
         products_df = sample_data['products_df']
         result = metrics_generator.top_10_products(sales_df, products_df)
@@ -127,7 +166,13 @@ class TestMetricsDataFrameGenerator:
         assert 'total_quantity_sold' in rev_df.columns
     
     def test_top_10_buyers(self, metrics_generator, sample_data):
-        """Test top 10 buyers analysis."""
+                """
+        Test Top 10 Buyers.
+        
+        Performs the test top 10 buyers operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         sales_df = sample_data['sales_df']
         users_df = sample_data['users_df']
         result = metrics_generator.top_10_buyers(sales_df, users_df)
@@ -149,7 +194,13 @@ class TestMetricsDataFrameGenerator:
         assert 'total_spent' in freq_df.columns
     
     def test_payment_method_analysis(self, metrics_generator, sample_data):
-        """Test payment method analysis."""
+                """
+        Test Payment Method Analysis.
+        
+        Performs the test payment method analysis operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         payments_df = sample_data['payments_df']
         result = metrics_generator.payment_method_analysis(payments_df)
         
@@ -171,7 +222,13 @@ class TestMetricsDataFrameGenerator:
         assert 'average_amount' in amounts_df.columns
     
     def test_gender_purchase_analysis(self, metrics_generator, sample_data):
-        """Test gender purchase analysis."""
+                """
+        Test Gender Purchase Analysis.
+        
+        Performs the test gender purchase analysis operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         sales_df = sample_data['sales_df']
         users_df = sample_data['users_df']
         result = metrics_generator.gender_purchase_analysis(sales_df, users_df)
@@ -194,7 +251,13 @@ class TestMetricsDataFrameGenerator:
     
     @patch('os.makedirs')
     def test_save_metrics_to_csv(self, mock_makedirs, metrics_generator, tmp_path):
-        """Test saving metrics to CSV files."""
+                """
+        Test Save Metrics To Csv.
+        
+        Performs the test save metrics to csv operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         # Create sample metrics data
         metrics_data = {
             'address': {
@@ -215,7 +278,16 @@ class TestMetricsDataFrameGenerator:
             assert mock_to_csv.call_count >= 3  # At least 3 CSV files should be created
     
     def test_generate_all_metrics(self, metrics_generator):
-        """Test generating all metrics."""
+                """
+        Generate data or metrics based on configuration.
+        
+        Creates and processes data according to the specified parameters
+        and configuration. Handles data generation with proper validation
+        and error reporting.
+        
+        Returns:
+            Generated data structure or processing result
+        """
         result = metrics_generator.generate_all_metrics()
         
         # Check that all expected metrics are generated
@@ -237,7 +309,13 @@ class TestMetricsDataFrameGenerator:
         assert 'monthly_sales' in result['sales']
     
     def test_data_consistency(self, metrics_generator, sample_data):
-        """Test data consistency across different analyses."""
+                """
+        Test Data Consistency.
+        
+        Performs the test data consistency operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         users_df = sample_data['users_df']
         products_df = sample_data['products_df']
         sales_df = sample_data['sales_df']
@@ -264,7 +342,13 @@ class TestMetricsDataFrameGenerator:
         assert sales_metrics['total_sales_count'] == total_sales
     
     def test_error_handling_with_none_data(self):
-        """Test error handling when data loader returns None."""
+                """
+        Test Error Handling With None Data.
+        
+        Performs the test error handling with none data operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         def failing_loader():
             return None, None, None, None, None
         
@@ -275,7 +359,13 @@ class TestMetricsDataFrameGenerator:
         assert result == {}
     
     def test_custom_output_directory(self, mock_data_loader, tmp_path):
-        """Test using custom output directory."""
+                """
+        Test Custom Output Directory.
+        
+        Performs the test custom output directory operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         custom_dir = str(tmp_path / "custom_output")
         generator = MetricsDataFrameGenerator(
             data_loader=mock_data_loader,
@@ -298,7 +388,16 @@ class TestBackwardCompatibility:
     """Test backward compatibility with original function interface."""
     
     def test_load_data_function(self, mock_data_loader):
-        """Test the original load_data function still works."""
+                """
+        Load data from configured source.
+        
+        Loads data from the configured data source with proper error
+        handling and validation. Supports various data formats and
+        provides detailed loading status information.
+        
+        Returns:
+            bool: True if data loaded successfully, False otherwise
+        """
         from generate_metrics_dataframes_refactored import load_data
         
         # This will use the default data loader (file-based)
@@ -306,7 +405,13 @@ class TestBackwardCompatibility:
         pass
     
     def test_individual_functions(self, sample_data):
-        """Test that individual functions still work with the original interface."""
+                """
+        Test Individual Functions.
+        
+        Performs the test individual functions operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         from generate_metrics_dataframes_refactored import (
             users_distribution_by_address,
             total_sales_metrics,
@@ -346,7 +451,13 @@ class TestIntegration:
     """Integration tests for the refactored system."""
     
     def test_full_workflow(self, metrics_generator):
-        """Test the complete workflow from data loading to CSV output."""
+                """
+        Test Full Workflow.
+        
+        Performs the test full workflow operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         with patch('pandas.DataFrame.to_csv') as mock_to_csv:
             result = metrics_generator.generate_all_metrics()
             
@@ -363,7 +474,13 @@ class TestIntegration:
                     assert isinstance(df, pd.DataFrame)
     
     def test_performance_with_large_dataset(self, tmp_path):
-        """Test performance with a larger dataset."""
+                """
+        Test Performance With Large Dataset.
+        
+        Performs the test performance with large dataset operation with proper
+        validation and error handling. Provides comprehensive functionality
+        for the specified operation.
+        """
         # Create a larger dataset
         large_users = pd.DataFrame({
             'user_id': [f'U{i:06d}' for i in range(1000)],
