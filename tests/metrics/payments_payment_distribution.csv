@@ -1,0 +1,6 @@
+payment_method,transaction_count,percentage
+paypal,1261,21.34
+cash,1198,20.27
+credit_card,1173,19.85
+debit_card,1140,19.29
+bank_transfer,1137,19.24

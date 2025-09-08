@@ -1,0 +1,1001 @@
+sale_id,user_id,product_id,seller_id,quantity,unit_price,total_amount,discount,final_amount,sale_date,status,shipping_address,shipping_city,shipping_state,shipping_zip
+SALE00000001,U000120,P000011,S0006,-5,788.23,-3941.15,0.17,-3271.15,2025-01-27,completed,004 Robin Mountains Suite 955,South Jason,Iowa,67462
+SALE00000002,U000032,P000092,S0032,many,563.0,0.0,0.05,0.0,2024-12-08,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",48355
+SALE00000003,U000198,P000029,S0027,2,984.93,1969.86,0.12,1733.48,2024-10-27,processing,8619 Matthew Shoals Apt. 615,Martinland,New Jersey,20667
+SALE00000004,,,S0011,7,567.32,3971.24,0.1,3574.12,2025-01-13,completed,471 Matthew Crossing,Lake Michael,Minnesota,97658
+SALE00000005,,,S0042,1,32.54,32.54,0.24,24.73,2025-06-04,completed,3501 Riley Squares,East Mary,Arkansas,25673
+SALE00000006,U000053,P000027,S0025,7,392.03,2744.21,0.11,2442.35,2025-12-16,completed,8247 Diaz Harbor,Port Joel,Alaska,78182
+SALE00000007,U000176,P000056,S0023,some,556.45,0.0,0.06,0.0,2025-07-30,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",81432
+SALE00000008,U000158,P000012,S0030,-7,391.4,-2739.8,0.01,-2712.4,2024-11-17,completed,5519 Burnett Summit,Patrickland,South Carolina,24679
+SALE00000009,U000014,P000026,S0023,,,0.0,,0.0,,,,,,
+SALE00000010,U000141,P000003,S0016,many,39.45,0.0,0.25,0.0,2025-08-04,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",24935
+SALE00000011,U000066,P000086,S0033,9,413.01,3717.09,0.25,2787.82,2025-06-10,yes,86570 Rowe Parks,North Edwardberg,Maryland,19933
+SALE00000012,,,S0033,1,320.15,320.15,0.24,243.31,2025-02-20,completed,13837 Collins Expressway Apt. 153,Williamsview,California,47417
+SALE00000013,U000072,P000086,S0009,many,810.11,0.0,0.09,0.0,2025-03-21,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",44357
+SALE00000014,U000061,P000017,S0018,few,640.04,0.0,0.01,0.0,2025-02-10,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",13815
+SALE00000015,U000173,P000007,S0005,many,212.55,0.0,0.08,0.0,2024-09-27,cancelled,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",47494
+SALE00000016,,,S0011,10,701.43,7014.3,0.02,6874.01,2025-01-19,completed,43546 Gonzalez Cape Suite 838,Carlfurt,Wisconsin,45732
+SALE00000017,U000165,P000093,S0016,-8,110.49,-883.92,0.13,-769.01,2024-12-11,completed,9421 Kimberly Lakes,West Jodymouth,Delaware,98385
+SALE00000018,U000044,P000075,S0032,3,853.85,2561.55,0.21,2023.62,2025-10-03,completed,0229 Erika Mall,Michaelstad,Mississippi,59262
+SALE00000019,U000198,P000069,S0023,-9,473.07,-4257.63,0.24,-3235.8,2024-10-12,cancelled,00563 Kenneth Path,New John,New York,78860
+SALE00000020,,,S0037,10,289.74,2897.4,0.22,2259.97,2025-05-31,completed,6014 Jonathan Place Suite 052,New Kimberlymouth,Connecticut,22337
+SALE00000021,,,S0014,8,702.98,5623.84,0.2,4499.07,2024-12-19,pending,7744 Ronald Harbor,Port Calebhaven,Utah,60659
+SALE00000022,U000159,P000038,S0020,few,496.03,0.0,0.03,0.0,2024-12-14,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",96626
+SALE00000023,U000100,P000005,S0010,7,938.82,6571.74,0.13,5717.41,2024-10-22,shipped,10217 Bradley Haven,Velazquezchester,Georgia,40755
+SALE00000024,U000116,P000072,S0027,6,770.25,4621.5,0.18,3789.63,2025-04-23,0,6238 Mcconnell Glen,North Tamaraland,Nevada,55464
+SALE00000025,U000118,P000009,S0013,6,823.46,4940.76,-0.1,5434.84,2025-03-12,completed,895 Brian Springs,Lake Samuelbury,Missouri,59243
+SALE00000026,U000160,P000069,S0014,5,825.58,4127.9,0.25,3095.93,2025-09-22,completed,1967 Teresa Mission,Santosfort,New Hampshire,38036
+SALE00000027,U000040,P000013,S0046,9,602.92,5426.28,-0.1,5968.91,2025-01-20,completed,899 Mary Throughway Suite 622,North David,Hawaii,49378
+SALE00000028,U000016,P000069,S0009,8,226.28,1810.24,0.17,1502.5,2025-09-24,pending,09047 Paul Parkway,New Jeffreystad,New Hampshire,54827
+SALE00000029,U000027,P000063,S0045,-7,774.52,-5421.64,0.07,-5042.13,2024-10-09,completed,467 Kelly Plains Suite 689,Elaineton,Michigan,59597
+SALE00000030,,,S0005,3,238.81,716.43,0.06,673.44,2025-08-31,completed,13890 Smith Corner Apt. 779,Lake Mistyberg,Louisiana,54893
+SALE00000031,U000125,P000096,S0035,few,773.92,0.0,0.17,0.0,2024-09-11,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",17755
+SALE00000032,U000186,P000017,S0012,4,597.09,2388.36,0.04,2292.83,2024-12-10,delivered,5160 Ortiz Hollow,Brendafurt,New Mexico,35371
+SALE00000033,U000065,P000082,S0015,10,56.54,565.4,1.5,-282.7,2025-03-24,pending,36662 Crawford Pine Apt. 919,Fitzpatrickmouth,North Carolina,82754
+SALE00000034,U000066,P000086,S0046,5,883.98,4419.9,1.5,-2209.95,2025-05-21,completed,214 Long Extensions Suite 050,Aliciaborough,Pennsylvania,41211
+SALE00000035,U000057,P000027,S0013,-9,963.07,-8667.63,0.18,-7107.46,2025-04-07,completed,654 Ashlee Light,Brianmouth,Indiana,72337
+SALE00000036,U000056,P000015,S0049,7,72.61,508.27,0.04,487.94,2024-11-08,processing,62191 Byrd Drive,Thomaston,Texas,72058
+SALE00000037,U000040,P000057,S0017,some,916.86,0.0,0.03,0.0,2025-08-12,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",42565
+SALE00000038,,,S0014,9,946.76,8520.84,0.05,8094.8,2025-02-15,completed,230 Lucas Turnpike,Catherinetown,South Dakota,24524
+SALE00000039,U000094,P000049,S0020,,,0.0,,0.0,,,,,,
+SALE00000040,U000109,P000012,S0032,,,0.0,,0.0,,,,,,
+SALE00000041,,,S0033,6,203.43,1220.58,0.04,1171.76,2025-03-25,pending,6947 Hooper Loop Suite 988,Michaelbury,Massachusetts,46183
+SALE00000042,U000113,P000021,S0050,,,0.0,,0.0,,,,,,
+SALE00000043,U000001,P000022,S0029,-3,139.54,-418.62,0.0,-418.62,2025-05-15,completed,153 Nicholson Harbor,Lake Juliestad,Georgia,07484
+SALE00000044,U000020,P000062,S0037,many,126.81,0.0,0.01,0.0,2025-03-16,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",97401
+SALE00000045,U000036,P000010,S0047,,,0.0,,0.0,,,,,,
+SALE00000046,U000124,P000052,S0032,-2,363.51,-727.02,0.22,-567.08,2025-06-21,completed,02616 Heather Manors,Gregorytown,Maine,09618
+SALE00000047,U000109,P000097,S0030,7,903.44,6324.08,0.12,5565.19,2025-07-24,shipped,6018 Edgar Station Suite 918,Kristyville,New Jersey,53906
+SALE00000048,,,S0003,7,28.08,196.56,0.04,188.7,2024-10-03,cancelled,1354 Coleman Landing,Smithtown,Minnesota,75273
+SALE00000049,U000037,P000079,S0034,2,89.13,178.26,0.21,140.83,2025-05-20,0,89498 Robert Branch Suite 483,Parrishview,Wyoming,46066
+SALE00000050,U000014,P000050,S0039,many,521.07,0.0,0.13,0.0,2025-02-14,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",51934
+SALE00000051,U000043,P000067,S0050,-6,47.14,-282.84,0.19,-229.1,2025-01-04,completed,2714 Jeremy Loaf Apt. 031,Bethtown,New Jersey,81899
+SALE00000052,U000108,P000077,S0043,few,572.7,0.0,0.01,0.0,2024-10-19,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",81154
+SALE00000053,U000176,P000088,S0025,2,578.33,1156.66,free,1156.66,2025-05-23,pending,1079 Turner Divide,Molinaview,South Dakota,87754
+SALE00000054,U000134,P000040,S0003,2,296.08,592.16,free,592.16,2024-09-23,completed,7347 Ryan Estate,West Natashaborough,New York,30285
+SALE00000055,U000139,P000072,S0047,-8,479.74,-3837.92,0.04,-3684.4,2025-03-21,completed,9724 Heather Streets Apt. 973,West Micheleborough,Montana,02302
+SALE00000056,U000081,P000071,S0029,,,0.0,,0.0,,,,,,
+SALE00000057,U000048,P000005,S0013,4,850.71,3402.84,10%,3402.84,2025-08-31,cancelled,26831 Weaver Square,West Michael,Oregon,92775
+SALE00000058,U000092,P000080,S0025,-9,448.23,-4034.07,0.11,-3590.32,2025-08-09,completed,01762 Hardy Isle,Lake Seanview,Montana,93374
+SALE00000059,U000088,P000017,S0033,many,791.39,0.0,0.01,0.0,2025-05-23,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",90722
+SALE00000060,U000166,P000003,S0023,7,736.63,5156.41,0.22,4022.0,2026-03-20,completed,4202 Robinson Prairie Apt. 783,New Davidfort,Virginia,62796
+SALE00000061,U000162,P000050,S0013,6,21.98,131.88,free,131.88,2024-10-24,completed,39554 Ellen Mall,Marthaberg,Michigan,72363
+SALE00000062,U000030,P000082,S0024,6,738.91,4433.46,0.1,3990.11,2025-04-09,shipped,99014 Santana Corner Suite 867,Ortizside,Rhode Island,68295
+SALE00000063,U000178,P000029,S0016,many,911.63,0.0,0.04,0.0,2025-01-02,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",72215
+SALE00000064,U000030,P000004,S0044,many,544.47,0.0,0.13,0.0,2024-12-02,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",25349
+SALE00000065,U000118,P000036,S0049,-10,915.54,-9155.4,0.12,-8056.75,2025-07-23,completed,051 Jennifer Summit Suite 466,Aguilarton,Tennessee,18489
+SALE00000066,,,S0017,8,411.13,3289.04,0.06,3091.7,2025-09-01,completed,62467 Zachary Throughway Apt. 361,Montoyaville,Wisconsin,47444
+SALE00000067,U000070,P000078,S0050,6,398.24,2389.44,0.0,2389.44,2025-05-08,0,831 Mason Trace,Lake Sandramouth,Washington,02704
+SALE00000068,U000191,P000091,S0035,-10,666.1,-6661.0,0.06,-6261.34,2024-11-23,completed,207 Lindsay Meadows,Robinsonville,Minnesota,19759
+SALE00000069,U000016,P000060,S0045,7,586.07,4102.49,-0.1,4512.74,2025-07-06,completed,454 Joshua Street,Wendychester,Louisiana,33344
+SALE00000070,U000031,P000100,S0033,8,119.14,953.12,10%,953.12,2025-02-05,completed,80434 Julie Knoll Apt. 387,West Leahhaven,Idaho,16480
+SALE00000071,U000105,P000037,S0039,,,0.0,,0.0,,,,,,
+SALE00000072,U000047,P000002,S0029,,,0.0,,0.0,,,,,,
+SALE00000073,U000047,P000089,S0022,-8,116.88,-935.04,0.22,-729.33,2025-02-26,completed,915 Martin Parkway Apt. 800,Michaelfort,Rhode Island,97779
+SALE00000074,U000017,P000004,S0029,1,612.95,612.95,0.01,606.82,2026-07-26,completed,563 Karen Cape Apt. 951,Lisamouth,Wisconsin,44640
+SALE00000075,U000123,P000041,S0040,many,517.28,0.0,0.21,0.0,2025-05-06,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",07223
+SALE00000076,U000183,P000061,S0032,many,653.67,0.0,0.23,0.0,2025-07-30,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",68329
+SALE00000077,,,S0045,5,487.67,2438.35,0.22,1901.91,2025-04-20,completed,03819 Cindy Locks Apt. 197,Kennedyton,Wisconsin,22352
+SALE00000078,U000046,P000064,S0015,-7,762.02,-5334.14,0.2,-4267.31,2025-08-12,completed,7035 Amanda Forge Suite 966,Lake Christopher,Texas,51883
+SALE00000079,U000079,P000038,S0007,-5,745.68,-3728.4,0.17,-3094.57,2025-08-23,completed,48693 Keith Avenue Suite 219,Darrenview,Pennsylvania,95251
+SALE00000080,,,S0006,2,28.29,56.58,0.02,55.45,2025-01-07,completed,588 Smith Bypass,Kellyhaven,Pennsylvania,55397
+SALE00000081,U000116,P000089,S0004,5,524.24,2621.2,0.0,2621.2,2026-03-17,completed,96421 Jessica Station,Gallagherchester,Arizona,44985
+SALE00000082,U000098,P000039,S0026,some,639.15,0.0,0.17,0.0,2024-10-18,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",65141
+SALE00000083,U000071,P000070,S0005,,,0.0,,0.0,,,,,,
+SALE00000084,U000175,P000049,S0034,-6,676.76,-4060.56,0.04,-3898.14,2025-07-22,completed,67589 Amy Lane Suite 531,Larsonmouth,Oregon,75094
+SALE00000085,U000052,P000033,S0023,,,0.0,,0.0,,,,,,
+SALE00000086,U000148,P000007,S0016,-7,135.98,-951.86,0.08,-875.71,2025-06-12,pending,547 Brian Fall Apt. 975,Johnmouth,Oklahoma,64279
+SALE00000087,U000126,P000006,S0039,few,104.24,0.0,0.16,0.0,2024-10-19,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",38141
+SALE00000088,U000094,P000046,S0010,-9,375.85,-3382.65,0.02,-3315.0,2024-11-03,cancelled,23637 Clark Cape,West Christina,Tennessee,39921
+SALE00000089,U000036,P000041,S0043,4,953.04,3812.16,0.14,3278.46,2025-05-11,shipped,24776 Gary Port,North Laurieborough,Florida,84519
+SALE00000090,U000091,P000010,S0025,1,190.47,190.47,0.05,180.95,2025-07-21,0,75764 Decker Dam Apt. 674,Joneschester,Iowa,59481
+SALE00000091,U000145,P000006,S0006,1,683.95,683.95,0.21,540.32,2026-03-05,completed,677 Montoya Parks Suite 140,Christopherborough,Colorado,26396
+SALE00000092,U000037,P000013,S0010,9,349.31,3143.79,0.1,2829.41,2024-10-14,no,79960 Wilson Drives,Figueroaside,West Virginia,77007
+SALE00000093,U000167,P000074,S0038,9,640.9,5768.1,0.03,5595.06,2026-07-05,pending,80544 Savannah Well,Reidview,Alabama,70514
+SALE00000094,U000184,P000093,S0012,,,0.0,,0.0,,,,,,
+SALE00000095,U000063,P000095,S0039,,,0.0,,0.0,,,,,,
+SALE00000096,U000127,P000077,S0013,1,646.15,646.15,1.5,-323.07,2025-08-17,completed,579 Friedman Garden Suite 452,Port Pamela,Tennessee,57090
+SALE00000097,U000097,P000096,S0050,3,301.37,904.11,0.16,759.45,2025-10-23,completed,14103 James Common Suite 758,Rodriguezstad,Hawaii,73145
+SALE00000098,U000007,P000025,S0016,4,440.03,1760.12,free,1760.12,2025-08-04,completed,074 Diaz Centers,Seanshire,Illinois,69162
+SALE00000099,U000029,P000077,S0031,3,335.3,1005.9,0.07,935.49,2025-03-08,1,52613 Shelby Shoal Suite 165,Whitetown,Virginia,59101
+SALE00000100,U000073,P000040,S0032,many,70.49,0.0,0.01,0.0,2025-07-10,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",12891
+SALE00000101,U000149,P000050,S0017,-5,779.64,-3898.2,0.1,-3508.38,2025-01-26,completed,7770 Tara Hills Apt. 269,West Andrea,Utah,78264
+SALE00000102,U000140,P000054,S0043,-2,195.3,-390.6,0.21,-308.57,2024-10-06,completed,421 Nicole Freeway,Mathiston,Maine,92858
+SALE00000103,U000028,P000083,S0019,some,467.48,0.0,0.16,0.0,2025-06-12,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",80748
+SALE00000104,U000003,P000073,S0012,-1,12.48,-12.48,0.24,-9.48,2025-02-18,completed,62796 Daniel Parkway,East Dominique,South Carolina,54486
+SALE00000105,,,S0032,7,518.98,3632.86,0.06,3414.89,2025-05-20,completed,96134 Price Estates,Loriburgh,Maryland,68605
+SALE00000106,U000106,P000012,S0032,,,0.0,,0.0,,,,,,
+SALE00000107,U000182,P000004,S0036,6,726.99,4361.94,0.24,3315.07,2024-09-11,no,0524 Alexander River Suite 043,Anthonyborough,Delaware,15556
+SALE00000108,U000119,P000047,S0030,7,79.45,556.15,0.13,483.85,2024-09-11,1,18069 Cruz Wells Suite 095,West Philip,Nebraska,81009
+SALE00000109,U000018,P000088,S0016,-4,787.77,-3151.08,0.2,-2520.86,2025-07-31,completed,271 Jacobs Neck,Jordanchester,Virginia,39075
+SALE00000110,,,S0005,3,530.81,1592.43,0.12,1401.34,2025-08-06,completed,9053 Julia Route Apt. 041,North Bethanymouth,Missouri,55234
+SALE00000111,,,S0013,10,942.13,9421.3,0.14,8102.32,2024-12-23,completed,41851 Hutchinson Well Suite 763,Odombury,Delaware,05584
+SALE00000112,U000011,P000074,S0046,,,0.0,,0.0,,,,,,
+SALE00000113,U000167,P000082,S0011,2,986.3,1972.6,0.11,1755.61,2025-03-17,shipped,4668 Santos Run,East Angela,Nebraska,93701
+SALE00000114,U000164,P000001,S0027,few,516.3,0.0,0.19,0.0,2024-11-05,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",04791
+SALE00000115,U000172,P000059,S0013,,,0.0,,0.0,,,,,,
+SALE00000116,U000154,P000098,S0004,,,0.0,,0.0,,,,,,
+SALE00000117,U000170,P000060,S0017,,,0.0,,0.0,,,,,,
+SALE00000118,U000018,P000033,S0035,many,973.41,0.0,0.12,0.0,2025-08-12,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",59901
+SALE00000119,U000069,P000058,S0032,-7,159.68,-1117.76,0.17,-927.74,2025-03-27,completed,998 Audrey Grove Suite 467,Elaineville,Minnesota,58224
+SALE00000120,U000156,P000034,S0009,many,331.94,0.0,0.12,0.0,2025-02-06,cancelled,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",72901
+SALE00000121,U000071,P000093,S0033,9,138.63,1247.67,-0.1,1372.44,2024-11-05,completed,80958 Nichols Square,Port Nicoleside,Hawaii,53889
+SALE00000122,U000137,P000058,S0025,,,0.0,,0.0,,,,,,
+SALE00000123,U000103,P000002,S0050,some,473.56,0.0,0.22,0.0,2025-06-15,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",43559
+SALE00000124,U000099,P000011,S0026,-8,136.19,-1089.52,0.18,-893.41,2024-11-01,completed,011 Jillian Crest,Joyville,California,75578
+SALE00000125,U000098,P000055,S0030,,,0.0,,0.0,,,,,,
+SALE00000126,U000152,P000079,S0030,10,163.98,1639.8,0.03,1590.61,2024-09-27,delivered,20024 Amber Valley,Jessicaberg,Vermont,02850
+SALE00000127,U000087,P000096,S0021,some,203.16,0.0,0.19,0.0,2025-04-09,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",38367
+SALE00000128,U000127,P000037,S0007,4,10.59,42.36,0.04,40.67,2026-04-05,completed,3445 Moreno Track Suite 288,West Valerietown,Texas,24746
+SALE00000129,U000051,P000019,S0001,,,0.0,,0.0,,,,,,
+SALE00000130,,,S0030,9,814.58,7331.22,0.02,7184.6,2024-11-14,completed,30095 Tommy Fork,Romerotown,North Carolina,80278
+SALE00000131,U000155,P000002,S0009,1,895.29,895.29,0.11,796.81,2025-01-21,1,0066 Coffey Trail Suite 250,West Timothyhaven,West Virginia,84829
+SALE00000132,,,S0019,2,60.29,120.58,0.06,113.35,2024-11-10,completed,3960 Wong Pass,East Feliciashire,Arizona,18729
+SALE00000133,U000081,P000067,S0027,,,0.0,,0.0,,,,,,
+SALE00000134,U000063,P000034,S0002,-8,300.75,-2406.0,0.2,-1924.8,2024-12-12,completed,80984 Timothy Port,East Rebecca,Virginia,65275
+SALE00000135,U000176,P000004,S0016,6,752.01,4512.06,0.14,3880.37,2025-11-12,completed,98960 Vincent Meadow,Crystalhaven,North Carolina,11178
+SALE00000136,U000055,P000016,S0014,,,0.0,,0.0,,,,,,
+SALE00000137,U000151,P000053,S0034,4,765.88,3063.52,0.13,2665.26,2025-11-08,completed,6015 Jared Way,Martinfort,New York,76170
+SALE00000138,U000102,P000042,S0044,1,632.92,632.92,0.19,512.67,2025-05-05,yes,418 Holland Glen Apt. 693,Jonesmouth,Florida,74052
+SALE00000139,U000186,P000007,S0030,many,437.91,0.0,0.23,0.0,2024-10-06,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",01293
+SALE00000140,U000182,P000008,S0022,-3,934.34,-2803.02,0.14,-2410.6,2024-11-20,completed,639 Reid Falls Suite 409,Alexanderborough,North Carolina,70649
+SALE00000141,U000132,P000065,S0036,1,911.89,911.89,0.08,838.94,2026-06-04,completed,430 Karen Plains,Port Ellen,Arkansas,76727
+SALE00000142,U000021,P000038,S0035,7,311.7,2181.9,free,2181.9,2025-02-22,completed,7859 Williams Gardens Suite 905,New Michelle,Hawaii,22961
+SALE00000143,U000042,P000046,S0046,6,696.25,4177.5,0.06,3926.85,2025-08-10,no,2551 Franco Key Apt. 902,Ryanfort,Vermont,97250
+SALE00000144,U000008,P000091,S0050,,,0.0,,0.0,,,,,,
+SALE00000145,,,S0027,10,590.65,5906.5,0.24,4488.94,2024-12-19,completed,564 Black Expressway,South Ashleyside,Alaska,49841
+SALE00000146,U000116,P000087,S0039,-3,813.61,-2440.83,0.24,-1855.03,2025-03-03,completed,32030 Teresa Lock Apt. 565,Carpenterville,North Dakota,15813
+SALE00000147,U000041,P000012,S0041,,,0.0,,0.0,,,,,,
+SALE00000148,U000077,P000058,S0035,,,0.0,,0.0,,,,,,
+SALE00000149,U000150,P000047,S0024,4,522.56,2090.24,10%,2090.24,2024-09-07,pending,041 Long Mall Suite 478,Wellshaven,Wisconsin,23350
+SALE00000150,U000091,P000053,S0038,some,391.99,0.0,0.2,0.0,2024-12-29,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",89084
+SALE00000151,U000081,P000086,S0017,5,101.38,506.9,0.23,390.31,2025-06-08,shipped,34988 Beck Squares Apt. 064,North Jon,Wyoming,08029
+SALE00000152,U000002,P000097,S0038,,,0.0,,0.0,,,,,,
+SALE00000153,U000011,P000049,S0023,10,182.5,1825.0,free,1825.0,2024-11-24,pending,206 Chandler Divide,West Bailey,Iowa,37293
+SALE00000154,U000085,P000056,S0025,few,359.82,0.0,0.01,0.0,2025-05-11,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",24770
+SALE00000155,,,S0002,1,129.31,129.31,0.0,129.31,2025-06-29,completed,8890 Grant Trail,Bensonstad,Missouri,28043
+SALE00000156,U000167,P000070,S0038,,,0.0,,0.0,,,,,,
+SALE00000157,U000165,P000042,S0011,many,116.66,0.0,0.08,0.0,2025-08-30,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",27398
+SALE00000158,U000115,P000020,S0016,1,979.04,979.04,10%,979.04,2024-11-03,completed,10070 Gray Loop Suite 725,East Sydney,Kentucky,24809
+SALE00000159,U000057,P000059,S0037,,,0.0,,0.0,,,,,,
+SALE00000160,,,S0013,9,819.39,7374.51,0.17,6120.84,2024-12-28,completed,3439 Vasquez Ports,Anthonyview,Montana,93153
+SALE00000161,U000055,P000040,S0028,9,894.13,8047.17,0.24,6115.85,2024-10-01,shipped,863 Adams Street Apt. 973,Matthewfort,Arkansas,98981
+SALE00000162,,,S0050,3,164.5,493.5,0.08,454.02,2024-11-06,completed,20309 Michael Route Apt. 902,Garzastad,New York,57056
+SALE00000163,U000124,P000073,S0050,few,917.04,0.0,0.25,0.0,2025-02-14,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",37878
+SALE00000164,U000003,P000031,S0024,2,715.45,1430.9,1.5,-715.45,2025-08-15,completed,1866 Willie Stravenue,Johnfurt,Rhode Island,66046
+SALE00000165,,,S0039,2,198.78,397.56,0.11,353.83,2024-11-30,completed,38152 Anne Summit Suite 711,Kingland,Kansas,61397
+SALE00000166,,,S0022,5,164.26,821.3,0.12,722.74,2025-06-19,completed,9387 Wilson Wall,Lake Chelseamouth,Arizona,87854
+SALE00000167,U000070,P000023,S0049,many,949.46,0.0,0.07,0.0,2024-12-22,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",48384
+SALE00000168,,,S0025,9,532.12,4789.08,0.0,4789.08,2025-05-18,completed,7193 Smith Locks Suite 503,Markburgh,South Carolina,34154
+SALE00000169,U000143,P000062,S0001,-1,190.31,-190.31,0.08,-175.09,2025-04-25,completed,9334 Cline Row,Smithview,Texas,50434
+SALE00000170,,,S0019,3,439.11,1317.33,0.1,1185.6,2025-08-26,completed,950 Lisa Trail Suite 033,Carlton,Arizona,85221
+SALE00000171,U000136,P000003,S0036,many,397.29,0.0,0.03,0.0,2025-02-04,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",07646
+SALE00000172,U000146,P000078,S0047,3,390.52,1171.56,0.09,1066.12,2025-02-28,processing,6841 Edward Passage,West Cynthia,Delaware,13938
+SALE00000173,U000166,P000029,S0026,4,28.74,114.96,0.06,108.06,2026-06-16,completed,1911 Betty Trail,Lake Markbury,Montana,37151
+SALE00000174,U000146,P000069,S0026,10,336.73,3367.3,0.02,3299.95,2026-05-03,completed,0920 Morris Keys Apt. 277,Stevensonland,New Hampshire,18368
+SALE00000175,U000154,P000006,S0011,3,297.09,891.27,0.04,855.62,2024-11-08,no,717 Andrew Turnpike,New Aprilfurt,Wyoming,80250
+SALE00000176,U000045,P000063,S0010,-7,769.31,-5385.17,0.14,-4631.25,2024-12-08,completed,29499 Jade Hollow Apt. 255,Port Erica,Utah,38956
+SALE00000177,U000083,P000099,S0041,1,177.85,177.85,10%,177.85,2025-05-10,completed,4586 Michael Burgs Apt. 902,Smithmouth,Colorado,41167
+SALE00000178,U000008,P000044,S0037,3,718.57,2155.71,0.21,1703.01,2026-01-29,completed,11148 Tony Shoal Suite 814,North Autumnhaven,Washington,83377
+SALE00000179,U000159,P000055,S0034,,,0.0,,0.0,,,,,,
+SALE00000180,U000105,P000032,S0017,1,558.74,558.74,0.15,474.93,2026-01-24,completed,2521 Maria Estate Suite 986,South Brittanyshire,Nebraska,81794
+SALE00000181,U000192,P000099,S0039,some,187.32,0.0,0.22,0.0,2025-03-05,cancelled,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",14065
+SALE00000182,U000129,P000099,S0048,-7,175.63,-1229.41,0.04,-1180.23,2025-07-13,completed,216 Singh Heights Apt. 547,North Wesley,Louisiana,60018
+SALE00000183,,,S0004,1,872.66,872.66,0.11,776.67,2025-04-27,completed,2611 Robinson Trace,Joeville,Minnesota,81878
+SALE00000184,U000119,P000087,S0015,1,222.0,222.0,0.09,202.02,2025-01-31,1,494 Montgomery Run,Martinezfort,West Virginia,49896
+SALE00000185,U000127,P000059,S0038,,,0.0,,0.0,,,,,,
+SALE00000186,U000197,P000086,S0045,8,401.65,3213.2,0.07,2988.28,2025-10-02,pending,6236 Jennifer Radial Suite 555,Port Jose,South Dakota,23498
+SALE00000187,U000139,P000093,S0038,many,302.35,0.0,0.06,0.0,2025-02-06,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",70744
+SALE00000188,U000082,P000049,S0036,,,0.0,,0.0,,,,,,
+SALE00000189,U000019,P000005,S0043,5,306.22,1531.1,0.08,1408.61,2024-12-17,shipped,868 Karen Inlet,East Brookestad,Idaho,19597
+SALE00000190,,,S0040,5,895.54,4477.7,0.02,4388.15,2025-03-30,completed,189 Miller Fork Suite 930,Acevedoport,Montana,23022
+SALE00000191,U000082,P000042,S0009,3,180.54,541.62,0.02,530.79,2025-11-12,completed,96304 Benjamin Ways Suite 590,North Bonnieberg,Nebraska,18381
+SALE00000192,U000070,P000014,S0046,,,0.0,,0.0,,,,,,
+SALE00000193,U000066,P000005,S0006,1,248.24,248.24,10%,248.24,2024-11-26,completed,456 Stephanie Ports Apt. 360,West Teresa,Pennsylvania,86509
+SALE00000194,U000117,P000061,S0042,5,255.28,1276.4,0.15,1084.94,2025-04-16,yes,888 Daniel Run Suite 352,Taylormouth,South Dakota,21881
+SALE00000195,U000100,P000045,S0013,5,118.84,594.2,0.12,522.9,2025-08-26,processing,00761 Yesenia Village Suite 389,Lake Kaylaport,Wisconsin,50094
+SALE00000196,U000157,P000078,S0021,10,123.5,1235.0,0.02,1210.3,2025-06-01,yes,4386 Brandon Locks,Lake David,Alabama,47935
+SALE00000197,U000193,P000078,S0030,9,883.14,7948.26,0.23,6120.16,2024-12-05,yes,02315 Gonzalez Ferry Apt. 253,Tonyberg,Maine,26930
+SALE00000198,U000077,P000071,S0024,9,571.58,5144.22,0.02,5041.34,2026-06-05,pending,3492 Black Island,Sampsonland,Nevada,49259
+SALE00000199,U000095,P000001,S0025,4,206.79,827.16,0.08,760.99,2024-09-27,delivered,1105 Santiago Ferry,Elizabethview,South Dakota,31854
+SALE00000200,U000086,P000095,S0042,6,475.85,2855.1,0.11,2541.04,2025-07-22,delivered,446 Robertson View,Murrayview,Oklahoma,92830
+SALE00000201,U000192,P000064,S0022,many,961.31,0.0,0.21,0.0,2025-08-28,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",25031
+SALE00000202,U000065,P000100,S0022,4,422.98,1691.92,0.17,1404.29,2025-05-05,no,78709 Gregory Ways Apt. 204,Lake Robertchester,Rhode Island,41434
+SALE00000203,U000067,P000063,S0041,4,750.67,3002.68,0.01,2972.65,2026-01-02,completed,53318 White Tunnel Suite 613,Annville,Rhode Island,43965
+SALE00000204,U000185,P000046,S0040,,,0.0,,0.0,,,,,,
+SALE00000205,U000186,P000018,S0014,7,646.54,4525.78,0.23,3484.85,2026-02-03,completed,61427 Morgan Square Apt. 889,Alfredland,Vermont,11285
+SALE00000206,U000173,P000097,S0043,8,706.4,5651.2,0.14,4860.03,2025-10-26,completed,8745 Christopher River Suite 930,Loweryview,New York,08552
+SALE00000207,U000179,P000083,S0045,-6,777.48,-4664.88,0.09,-4245.04,2025-08-26,completed,71838 Christine Plains,Thomasview,Rhode Island,69952
+SALE00000208,U000141,P000100,S0032,7,150.23,1051.61,0.07,978.0,2026-08-27,completed,96575 Dominguez Village,Lewistown,Georgia,01826
+SALE00000209,U000152,P000076,S0001,-10,583.44,-5834.4,0.07,-5425.99,2024-10-04,completed,69643 Ward Springs,Genemouth,Kansas,60087
+SALE00000210,U000002,P000079,S0029,few,306.27,0.0,0.22,0.0,2025-06-30,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",17960
+SALE00000211,U000086,P000048,S0019,10,245.57,2455.7,10%,2455.7,2025-04-26,pending,327 Jessica Hollow,West Joseph,Maryland,93592
+SALE00000212,U000075,P000038,S0036,4,276.86,1107.44,0.23,852.73,2024-11-20,no,345 Wilson Rapids,West Normatown,Texas,54175
+SALE00000213,U000068,P000001,S0036,9,61.89,557.01,0.01,551.44,2024-12-16,no,3271 Clark Track,Kellyton,New Mexico,50067
+SALE00000214,U000148,P000053,S0024,some,953.01,0.0,0.11,0.0,2024-11-30,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",56711
+SALE00000215,U000111,P000062,S0031,6,462.36,2774.16,-0.1,3051.58,2025-06-18,completed,0423 Emily Bypass,Tylerfort,Iowa,17685
+SALE00000216,U000199,P000035,S0014,7,865.86,6061.02,0.08,5576.14,2025-02-28,shipped,943 Alexis Extensions Suite 932,Martinezview,North Carolina,30160
+SALE00000217,U000165,P000041,S0040,2,140.83,281.66,0.15,239.41,2024-10-26,0,662 Jennifer Stream,East Philip,California,62004
+SALE00000218,U000194,P000037,S0021,,,0.0,,0.0,,,,,,
+SALE00000219,U000033,P000066,S0023,,,0.0,,0.0,,,,,,
+SALE00000220,U000087,P000067,S0017,,,0.0,,0.0,,,,,,
+SALE00000221,U000079,P000092,S0048,8,147.71,1181.68,0.1,1063.51,2025-06-01,no,3220 Morgan Walks,Josemouth,Oregon,00940
+SALE00000222,,,S0037,1,669.28,669.28,0.09,609.04,2025-02-12,completed,448 Miller Trail,Benjaminshire,North Carolina,18806
+SALE00000223,U000189,P000088,S0028,5,120.63,603.15,0.13,524.74,2024-10-04,delivered,41380 Moyer Alley Suite 605,West Michaeltown,North Carolina,45981
+SALE00000224,U000127,P000002,S0002,1,600.06,600.06,1.5,-300.03,2025-05-16,completed,263 Roberts Hill,New Patriciaview,New Hampshire,80564
+SALE00000225,,,S0038,5,843.72,4218.6,0.08,3881.11,2025-05-14,completed,010 Roberts Skyway Suite 224,Julietown,Colorado,86315
+SALE00000226,U000198,P000062,S0041,,,0.0,,0.0,,,,,,
+SALE00000227,,,S0010,1,627.8,627.8,0.1,565.02,2024-09-10,completed,5738 Jermaine Fork Apt. 636,West Nicoleburgh,Tennessee,90061
+SALE00000228,U000190,P000009,S0012,2,720.19,1440.38,0.2,1152.3,2025-11-25,completed,843 Dunn Track Apt. 776,Jamesfort,Nevada,37180
+SALE00000229,U000039,P000048,S0024,some,946.21,0.0,0.09,0.0,2025-04-15,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",35166
+SALE00000230,,,S0032,5,139.28,696.4,0.14,598.9,2024-09-19,completed,019 Ricardo Gardens,East Derektown,Arizona,03473
+SALE00000231,U000046,P000056,S0007,3,446.12,1338.36,0.06,1258.06,2025-08-21,no,07222 Erika Center Apt. 884,Lake Brittanyfurt,Rhode Island,18356
+SALE00000232,U000073,P000029,S0005,-10,672.55,-6725.5,0.2,-5380.4,2024-09-11,completed,556 Baker Walk,South Aaron,Illinois,74746
+SALE00000233,U000068,P000037,S0002,-5,217.13,-1085.65,0.12,-955.37,2025-03-06,completed,3288 Harrell Plaza Apt. 319,Port Stevenport,Maryland,84948
+SALE00000234,,,S0009,6,736.51,4419.06,0.21,3491.06,2025-02-12,pending,275 Renee Island,Daveport,Indiana,27877
+SALE00000235,U000199,P000079,S0031,1,593.18,593.18,0.1,533.86,2025-11-17,completed,1737 Gabriel Creek Suite 121,East Kelly,Utah,58277
+SALE00000236,U000163,P000006,S0037,1,438.25,438.25,0.2,350.6,2025-11-15,pending,83139 Garcia Parks,Lake Lauren,Oklahoma,65128
+SALE00000237,U000193,P000076,S0017,9,539.35,4854.15,-0.1,5339.57,2025-02-23,completed,44715 Robin Coves,Huangstad,Nebraska,45528
+SALE00000238,U000170,P000006,S0034,9,173.26,1559.34,-0.1,1715.27,2025-02-15,completed,48356 Jasmine Streets Suite 216,New Charlesmouth,Rhode Island,51212
+SALE00000239,U000023,P000059,S0004,1,423.19,423.19,0.15,359.71,2025-01-07,processing,379 Brett Burg Suite 084,Gonzalezville,Rhode Island,86578
+SALE00000240,U000038,P000064,S0005,-6,737.44,-4424.64,0.07,-4114.92,2025-02-10,pending,01869 Jeffrey Cape Apt. 918,Lake Keith,Minnesota,51722
+SALE00000241,U000070,P000053,S0002,4,168.07,672.28,free,672.28,2024-12-11,completed,144 Daniel Views,East Bianca,Alaska,64524
+SALE00000242,U000012,P000094,S0013,few,109.6,0.0,0.06,0.0,2025-04-18,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",81614
+SALE00000243,,,S0009,7,606.78,4247.46,0.15,3610.34,2025-04-21,completed,6707 Duran Causeway,North Kylemouth,California,80431
+SALE00000244,,,S0037,1,915.26,915.26,0.12,805.43,2025-04-06,completed,2133 Edward Shore Apt. 989,South Amy,West Virginia,26544
+SALE00000245,U000084,P000014,S0048,-5,392.59,-1962.95,0.16,-1648.88,2025-06-28,cancelled,165 Matthew Viaduct Apt. 994,Deborahville,Oklahoma,77689
+SALE00000246,U000080,P000065,S0025,5,654.58,3272.9,0.15,2781.97,2026-04-19,completed,4509 Miller Ramp,Port Louis,Kentucky,55061
+SALE00000247,U000072,P000059,S0009,-4,559.3,-2237.2,0.22,-1745.02,2025-08-21,completed,46034 Cooper Inlet,Kellymouth,South Carolina,02391
+SALE00000248,U000197,P000078,S0020,8,67.74,541.92,0.17,449.79,2026-01-04,completed,9221 Lewis Wells,South Raymondbury,Delaware,57717
+SALE00000249,U000189,P000049,S0009,6,611.47,3668.82,0.02,3595.44,2026-01-06,pending,961 Brian Centers Apt. 406,Colonview,South Carolina,18995
+SALE00000250,U000186,P000092,S0012,-4,701.18,-2804.72,0.17,-2327.92,2025-07-09,completed,992 Welch Inlet Suite 317,Glennberg,Utah,42391
+SALE00000251,,,S0024,6,604.14,3624.84,0.14,3117.36,2025-05-13,completed,601 Padilla Row Suite 801,West Perry,North Carolina,39963
+SALE00000252,U000019,P000083,S0015,few,427.08,0.0,0.12,0.0,2025-06-18,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",96898
+SALE00000253,U000168,P000059,S0019,3,650.69,1952.07,-0.1,2147.28,2024-10-06,completed,421 Heather Glens Suite 452,Danielborough,Tennessee,01040
+SALE00000254,U000111,P000070,S0019,3,221.66,664.98,0.07,618.43,2025-07-15,0,57971 Caitlin Brooks Suite 133,Brookstown,South Dakota,95723
+SALE00000255,U000085,P000061,S0021,-6,123.78,-742.68,0.19,-601.57,2024-11-28,completed,57352 Thompson Ports Apt. 801,Ashleyfurt,Georgia,01756
+SALE00000256,U000143,P000029,S0043,-3,765.61,-2296.83,0.21,-1814.5,2025-08-17,completed,498 Michelle Pike Suite 422,Mccoyburgh,Delaware,04220
+SALE00000257,U000159,P000090,S0047,few,878.77,0.0,0.06,0.0,2024-10-06,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",70604
+SALE00000258,U000005,P000094,S0034,,,0.0,,0.0,,,,,,
+SALE00000259,U000041,P000059,S0002,9,433.56,3902.04,0.06,3667.92,2025-04-30,no,4003 Gloria Mountains,Emilyville,Michigan,75023
+SALE00000260,U000057,P000074,S0026,some,647.21,0.0,0.24,0.0,2024-12-28,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",16209
+SALE00000261,U000002,P000086,S0008,,,0.0,,0.0,,,,,,
+SALE00000262,U000091,P000034,S0010,6,467.88,2807.28,-0.1,3088.01,2025-05-22,completed,924 William Spring Suite 358,Matthewsside,Illinois,07608
+SALE00000263,U000100,P000081,S0035,few,504.55,0.0,0.15,0.0,2025-03-25,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",72436
+SALE00000264,U000001,P000051,S0032,2,221.88,443.76,0.22,346.13,2026-08-24,completed,995 William Centers Suite 803,North Cynthia,Tennessee,59648
+SALE00000265,U000030,P000012,S0017,,,0.0,,0.0,,,,,,
+SALE00000266,U000186,P000096,S0025,,,0.0,,0.0,,,,,,
+SALE00000267,U000123,P000072,S0031,10,789.91,7899.1,0.21,6240.29,2025-10-21,completed,474 Russell Stream Suite 617,Ashleyburgh,North Dakota,83334
+SALE00000268,U000097,P000025,S0049,-10,191.84,-1918.4,0.06,-1803.3,2025-03-23,completed,60868 Parker Cliffs,Carrmouth,Nevada,51458
+SALE00000269,U000190,P000072,S0009,few,336.35,0.0,0.0,0.0,2025-04-01,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",17004
+SALE00000270,U000126,P000065,S0028,4,589.0,2356.0,0.05,2238.2,2026-04-16,completed,3068 Justin Station Apt. 631,Joshuachester,Arkansas,73098
+SALE00000271,U000142,P000004,S0047,4,149.04,596.16,free,596.16,2025-02-22,completed,9744 Kimberly Common Suite 333,North Shannonbury,Delaware,45910
+SALE00000272,U000162,P000072,S0045,6,216.53,1299.18,10%,1299.18,2025-07-19,completed,165 Taylor Manor Suite 146,Nelsonfurt,New Hampshire,56342
+SALE00000273,U000143,P000017,S0044,many,631.48,0.0,0.13,0.0,2024-12-07,cancelled,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",61509
+SALE00000274,U000194,P000088,S0002,3,723.74,2171.22,0.04,2084.37,2025-08-18,no,075 Norton Parkway Apt. 647,Port Jamesview,Georgia,30659
+SALE00000275,U000180,P000074,S0023,1,132.37,132.37,0.08,121.78,2026-09-01,completed,8475 Kristie Creek Suite 503,Dianashire,Nebraska,97957
+SALE00000276,U000190,P000024,S0022,few,463.09,0.0,0.22,0.0,2024-12-11,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",28888
+SALE00000277,U000128,P000038,S0013,-1,132.89,-132.89,0.17,-110.3,2025-02-05,completed,2825 William Union,Loweville,Virginia,75281
+SALE00000278,U000036,P000061,S0023,-9,491.64,-4424.76,0.12,-3893.79,2025-06-21,completed,7612 Horton Fork,Emilyfurt,Ohio,49857
+SALE00000279,U000062,P000051,S0048,,,0.0,,0.0,,,,,,
+SALE00000280,U000051,P000025,S0036,2,773.43,1546.86,0.01,1531.39,2024-09-09,1,320 Frank Ranch,Bradshawton,Ohio,42643
+SALE00000281,U000157,P000044,S0044,10,390.95,3909.5,0.21,3088.51,2024-10-19,processing,17790 Logan Overpass,New Barbara,Iowa,05944
+SALE00000282,U000043,P000093,S0044,9,25.71,231.39,free,231.39,2024-11-11,completed,803 Larry Trafficway Suite 698,North Maryview,Arizona,69638
+SALE00000283,U000030,P000008,S0030,6,716.46,4298.76,10%,4298.76,2025-02-22,completed,487 Ross Shores,Lisaville,Alabama,90372
+SALE00000284,U000072,P000032,S0041,8,727.64,5821.12,1.5,-2910.56,2025-08-31,cancelled,29687 Ellis Ford Suite 337,West Patricia,West Virginia,38425
+SALE00000285,U000199,P000036,S0007,5,85.01,425.05,0.14,365.54,2025-02-20,delivered,671 Robbins Villages,South Michellestad,Georgia,05965
+SALE00000286,U000032,P000046,S0009,10,78.75,787.5,free,787.5,2024-09-19,pending,9851 Lisa Ramp Apt. 739,Paulafurt,Arizona,81519
+SALE00000287,,,S0006,7,745.42,5217.94,0.2,4174.35,2024-09-16,pending,519 Natalie Parks,West Amandamouth,Maryland,29552
+SALE00000288,U000172,P000084,S0001,,,0.0,,0.0,,,,,,
+SALE00000289,U000082,P000084,S0043,9,396.09,3564.81,free,3564.81,2025-02-15,completed,60200 Tamara Courts,Harrismouth,Nevada,58916
+SALE00000290,U000169,P000074,S0048,,,0.0,,0.0,,,,,,
+SALE00000291,,,S0043,3,256.49,769.47,0.14,661.74,2025-01-21,pending,47636 Lane Club,New Jason,Pennsylvania,17754
+SALE00000292,U000028,P000099,S0027,many,625.97,0.0,0.1,0.0,2025-01-17,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",44251
+SALE00000293,U000047,P000080,S0007,4,124.84,499.36,0.23,384.51,2024-10-22,shipped,820 Kelly Cliffs Apt. 106,North Karenberg,Texas,29244
+SALE00000294,U000139,P000051,S0036,-7,668.4,-4678.8,0.23,-3602.68,2024-10-30,completed,911 Dan Center,North Christieside,South Carolina,83163
+SALE00000295,U000086,P000100,S0029,some,546.58,0.0,0.12,0.0,2025-05-22,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",44726
+SALE00000296,U000194,P000075,S0011,,,0.0,,0.0,,,,,,
+SALE00000297,,,S0033,3,645.9,1937.7,0.18,1588.91,2025-01-31,completed,83292 Smith Cliff,West Brianshire,North Carolina,56473
+SALE00000298,U000090,P000081,S0043,9,784.43,7059.87,0.23,5436.1,2026-05-29,completed,1044 Barber Mountains,New Thomas,California,31674
+SALE00000299,U000083,P000078,S0046,3,899.32,2697.96,10%,2697.96,2025-04-16,completed,03533 Mackenzie Pines,Juliaborough,Ohio,49027
+SALE00000300,U000013,P000055,S0026,9,224.67,2022.03,0.11,1799.61,2025-09-05,no,6262 Jones Rue,Port Aaronton,California,16651
+SALE00000301,U000093,P000076,S0031,9,860.92,7748.28,0.13,6741.0,2025-12-09,completed,385 Reyes Mountain Apt. 433,West Michaelfort,Washington,46891
+SALE00000302,U000116,P000062,S0017,few,989.8,0.0,0.18,0.0,2024-10-23,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",58668
+SALE00000303,U000048,P000022,S0036,some,160.98,0.0,0.24,0.0,2025-02-10,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",88775
+SALE00000304,,,S0001,1,114.42,114.42,0.12,100.69,2025-07-10,completed,21498 Chad Inlet,Amandamouth,Vermont,15569
+SALE00000305,U000150,P000033,S0041,-4,976.17,-3904.68,0.09,-3553.26,2025-08-14,completed,52172 Kristen Heights Suite 035,Lake Zachary,Mississippi,18180
+SALE00000306,U000173,P000017,S0020,-8,300.05,-2400.4,0.19,-1944.32,2024-11-10,completed,91389 Sean Island Apt. 907,Port Sarah,Wyoming,82987
+SALE00000307,U000020,P000006,S0007,2,909.84,1819.68,0.07,1692.3,2025-05-23,0,575 Kelly Expressway,Jonathanhaven,New Mexico,52909
+SALE00000308,U000029,P000089,S0020,-9,348.33,-3134.97,0.09,-2852.82,2025-06-09,completed,4691 Ferguson Road Suite 269,Lake John,Georgia,35658
+SALE00000309,U000166,P000045,S0010,10,549.76,5497.6,0.14,4727.94,2025-04-26,yes,1851 Eric Lodge,Josephland,Montana,78514
+SALE00000310,U000187,P000031,S0039,many,978.74,0.0,0.14,0.0,2024-12-07,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",27004
+SALE00000311,U000010,P000059,S0007,-9,478.56,-4307.04,0.15,-3660.98,2025-02-07,completed,58841 Evan Roads Suite 578,East Kelly,Minnesota,20900
+SALE00000312,U000036,P000014,S0007,few,26.68,0.0,0.22,0.0,2024-10-14,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",41419
+SALE00000313,U000060,P000066,S0013,-5,403.64,-2018.2,0.18,-1654.92,2025-07-21,completed,3982 Warren Overpass Suite 429,Katherineton,Massachusetts,02373
+SALE00000314,,,S0016,6,327.66,1965.96,0.21,1553.11,2025-04-07,completed,569 Lindsey Passage,East Andrewfort,South Carolina,16906
+SALE00000315,U000185,P000089,S0009,,,0.0,,0.0,,,,,,
+SALE00000316,U000134,P000068,S0025,,,0.0,,0.0,,,,,,
+SALE00000317,U000047,P000038,S0021,2,821.96,1643.92,0.11,1463.09,2026-02-03,pending,38513 Andrea Views Apt. 958,Allenberg,New Mexico,73968
+SALE00000318,U000086,P000071,S0042,2,775.88,1551.76,1.5,-775.88,2025-02-20,completed,723 Jones Wells,East Dale,Michigan,29733
+SALE00000319,U000016,P000018,S0035,-4,58.17,-232.68,0.06,-218.72,2024-09-26,completed,91017 Atkinson Lane Suite 069,Rosshaven,South Dakota,30775
+SALE00000320,U000118,P000035,S0005,,,0.0,,0.0,,,,,,
+SALE00000321,U000180,P000073,S0024,8,343.48,2747.84,-0.1,3022.62,2025-01-29,pending,0182 Dougherty Mountains,South Anthonyville,Oklahoma,13752
+SALE00000322,U000165,P000079,S0018,-9,797.06,-7173.54,0.17,-5954.04,2024-11-19,completed,4240 David Shoal,Lake Reginaldside,Idaho,08066
+SALE00000323,U000118,P000055,S0012,many,859.23,0.0,0.22,0.0,2024-12-20,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",62440
+SALE00000324,U000029,P000029,S0028,5,99.12,495.6,-0.1,545.16,2024-09-20,completed,51870 Daniel Common,Solomonton,New Hampshire,39003
+SALE00000325,U000124,P000080,S0005,few,183.24,0.0,0.23,0.0,2024-09-26,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",53000
+SALE00000326,U000170,P000028,S0001,7,564.15,3949.05,free,3949.05,2025-01-03,completed,5723 Kathy Rue Apt. 438,Smithview,Tennessee,41605
+SALE00000327,,,S0010,3,196.02,588.06,0.2,470.45,2025-07-26,pending,421 Desiree Harbors,Greenburgh,North Carolina,16421
+SALE00000328,,,S0020,4,724.32,2897.28,0.2,2317.82,2025-04-13,completed,8827 James Trafficway Apt. 015,Christopherfurt,Florida,91988
+SALE00000329,,,S0029,10,971.18,9711.8,0.02,9517.56,2025-01-01,completed,41579 Schultz River Apt. 628,Seanmouth,Oklahoma,48701
+SALE00000330,U000162,P000079,S0040,10,835.36,8353.6,0.16,7017.02,2025-11-07,completed,892 Beasley Mountains,New Nicole,Indiana,74770
+SALE00000331,U000129,P000041,S0004,few,579.7,0.0,0.12,0.0,2025-07-03,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",53307
+SALE00000332,,,S0039,8,925.71,7405.68,0.2,5924.54,2025-05-30,pending,21021 Mullins Prairie Suite 032,Steveton,Nebraska,85242
+SALE00000333,U000055,P000099,S0040,8,114.34,914.72,1.5,-457.36,2025-06-13,completed,7960 Nicholson Shoal,Cherylshire,Georgia,45163
+SALE00000334,U000051,P000037,S0044,10,670.34,6703.4,0.15,5697.89,2026-02-06,completed,1265 Natalie Square Apt. 269,Julietown,Alabama,49514
+SALE00000335,U000063,P000090,S0031,-10,995.26,-9952.6,0.03,-9654.02,2025-06-03,pending,826 Joseph Coves,Keithview,Delaware,28446
+SALE00000336,U000182,P000044,S0044,,,0.0,,0.0,,,,,,
+SALE00000337,U000133,P000013,S0002,1,506.25,506.25,-0.1,556.88,2025-07-11,cancelled,07209 William Meadow Suite 899,Tracyville,Maine,51313
+SALE00000338,,,S0013,2,876.79,1753.58,0.17,1455.47,2024-11-13,pending,15123 Brown Haven,Danielmouth,Utah,76151
+SALE00000339,U000019,P000059,S0042,,,0.0,,0.0,,,,,,
+SALE00000340,,,S0017,5,703.9,3519.5,0.08,3237.94,2025-01-21,completed,64955 Newton Ville Suite 143,Port Austin,Louisiana,03130
+SALE00000341,U000194,P000066,S0044,-1,676.72,-676.72,0.25,-507.54,2025-03-16,completed,00486 Eric Roads Suite 994,Shannonshire,Texas,82571
+SALE00000342,U000136,P000080,S0014,-9,542.84,-4885.56,0.01,-4836.7,2025-03-03,completed,55541 Green Fort,Lake Kurt,Missouri,24108
+SALE00000343,U000147,P000089,S0038,few,886.32,0.0,0.06,0.0,2025-07-17,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",17881
+SALE00000344,U000177,P000082,S0006,-8,517.47,-4139.76,0.07,-3849.98,2025-04-07,completed,2767 Doyle Dam,New Lisa,Ohio,15153
+SALE00000345,U000157,P000017,S0037,many,132.7,0.0,0.11,0.0,2025-01-25,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",14821
+SALE00000346,U000089,P000016,S0020,-7,330.95,-2316.65,0.19,-1876.49,2025-01-06,completed,3806 Jennifer Garden Suite 455,West Matthew,Nevada,35133
+SALE00000347,U000049,P000044,S0024,5,706.98,3534.9,1.5,-1767.45,2025-03-24,completed,7864 Erin Village Apt. 130,Kevintown,Minnesota,10368
+SALE00000348,U000009,P000016,S0018,4,146.83,587.32,0.18,481.6,2025-03-17,processing,7093 Hughes Views,Davidmouth,Iowa,04510
+SALE00000349,U000049,P000074,S0049,6,747.89,4487.34,0.07,4173.23,2026-04-13,completed,634 Robert Corners,Thompsonmouth,Maine,04458
+SALE00000350,U000039,P000046,S0026,5,531.56,2657.8,1.5,-1328.9,2025-06-02,completed,079 Aguirre Mission,New Thomas,Wisconsin,40413
+SALE00000351,U000036,P000061,S0041,,,0.0,,0.0,,,,,,
+SALE00000352,U000010,P000052,S0008,,,0.0,,0.0,,,,,,
+SALE00000353,U000073,P000058,S0017,-5,958.73,-4793.65,0.08,-4410.16,2024-10-23,completed,33380 Carly Vista,Cabreramouth,Florida,27352
+SALE00000354,U000135,P000006,S0033,some,271.51,0.0,0.01,0.0,2025-02-25,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",21209
+SALE00000355,U000150,P000013,S0046,some,516.46,0.0,0.07,0.0,2024-11-18,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",75252
+SALE00000356,U000120,P000019,S0024,9,943.96,8495.64,0.18,6966.42,2025-12-20,cancelled,009 Sandoval Fall Suite 784,Port Michelleland,Ohio,98466
+SALE00000357,U000054,P000070,S0047,6,193.07,1158.42,0.2,926.74,2025-07-12,processing,19487 Johnson Dam,Port Dariusmouth,Alabama,52076
+SALE00000358,U000041,P000049,S0037,4,575.75,2303.0,0.07,2141.79,2026-02-03,completed,70372 Bowman Mission Suite 747,Ethanmouth,Colorado,74663
+SALE00000359,U000081,P000023,S0049,-5,414.63,-2073.15,0.02,-2031.69,2025-05-14,completed,47007 Patton Mountains Apt. 164,Laurenfort,Maine,40662
+SALE00000360,U000128,P000085,S0005,4,790.75,3163.0,0.23,2435.51,2026-04-06,pending,3762 Allen Camp,Port Mary,Arkansas,52842
+SALE00000361,U000067,P000037,S0008,-1,252.52,-252.52,0.09,-229.79,2025-05-01,completed,9800 Austin Club Apt. 723,Port Sabrinamouth,Hawaii,38229
+SALE00000362,U000150,P000008,S0012,3,924.84,2774.52,0.09,2524.81,2024-11-05,yes,125 Martinez Way Apt. 747,Karinaside,Idaho,22090
+SALE00000363,U000107,P000046,S0009,,,0.0,,0.0,,,,,,
+SALE00000364,,,S0002,9,959.24,8633.16,0.14,7424.52,2024-11-06,completed,88403 Kim Throughway Apt. 406,East Ashley,New York,53958
+SALE00000365,U000096,P000075,S0001,few,394.95,0.0,0.24,0.0,2025-06-18,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",71542
+SALE00000366,U000147,P000077,S0034,5,936.19,4680.95,0.0,4680.95,2025-12-14,completed,8529 Brittany Lock,Turnermouth,Montana,10736
+SALE00000367,,,S0024,8,252.37,2018.96,0.12,1776.68,2024-12-24,pending,824 Wagner Turnpike Apt. 081,Kathyborough,Indiana,38395
+SALE00000368,U000141,P000043,S0019,-5,963.32,-4816.6,0.21,-3805.11,2025-01-20,completed,870 Boyer Creek Apt. 997,South Jon,Arizona,69558
+SALE00000369,U000047,P000081,S0006,,,0.0,,0.0,,,,,,
+SALE00000370,U000122,P000039,S0010,9,943.25,8489.25,1.5,-4244.62,2025-03-03,completed,2939 Hogan Spurs,Johnburgh,Maine,73826
+SALE00000371,U000056,P000079,S0041,3,976.85,2930.55,0.06,2754.72,2026-05-24,completed,75007 Albert Inlet Apt. 221,North Melissamouth,Arizona,67691
+SALE00000372,,,S0022,2,992.53,1985.06,0.22,1548.35,2024-10-12,completed,9429 Timothy Village Apt. 441,Whiteheadberg,California,70774
+SALE00000373,U000019,P000099,S0010,10,119.97,1199.7,-0.1,1319.67,2024-09-13,completed,85348 Lisa Pike,Smithland,Oklahoma,97586
+SALE00000374,U000067,P000024,S0008,5,153.78,768.9,0.12,676.63,2026-04-19,completed,81021 Elizabeth Ville,Kylemouth,Maine,31371
+SALE00000375,U000116,P000097,S0029,5,296.35,1481.75,0.06,1392.85,2025-04-15,no,8060 Ashley Groves,Bradleyhaven,Vermont,18214
+SALE00000376,U000020,P000030,S0003,8,427.7,3421.6,0.13,2976.79,2025-12-13,completed,75545 Mcgrath Loop Suite 526,Lisaburgh,Delaware,59853
+SALE00000377,U000031,P000069,S0005,8,55.55,444.4,1.5,-222.2,2025-02-09,completed,959 Jason Squares,Archerchester,Vermont,69013
+SALE00000378,U000001,P000087,S0048,-4,383.46,-1533.84,0.22,-1196.4,2025-05-05,completed,55338 Scott Path Apt. 391,Alexanderton,New Jersey,06072
+SALE00000379,U000197,P000032,S0020,2,364.24,728.48,0.21,575.5,2025-01-25,1,159 Kyle Land Apt. 973,New Jade,Texas,82162
+SALE00000380,U000051,P000096,S0003,,,0.0,,0.0,,,,,,
+SALE00000381,,,S0021,2,179.76,359.52,0.04,345.14,2024-12-08,completed,756 Morris Junction,Lake Juliaview,Maryland,65407
+SALE00000382,,,S0001,8,59.27,474.16,0.04,455.19,2025-01-08,completed,5774 Megan Mall,Lake Jennifer,New Jersey,48419
+SALE00000383,U000023,P000034,S0022,few,213.62,0.0,0.15,0.0,2025-01-31,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",00710
+SALE00000384,U000195,P000074,S0006,2,942.59,1885.18,0.22,1470.44,2025-07-25,1,7496 Flores Summit Apt. 315,Lake Angelaburgh,California,22766
+SALE00000385,U000026,P000093,S0004,-3,432.34,-1297.02,0.22,-1011.68,2025-05-27,completed,83826 Smith Road,South Jennifer,Hawaii,99268
+SALE00000386,U000034,P000042,S0023,10,448.96,4489.6,0.04,4310.02,2026-02-19,completed,0660 Steele Hollow,North Markmouth,North Dakota,27306
+SALE00000387,U000052,P000047,S0015,2,350.07,700.14,0.04,672.13,2024-11-02,0,10475 Madden Village Apt. 005,Davidchester,Iowa,11142
+SALE00000388,U000026,P000037,S0014,3,148.71,446.13,0.19,361.37,2025-10-12,completed,094 Thomas Place,Jensenport,Idaho,94741
+SALE00000389,U000164,P000070,S0015,,,0.0,,0.0,,,,,,
+SALE00000390,U000103,P000033,S0045,-8,532.5,-4260.0,0.14,-3663.6,2025-06-26,pending,6648 Christopher Corners Suite 462,Snydermouth,Tennessee,49194
+SALE00000391,,,S0028,5,89.39,446.95,0.15,379.91,2025-04-29,completed,951 Woodard Bypass,Jonstad,Nebraska,84640
+SALE00000392,U000081,P000099,S0021,-6,476.97,-2861.82,0.14,-2461.17,2024-10-28,completed,3054 Edwards Gardens,North Alanmouth,Delaware,96722
+SALE00000393,U000027,P000041,S0009,7,96.98,678.86,0.04,651.71,2026-04-22,pending,49261 Alexander Parkway,South Laura,North Carolina,78231
+SALE00000394,U000157,P000059,S0029,-7,240.44,-1683.08,0.2,-1346.46,2024-09-09,completed,3402 Evan Underpass,Rebeccamouth,South Dakota,61225
+SALE00000395,U000058,P000082,S0008,,,0.0,,0.0,,,,,,
+SALE00000396,U000185,P000055,S0033,1,143.58,143.58,0.21,113.43,2026-08-29,completed,60662 Brian Route Apt. 961,New Rachel,Ohio,94002
+SALE00000397,,,S0042,5,338.93,1694.65,0.13,1474.35,2025-01-06,completed,5878 Tyler Flat Suite 720,New Sarah,Vermont,74305
+SALE00000398,U000180,P000008,S0020,3,746.62,2239.86,0.03,2172.66,2024-11-12,processing,039 Mack Via,West Robinbury,Georgia,76354
+SALE00000399,U000112,P000065,S0048,,,0.0,,0.0,,,,,,
+SALE00000400,U000177,P000005,S0035,3,310.62,931.86,-0.1,1025.05,2024-11-30,completed,2764 Hughes Hill,Heatherport,Georgia,55709
+SALE00000401,,,S0002,7,424.13,2968.91,0.16,2493.88,2025-07-01,completed,254 Brandon Shoal,Blairtown,Michigan,50954
+SALE00000402,U000034,P000073,S0003,3,842.08,2526.24,10%,2526.24,2024-09-25,completed,9754 Sullivan Hollow,New Susan,New Jersey,51906
+SALE00000403,,,S0009,10,858.71,8587.1,0.05,8157.74,2025-07-04,completed,91087 Kyle Road,Swansonside,Kansas,45733
+SALE00000404,U000163,P000051,S0021,5,674.37,3371.85,-0.1,3709.04,2025-08-04,pending,1410 Lorraine Plaza,Kristiborough,Texas,24859
+SALE00000405,U000146,P000010,S0008,,,0.0,,0.0,,,,,,
+SALE00000406,U000029,P000020,S0018,7,656.17,4593.19,0.25,3444.89,2025-07-11,no,8018 Mendoza Cliff,South Davidmouth,Arkansas,25965
+SALE00000407,U000185,P000093,S0019,-2,946.98,-1893.96,0.14,-1628.81,2025-04-02,completed,61364 Michael Plains,West Davidburgh,Missouri,61339
+SALE00000408,U000114,P000037,S0040,9,868.77,7818.93,0.09,7115.23,2024-09-22,yes,33014 Tonya Village Apt. 405,South Kimberly,Massachusetts,89896
+SALE00000409,U000011,P000028,S0042,7,535.97,3751.79,0.21,2963.91,2026-01-13,completed,9462 John Ridges Apt. 676,South Mary,Kansas,11669
+SALE00000410,U000042,P000059,S0019,1,467.97,467.97,0.14,402.45,2026-03-23,completed,11362 Scott Prairie Apt. 756,North Rhondaburgh,Florida,15705
+SALE00000411,,,S0027,6,521.01,3126.06,0.07,2907.24,2025-07-13,completed,394 Stephen Viaduct Apt. 916,Lake Amy,South Carolina,85686
+SALE00000412,U000009,P000067,S0011,6,66.55,399.3,1.5,-199.65,2025-06-25,completed,273 Hernandez Dale,West Travis,Hawaii,34884
+SALE00000413,U000038,P000080,S0011,9,943.38,8490.42,0.11,7556.47,2025-03-22,0,3734 Hunt Circle Suite 076,East Edwardhaven,New York,23779
+SALE00000414,,,S0034,1,55.85,55.85,0.21,44.12,2025-06-12,completed,3589 Gregory Port,Lake Matthew,Colorado,80001
+SALE00000415,U000066,P000054,S0011,9,797.11,7173.99,0.04,6887.03,2026-05-14,completed,667 Poole Ville,New Kristenburgh,New York,21083
+SALE00000416,U000176,P000031,S0007,many,107.4,0.0,0.0,0.0,2025-04-25,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",54990
+SALE00000417,U000140,P000072,S0045,4,127.81,511.24,1.5,-255.62,2025-05-29,pending,33072 Emma Bridge Apt. 828,Lake Brian,New Mexico,08332
+SALE00000418,U000060,P000002,S0034,-2,361.13,-722.26,0.06,-678.92,2025-05-06,completed,568 Day Cape Suite 023,Lake Paul,Montana,70621
+SALE00000419,U000130,P000051,S0007,-9,549.95,-4949.55,0.1,-4454.6,2025-05-11,completed,7308 Gregory Isle Suite 741,Kevinport,New York,34993
+SALE00000420,U000068,P000020,S0032,many,834.44,0.0,0.24,0.0,2025-04-28,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",87128
+SALE00000421,,,S0017,4,823.96,3295.84,0.14,2834.42,2025-08-30,completed,664 Ewing Vista Apt. 697,Johnsonton,Louisiana,11299
+SALE00000422,U000057,P000037,S0037,2,46.9,93.8,0.17,77.85,2025-12-05,completed,596 Chad Fords,Stokeschester,New York,83945
+SALE00000423,U000200,P000061,S0031,1,163.84,163.84,0.02,160.56,2026-08-26,completed,2731 Lori Shores Suite 449,South Melissa,Indiana,73456
+SALE00000424,,,S0018,1,563.95,563.95,0.08,518.83,2025-05-09,completed,592 Jacob Lakes Apt. 827,Lake Ronald,California,49026
+SALE00000425,U000069,P000072,S0010,10,132.5,1325.0,0.15,1126.25,2026-02-03,completed,3730 Johnson Ville Suite 370,Franklinville,Rhode Island,39252
+SALE00000426,U000018,P000092,S0013,some,496.66,0.0,0.02,0.0,2025-09-04,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",29903
+SALE00000427,U000180,P000045,S0010,3,218.38,655.14,free,655.14,2025-05-10,completed,0468 Wheeler Wall Apt. 754,Watkinschester,Texas,01947
+SALE00000428,U000165,P000041,S0012,,,0.0,,0.0,,,,,,
+SALE00000429,,,S0039,6,461.13,2766.78,0.08,2545.44,2025-05-03,pending,255 Phillips Drive,Rojasberg,Nebraska,10938
+SALE00000430,U000057,P000015,S0032,3,478.35,1435.05,10%,1435.05,2025-05-21,completed,2724 Jeffrey Road Apt. 524,Bryanmouth,Florida,65121
+SALE00000431,U000043,P000061,S0030,3,490.32,1470.96,0.15,1250.32,2024-12-08,0,4616 Brown Villages Apt. 037,Lake Heatherstad,North Carolina,42129
+SALE00000432,U000155,P000051,S0033,-4,809.51,-3238.04,0.18,-2655.19,2025-05-03,completed,7767 Wilson Flats,Fergusonborough,New Mexico,93942
+SALE00000433,,,S0039,1,100.28,100.28,0.12,88.25,2025-05-05,completed,148 Gomez Locks,Markland,Minnesota,16789
+SALE00000434,U000164,P000076,S0023,3,677.54,2032.62,0.17,1687.07,2025-10-29,completed,93477 Welch Parkways,Patrickfort,New Hampshire,97308
+SALE00000435,U000126,P000002,S0011,-6,132.98,-797.88,0.11,-710.11,2024-09-09,completed,69895 Alexander Mission,Davidland,Wisconsin,98654
+SALE00000436,U000115,P000053,S0028,2,955.68,1911.36,0.07,1777.56,2025-10-14,completed,83963 Dustin Orchard,Delacruzville,Arkansas,50013
+SALE00000437,U000040,P000018,S0042,5,588.72,2943.6,0.05,2796.42,2025-04-25,delivered,4630 Ashley Expressway,East Adrianchester,Arkansas,90428
+SALE00000438,U000015,P000022,S0040,-9,332.59,-2993.31,0.08,-2753.85,2025-08-23,completed,26354 Ramos Branch Apt. 660,South Stephanie,Alaska,60476
+SALE00000439,U000057,P000016,S0012,-9,247.17,-2224.53,0.13,-1935.34,2024-12-15,completed,7952 Kristin Road Suite 745,Lake Paige,Kentucky,31416
+SALE00000440,U000020,P000007,S0034,many,243.77,0.0,0.14,0.0,2024-12-02,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",54841
+SALE00000441,U000084,P000007,S0016,some,32.66,0.0,0.01,0.0,2025-01-15,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",12838
+SALE00000442,U000153,P000064,S0050,-6,632.49,-3794.94,0.14,-3263.65,2025-04-04,completed,1989 Silva Tunnel,Nicholaston,Utah,63719
+SALE00000443,,,S0046,10,567.14,5671.4,0.24,4310.26,2025-06-30,completed,2426 Mccarty Plain Apt. 144,Timothyside,Georgia,28672
+SALE00000444,U000160,P000100,S0048,-1,238.22,-238.22,0.24,-181.05,2025-07-22,completed,7260 Patricia Club Suite 324,Port Robertshire,North Carolina,41134
+SALE00000445,U000195,P000006,S0010,5,828.09,4140.45,0.13,3602.19,2025-10-05,completed,2361 Jason Summit,Reginaldbury,Florida,28412
+SALE00000446,U000125,P000021,S0044,9,120.12,1081.08,10%,1081.08,2025-04-30,completed,0502 Jeffrey Stravenue,South Pamela,Arizona,15673
+SALE00000447,U000143,P000096,S0045,7,527.08,3689.56,0.15,3136.13,2025-12-09,completed,81064 Jessica Spring,North Christinaport,Wisconsin,29481
+SALE00000448,U000178,P000080,S0016,-5,803.88,-4019.4,0.08,-3697.85,2025-05-22,completed,97619 Stuart Mountain,Michaelborough,Indiana,36925
+SALE00000449,U000108,P000024,S0045,-8,659.39,-5275.12,0.15,-4483.85,2025-07-23,completed,8229 Ayala Oval,Jenniferview,Minnesota,71114
+SALE00000450,U000121,P000019,S0004,2,506.93,1013.86,0.06,953.03,2025-03-04,0,2135 Aaron Canyon,East Jeremy,North Carolina,69648
+SALE00000451,U000070,P000029,S0003,2,572.38,1144.76,10%,1144.76,2025-04-02,completed,3317 William Crossroad Suite 879,South William,Georgia,89313
+SALE00000452,U000107,P000075,S0013,some,735.46,0.0,0.01,0.0,2024-11-27,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",12475
+SALE00000453,U000026,P000064,S0017,many,616.61,0.0,0.25,0.0,2025-08-27,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",76843
+SALE00000454,U000006,P000094,S0045,2,707.73,1415.46,0.05,1344.69,2026-05-30,pending,374 Carla Place Apt. 859,Dixonfort,Michigan,66289
+SALE00000455,U000059,P000022,S0038,3,634.78,1904.34,1.5,-952.17,2025-06-09,completed,62762 Duarte Street,East Coreytown,Texas,01961
+SALE00000456,U000200,P000004,S0003,-7,840.46,-5883.22,0.02,-5765.56,2025-05-30,pending,58422 Brianna Cove,North Julie,Tennessee,99700
+SALE00000457,U000076,P000097,S0004,8,510.31,4082.48,10%,4082.48,2025-07-19,completed,4952 Christopher Well,South Ronaldmouth,Georgia,94285
+SALE00000458,U000098,P000050,S0022,,,0.0,,0.0,,,,,,
+SALE00000459,,,S0023,6,183.22,1099.32,0.18,901.44,2025-05-08,pending,16642 Roth Shores,Kristenbury,Nebraska,37312
+SALE00000460,U000154,P000021,S0003,10,224.53,2245.3,0.14,1930.96,2026-06-17,completed,10995 Sarah Village Apt. 896,Matthewshire,New Jersey,88993
+SALE00000461,U000153,P000072,S0031,6,907.78,5446.68,10%,5446.68,2024-09-22,completed,1381 Jones Springs Suite 113,Christopherhaven,South Carolina,99192
+SALE00000462,U000162,P000095,S0041,few,813.04,0.0,0.15,0.0,2025-04-01,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",24032
+SALE00000463,U000096,P000067,S0029,6,50.47,302.82,-0.1,333.1,2025-07-29,completed,040 Wise Circle,New Jessica,Georgia,01567
+SALE00000464,U000069,P000089,S0009,few,60.0,0.0,0.25,0.0,2024-09-20,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",87084
+SALE00000465,U000183,P000001,S0017,1,358.22,358.22,0.12,315.23,2025-07-22,0,15988 Rivers Radial Suite 891,Torresmouth,Virginia,70222
+SALE00000466,U000144,P000058,S0015,-3,216.09,-648.27,0.25,-486.2,2024-11-09,pending,5267 Alex Ports Apt. 633,Courtneymouth,Missouri,54846
+SALE00000467,U000117,P000054,S0006,6,359.94,2159.64,1.5,-1079.82,2025-04-27,completed,921 Jasmine Glens,Lake Anna,Alabama,91630
+SALE00000468,U000024,P000001,S0016,10,515.69,5156.9,free,5156.9,2025-09-07,completed,20199 Karen Spring,South Derekville,Wyoming,55273
+SALE00000469,U000109,P000088,S0040,1,154.0,154.0,0.16,129.36,2026-08-16,completed,57183 Samuel Crest Suite 489,Harryburgh,Missouri,40746
+SALE00000470,U000143,P000076,S0041,,,0.0,,0.0,,,,,,
+SALE00000471,,,S0042,2,617.46,1234.92,0.24,938.54,2024-09-21,completed,6465 Heather Orchard,Millerfort,Arkansas,46298
+SALE00000472,U000132,P000004,S0047,-6,870.66,-5223.96,0.13,-4544.85,2024-12-20,completed,352 Steven Estates,East Karen,Pennsylvania,15442
+SALE00000473,U000019,P000029,S0043,8,266.03,2128.24,0.06,2000.55,2026-07-27,completed,22944 Shelley Forges,South Codybury,North Carolina,86879
+SALE00000474,U000153,P000090,S0012,,,0.0,,0.0,,,,,,
+SALE00000475,,,S0002,1,775.93,775.93,0.06,729.37,2025-01-17,pending,5210 Martinez Pines Apt. 625,East Jonberg,Nebraska,31489
+SALE00000476,,,S0019,2,951.62,1903.24,0.23,1465.49,2024-09-14,completed,781 Jeremy Hills Apt. 805,East Jacob,Illinois,90560
+SALE00000477,U000065,P000065,S0019,,,0.0,,0.0,,,,,,
+SALE00000478,U000016,P000088,S0047,7,575.2,4026.4,0.21,3180.86,2024-10-28,shipped,851 Jason Run Suite 348,Heatherport,Texas,78000
+SALE00000479,,,S0048,7,878.75,6151.25,0.22,4797.98,2024-12-18,completed,2655 James Creek Suite 941,Elliottside,New York,02345
+SALE00000480,U000121,P000010,S0021,3,413.8,1241.4,-0.1,1365.54,2024-11-02,completed,635 John Falls,West Ann,Maine,18760
+SALE00000481,U000086,P000079,S0039,-5,175.2,-876.0,0.21,-692.04,2025-02-26,completed,239 Adams Prairie,North Nicole,Montana,22663
+SALE00000482,U000184,P000062,S0042,some,654.38,0.0,0.21,0.0,2025-03-11,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",50306
+SALE00000483,U000077,P000062,S0006,2,645.86,1291.72,10%,1291.72,2025-04-05,completed,7257 Allen Course Suite 639,South Moniquefurt,South Dakota,96536
+SALE00000484,U000071,P000008,S0036,-8,376.13,-3009.04,0.04,-2888.68,2024-10-15,completed,328 Jesus Station Suite 869,South Michael,Rhode Island,26664
+SALE00000485,U000156,P000045,S0014,-5,98.68,-493.4,0.04,-473.66,2025-04-08,completed,419 Alexandra Locks Suite 950,South Robert,Alaska,28642
+SALE00000486,U000147,P000081,S0001,-2,472.45,-944.9,0.15,-803.16,2025-04-21,completed,408 Baker Plaza Suite 527,Lisaville,Utah,49010
+SALE00000487,,,S0034,7,876.44,6135.08,0.01,6073.73,2025-02-22,completed,19731 Rebecca Harbor Apt. 396,Jamesfurt,Connecticut,57380
+SALE00000488,,,S0014,2,944.22,1888.44,0.2,1510.75,2025-05-04,pending,520 Christopher Roads Apt. 016,Gabriellebury,Tennessee,44808
+SALE00000489,U000187,P000080,S0042,,,0.0,,0.0,,,,,,
+SALE00000490,U000036,P000023,S0033,5,783.76,3918.8,1.5,-1959.4,2025-06-13,completed,763 Hughes Causeway Suite 517,Spencermouth,Arizona,86177
+SALE00000491,,,S0032,7,967.82,6774.74,0.02,6639.25,2024-10-04,cancelled,918 Christopher Stravenue,Port Joseph,Alabama,12207
+SALE00000492,U000169,P000035,S0033,-5,35.77,-178.85,0.03,-173.48,2024-09-22,cancelled,4619 Phelps Trafficway Suite 630,Lake Tommyland,California,03942
+SALE00000493,U000043,P000057,S0050,-4,901.91,-3607.64,0.23,-2777.88,2025-08-30,completed,9451 Roger Junctions Apt. 911,South Ashley,Pennsylvania,16001
+SALE00000494,U000014,P000075,S0043,1,598.88,598.88,10%,598.88,2024-09-17,completed,769 Samantha Courts,Williambury,New York,78810
+SALE00000495,U000159,P000092,S0028,,,0.0,,0.0,,,,,,
+SALE00000496,U000154,P000058,S0030,few,56.45,0.0,0.02,0.0,2024-12-19,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",77245
+SALE00000497,U000181,P000031,S0010,-5,253.4,-1267.0,0.17,-1051.61,2024-11-02,completed,67162 Glenn Stream,Port Brian,Mississippi,79413
+SALE00000498,U000192,P000067,S0028,,,0.0,,0.0,,,,,,
+SALE00000499,,,S0029,3,530.59,1591.77,0.03,1544.02,2025-06-29,completed,78013 Debbie Crescent,West Deborah,Georgia,36640
+SALE00000500,U000087,P000042,S0032,-9,877.63,-7898.67,0.1,-7108.8,2025-01-18,completed,07981 Daniel Plains,North Melissa,Missouri,71528
+SALE00000501,U000088,P000035,S0029,-4,215.22,-860.88,0.05,-817.84,2024-09-24,pending,58108 Daniels Ford Suite 442,Christopherbury,Missouri,68814
+SALE00000502,,,S0024,3,992.35,2977.05,0.15,2530.49,2025-04-28,completed,04055 Morton Harbors,East Robert,Tennessee,42894
+SALE00000503,U000060,P000083,S0029,,,0.0,,0.0,,,,,,
+SALE00000504,U000042,P000063,S0007,many,571.93,0.0,0.1,0.0,2025-06-18,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",24063
+SALE00000505,U000052,P000085,S0038,,,0.0,,0.0,,,,,,
+SALE00000506,U000116,P000023,S0020,10,104.12,1041.2,10%,1041.2,2024-10-10,completed,03784 Katherine Lakes,Anthonyland,Utah,55144
+SALE00000507,U000176,P000095,S0031,-4,127.99,-511.96,0.12,-450.52,2025-04-09,completed,41669 Chad Mountains,Lake Ashleyfort,Utah,35615
+SALE00000508,U000137,P000096,S0035,3,871.85,2615.55,0.21,2066.28,2024-10-01,0,4636 Jones Hollow,East Ryan,Illinois,01611
+SALE00000509,U000196,P000072,S0048,6,850.12,5100.72,-0.1,5610.79,2025-04-26,completed,309 Kevin Spurs,Paynestad,Oklahoma,04519
+SALE00000510,U000016,P000005,S0041,-3,319.17,-957.51,0.12,-842.61,2025-07-07,completed,2620 Elizabeth Grove,Bryanfort,Delaware,97093
+SALE00000511,U000072,P000088,S0024,7,363.68,2545.76,0.02,2494.84,2025-10-06,completed,199 Sandra Meadows,Williamchester,Vermont,43641
+SALE00000512,U000047,P000068,S0036,some,618.47,0.0,0.04,0.0,2024-11-15,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",34862
+SALE00000513,U000116,P000056,S0027,few,753.37,0.0,0.04,0.0,2025-05-16,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",12334
+SALE00000514,U000157,P000053,S0050,4,409.63,1638.52,1.5,-819.26,2025-04-23,completed,5929 Knight Club,Lake Alexander,Michigan,20074
+SALE00000515,U000179,P000089,S0005,some,235.58,0.0,0.24,0.0,2024-10-02,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",55508
+SALE00000516,,,S0035,8,368.47,2947.76,0.16,2476.12,2025-02-10,completed,9459 Bowman Villages,Jessicahaven,Nevada,80472
+SALE00000517,U000171,P000022,S0016,8,34.22,273.76,0.21,216.27,2026-02-02,completed,2214 Kristen Springs Suite 456,North George,Vermont,74218
+SALE00000518,U000162,P000082,S0044,8,79.2,633.6,0.08,582.91,2024-12-22,yes,639 Burton River,North Reneemouth,Connecticut,31541
+SALE00000519,U000094,P000085,S0012,-4,276.31,-1105.24,0.05,-1049.98,2025-01-09,completed,203 Morris Plaza,West Andrewhaven,Delaware,83813
+SALE00000520,U000075,P000024,S0050,,,0.0,,0.0,,,,,,
+SALE00000521,U000116,P000013,S0007,4,168.15,672.6,0.05,638.97,2025-06-28,processing,43490 Ashley Mountain Apt. 020,North Jameston,New York,48697
+SALE00000522,U000025,P000046,S0046,some,269.49,0.0,0.23,0.0,2025-07-07,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",12844
+SALE00000523,U000008,P000004,S0021,5,492.6,2463.0,10%,2463.0,2025-01-15,completed,0203 Laura Square,Chandlerburgh,West Virginia,33280
+SALE00000524,U000101,P000074,S0025,few,895.99,0.0,0.2,0.0,2025-06-23,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",58665
+SALE00000525,U000183,P000080,S0046,,,0.0,,0.0,,,,,,
+SALE00000526,,,S0028,4,627.1,2508.4,0.07,2332.81,2025-01-04,completed,61489 White Shore Apt. 838,Brendaview,Maine,49687
+SALE00000527,U000097,P000035,S0023,,,0.0,,0.0,,,,,,
+SALE00000528,U000054,P000003,S0038,-10,385.08,-3850.8,0.07,-3581.24,2025-05-12,completed,3005 Devon Walk,South Nancy,Arkansas,90407
+SALE00000529,U000141,P000082,S0022,5,469.96,2349.8,0.25,1762.35,2026-02-26,completed,3206 Chad Via,Port Aliciaborough,Kansas,84020
+SALE00000530,U000027,P000024,S0001,6,371.96,2231.76,free,2231.76,2024-09-07,completed,361 Brandi Expressway Suite 260,Lake Shawn,Michigan,41123
+SALE00000531,U000185,P000057,S0031,7,409.1,2863.7,1.5,-1431.85,2025-02-01,completed,959 Russell Ridges,Port Garyburgh,North Dakota,64223
+SALE00000532,U000194,P000090,S0041,,,0.0,,0.0,,,,,,
+SALE00000533,U000157,P000093,S0003,7,515.41,3607.87,0.13,3138.85,2026-02-01,completed,292 Joseph Village Apt. 920,Jessicashire,Michigan,91963
+SALE00000534,U000062,P000026,S0028,3,990.98,2972.94,0.17,2467.54,2025-10-01,pending,6512 Chris Skyway Apt. 569,Bradleybury,Wisconsin,61564
+SALE00000535,,,S0021,7,336.51,2355.57,0.09,2143.57,2025-02-22,completed,08765 Hayden Glen,Johnsonstad,New Mexico,60813
+SALE00000536,U000133,P000082,S0021,-5,762.65,-3813.25,0.03,-3698.85,2025-06-21,completed,850 Jason Flat,East Tonychester,New York,84993
+SALE00000537,U000196,P000022,S0003,4,131.11,524.44,0.15,445.77,2026-07-28,completed,4351 Stuart Square,Port Carrie,Colorado,94054
+SALE00000538,U000078,P000041,S0030,3,885.34,2656.02,1.5,-1328.01,2025-05-24,completed,30338 Eric Gateway Suite 020,Angelahaven,Delaware,77571
+SALE00000539,U000007,P000099,S0009,4,521.66,2086.64,0.0,2086.64,2026-04-06,completed,783 Jessica Parks Suite 513,Andreastad,Texas,68488
+SALE00000540,U000016,P000015,S0048,3,304.56,913.68,0.06,858.86,2025-03-14,0,13712 Eric Locks Apt. 137,Johnsonview,Texas,92449
+SALE00000541,U000117,P000075,S0040,few,101.06,0.0,0.11,0.0,2025-07-10,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",36487
+SALE00000542,U000083,P000033,S0039,,,0.0,,0.0,,,,,,
+SALE00000543,U000059,P000014,S0029,5,173.15,865.75,0.24,657.97,2026-01-10,completed,8718 Kayla View Apt. 033,Ronaldtown,Kentucky,97992
+SALE00000544,U000116,P000029,S0004,,,0.0,,0.0,,,,,,
+SALE00000545,U000028,P000076,S0028,7,534.59,3742.13,0.07,3480.18,2025-01-12,shipped,90718 Devin Brook Apt. 448,Jeremymouth,Maine,41388
+SALE00000546,U000164,P000082,S0004,,,0.0,,0.0,,,,,,
+SALE00000547,U000096,P000040,S0002,some,687.91,0.0,0.17,0.0,2025-03-11,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",07622
+SALE00000548,U000070,P000090,S0030,4,390.16,1560.64,10%,1560.64,2024-12-22,completed,7082 Theresa Pass Apt. 431,Stevenland,Alabama,28062
+SALE00000549,,,S0045,8,428.61,3428.88,0.01,3394.59,2025-07-22,completed,43561 Brandon Greens Apt. 496,Blackwellfurt,Georgia,00818
+SALE00000550,U000168,P000054,S0043,,,0.0,,0.0,,,,,,
+SALE00000551,,,S0001,4,88.58,354.32,0.18,290.54,2025-05-27,completed,92759 Monique Valley,North Tanya,Florida,28638
+SALE00000552,U000029,P000025,S0033,2,530.59,1061.18,10%,1061.18,2025-01-14,completed,4736 Coleman Stravenue,Limouth,Indiana,47126
+SALE00000553,U000192,P000016,S0012,3,54.51,163.53,0.09,148.81,2024-10-03,delivered,1229 Lewis Causeway,Nelsonfort,Michigan,48946
+SALE00000554,U000142,P000062,S0044,7,393.64,2755.48,10%,2755.48,2024-11-03,pending,748 Hill Canyon,North Richard,Utah,78132
+SALE00000555,U000162,P000047,S0012,,,0.0,,0.0,,,,,,
+SALE00000556,U000054,P000085,S0037,few,604.79,0.0,0.25,0.0,2024-09-07,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",29465
+SALE00000557,U000167,P000079,S0013,-8,294.49,-2355.92,0.18,-1931.85,2024-10-22,completed,02602 Karen Curve Suite 591,Gloverville,Ohio,42663
+SALE00000558,U000062,P000016,S0015,-6,609.87,-3659.22,0.12,-3220.11,2024-09-17,completed,34757 Sarah Lock Apt. 439,Keithview,Texas,35101
+SALE00000559,U000105,P000004,S0021,7,149.56,1046.92,0.11,931.76,2025-10-16,cancelled,381 David Trail Suite 878,Jonesberg,Pennsylvania,35887
+SALE00000560,U000013,P000026,S0042,-2,132.72,-265.44,0.24,-201.73,2025-02-17,completed,408 Johnson Squares Apt. 242,West Melinda,California,28055
+SALE00000561,U000196,P000062,S0045,-3,545.88,-1637.64,0.23,-1260.98,2025-05-03,completed,9241 Salazar Fall,Ashleyside,Kansas,28700
+SALE00000562,U000005,P000049,S0004,10,855.56,8555.6,free,8555.6,2025-07-20,completed,6809 Oliver Knolls,Connorchester,Vermont,99699
+SALE00000563,U000050,P000002,S0024,7,174.13,1218.91,-0.1,1340.8,2024-12-01,completed,980 Norris Viaduct,New Bradley,Connecticut,09054
+SALE00000564,U000020,P000036,S0012,many,962.12,0.0,0.05,0.0,2025-08-30,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",65638
+SALE00000565,U000150,P000002,S0020,many,450.62,0.0,0.05,0.0,2025-03-18,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",14538
+SALE00000566,U000008,P000013,S0009,some,84.72,0.0,0.04,0.0,2024-12-30,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",27996
+SALE00000567,U000065,P000097,S0002,,,0.0,,0.0,,,,,,
+SALE00000568,U000141,P000086,S0049,-6,112.54,-675.24,0.18,-553.7,2025-01-05,completed,3988 Michelle Lock Suite 760,South Christopherchester,California,61599
+SALE00000569,U000180,P000095,S0003,3,833.94,2501.82,0.21,1976.44,2024-12-18,1,15449 Susan Common,Brownbury,Vermont,13076
+SALE00000570,U000055,P000081,S0022,,,0.0,,0.0,,,,,,
+SALE00000571,U000076,P000059,S0001,many,967.77,0.0,0.02,0.0,2025-03-04,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",58903
+SALE00000572,U000004,P000077,S0001,few,313.49,0.0,0.18,0.0,2025-03-17,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",47396
+SALE00000573,U000007,P000078,S0041,7,931.07,6517.49,free,6517.49,2025-05-04,completed,7597 Brandy Knoll,Lauratown,Indiana,59518
+SALE00000574,U000050,P000097,S0039,-3,204.64,-613.92,0.15,-521.83,2024-09-21,completed,1070 Pratt Radial,Port Larry,Wisconsin,15817
+SALE00000575,U000049,P000088,S0038,,,0.0,,0.0,,,,,,
+SALE00000576,U000009,P000081,S0024,few,451.02,0.0,0.05,0.0,2025-08-15,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",64671
+SALE00000577,,,S0006,10,421.59,4215.9,0.15,3583.51,2025-04-29,completed,2243 Krista Lakes,Hernandezshire,Vermont,36712
+SALE00000578,U000074,P000008,S0028,3,302.79,908.37,1.5,-454.19,2025-04-28,pending,121 Jackson Ford,Masonfort,Arizona,70164
+SALE00000579,U000042,P000086,S0042,,,0.0,,0.0,,,,,,
+SALE00000580,U000162,P000037,S0013,some,721.61,0.0,0.23,0.0,2025-01-12,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",39730
+SALE00000581,U000112,P000037,S0048,3,493.32,1479.96,0.15,1257.97,2025-12-06,completed,23599 David Underpass Suite 802,Sharpville,Michigan,85168
+SALE00000582,,,S0038,3,350.51,1051.53,0.21,830.71,2024-12-14,completed,83281 Brooke Rue Apt. 946,West Connieview,South Carolina,11263
+SALE00000583,U000077,P000098,S0020,many,755.36,0.0,0.19,0.0,2025-04-26,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",05749
+SALE00000584,U000075,P000097,S0036,3,543.1,1629.3,0.21,1287.15,2025-10-26,completed,491 Robert Summit,Port Micheleborough,Mississippi,91636
+SALE00000585,U000144,P000083,S0017,many,921.19,0.0,0.24,0.0,2024-11-29,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",18682
+SALE00000586,U000004,P000014,S0007,8,387.69,3101.52,0.01,3070.5,2025-06-25,shipped,830 Kristin Summit,Ericmouth,Rhode Island,84390
+SALE00000587,U000168,P000073,S0022,some,932.77,0.0,0.16,0.0,2025-06-16,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",27476
+SALE00000588,U000155,P000050,S0001,-3,330.41,-991.23,0.04,-951.58,2025-06-06,completed,005 Rachel Island Suite 411,North Jessica,Arkansas,13877
+SALE00000589,U000067,P000060,S0035,8,72.33,578.64,0.06,543.92,2024-12-02,shipped,0424 Christopher Spring Apt. 720,Reedmouth,Connecticut,20631
+SALE00000590,U000185,P000051,S0023,-5,682.98,-3414.9,0.03,-3312.45,2025-08-14,completed,5580 Jeremy Inlet,East Angelastad,California,66299
+SALE00000591,U000176,P000034,S0049,7,606.86,4248.02,free,4248.02,2025-03-09,completed,7902 Steven Radial Suite 299,Lake Frankfurt,Idaho,15034
+SALE00000592,U000114,P000021,S0005,,,0.0,,0.0,,,,,,
+SALE00000593,U000120,P000086,S0041,5,820.68,4103.4,free,4103.4,2025-02-07,completed,1660 Ramos Parks Apt. 392,Jaimeberg,Idaho,67989
+SALE00000594,U000132,P000063,S0027,,,0.0,,0.0,,,,,,
+SALE00000595,U000081,P000038,S0041,5,122.15,610.75,-0.1,671.83,2025-07-04,completed,6302 Jennings Mountain,New Monica,Ohio,17200
+SALE00000596,,,S0019,4,336.89,1347.56,0.1,1212.8,2025-08-25,completed,31072 Marisa Park,Emmabury,Delaware,53096
+SALE00000597,,,S0040,4,111.96,447.84,0.16,376.19,2025-04-28,completed,369 Joseph Groves Apt. 256,Rileyland,Idaho,88883
+SALE00000598,U000197,P000016,S0019,1,802.24,802.24,0.09,730.04,2026-01-01,completed,1745 Lopez Skyway,Melissahaven,Missouri,91896
+SALE00000599,U000070,P000043,S0031,-7,607.12,-4249.84,0.23,-3272.38,2025-01-13,completed,02996 Cynthia Grove Suite 254,Amandamouth,New Hampshire,38044
+SALE00000600,U000038,P000057,S0039,3,397.43,1192.29,0.03,1156.52,2026-04-02,completed,8606 Butler Plain Suite 109,Port Nicholaston,Maine,78728
+SALE00000601,U000050,P000059,S0028,many,802.8,0.0,0.17,0.0,2025-03-22,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",24450
+SALE00000602,U000130,P000068,S0002,10,297.96,2979.6,0.11,2651.84,2026-07-09,completed,7293 Delgado Haven Suite 033,West Daniellehaven,Kansas,78017
+SALE00000603,U000156,P000037,S0014,1,667.09,667.09,0.07,620.39,2026-03-19,completed,8238 Erin Springs,Penningtonside,Tennessee,21589
+SALE00000604,U000088,P000056,S0045,5,270.9,1354.5,10%,1354.5,2025-01-11,completed,595 Robertson Harbors,Johnburgh,North Dakota,81892
+SALE00000605,U000077,P000093,S0009,3,263.21,789.63,0.01,781.73,2026-04-04,completed,1845 Donna Extension,Kimberlyland,Tennessee,08747
+SALE00000606,U000123,P000073,S0009,5,365.28,1826.4,0.02,1789.87,2026-03-04,completed,998 Vasquez Street Suite 384,Monicachester,Indiana,53138
+SALE00000607,U000156,P000018,S0015,,,0.0,,0.0,,,,,,
+SALE00000608,U000036,P000003,S0027,3,102.58,307.74,0.11,273.89,2025-09-20,completed,44420 Stokes Courts Apt. 302,Glennmouth,Oregon,41137
+SALE00000609,U000160,P000062,S0038,-7,492.22,-3445.54,0.05,-3273.26,2025-01-02,completed,571 Vaughn Fork,Sandraland,Florida,19586
+SALE00000610,U000138,P000012,S0045,4,158.68,634.72,0.13,552.21,2025-04-15,shipped,001 Lawrence Overpass Suite 349,West Christopher,South Dakota,23199
+SALE00000611,U000074,P000027,S0009,1,323.22,323.22,0.18,265.04,2025-07-31,shipped,1566 Powell Shoals,Loriburgh,Montana,41624
+SALE00000612,,,S0047,7,51.16,358.12,0.13,311.56,2025-04-23,completed,3519 Christopher Stravenue Suite 845,Lynnport,Delaware,21732
+SALE00000613,U000195,P000057,S0031,,,0.0,,0.0,,,,,,
+SALE00000614,U000152,P000048,S0041,4,751.59,3006.36,0.13,2615.53,2024-12-07,0,209 Gary Circle,West Timothybury,South Carolina,03537
+SALE00000615,U000068,P000003,S0011,-10,401.29,-4012.9,0.08,-3691.87,2024-09-22,completed,56128 Mark Extensions,Juliaburgh,Kentucky,08253
+SALE00000616,U000046,P000093,S0047,many,97.72,0.0,0.23,0.0,2025-01-28,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",38995
+SALE00000617,,,S0030,1,741.66,741.66,0.02,726.83,2024-10-12,completed,5339 Vanessa Drive Suite 944,Alejandroland,Oregon,52288
+SALE00000618,U000079,P000015,S0008,4,81.45,325.8,0.16,273.67,2026-08-09,cancelled,962 Timothy Isle,Mcdonaldstad,Nevada,13878
+SALE00000619,U000196,P000058,S0047,3,643.21,1929.63,-0.1,2122.59,2025-08-08,completed,267 Hull Walks Apt. 357,Allenfurt,Nebraska,49052
+SALE00000620,U000136,P000019,S0048,,,0.0,,0.0,,,,,,
+SALE00000621,U000158,P000054,S0045,-4,576.61,-2306.44,0.14,-1983.54,2024-10-09,completed,2448 Aaron Inlet Apt. 029,Sheilafort,Hawaii,23697
+SALE00000622,U000079,P000044,S0045,some,359.74,0.0,0.21,0.0,2025-07-25,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",83446
+SALE00000623,U000149,P000066,S0025,1,210.17,210.17,0.24,159.73,2026-03-25,completed,62689 James Forks,Lake Tammy,New York,72276
+SALE00000624,U000017,P000016,S0032,9,359.91,3239.19,0.01,3206.8,2024-11-26,processing,04940 Tyler Circles,Nicholasview,Utah,32285
+SALE00000625,U000116,P000046,S0040,10,141.48,1414.8,0.18,1160.14,2026-08-27,pending,240 Miguel Corners Apt. 282,New Michelle,Massachusetts,98675
+SALE00000626,U000082,P000097,S0010,few,121.31,0.0,0.25,0.0,2024-12-23,cancelled,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",18831
+SALE00000627,U000054,P000036,S0004,-6,597.12,-3582.72,0.0,-3582.72,2024-09-14,completed,964 Johnson Forest Apt. 293,South Timothy,Utah,97161
+SALE00000628,U000143,P000052,S0029,-8,387.42,-3099.36,0.22,-2417.5,2025-04-05,pending,0905 Melton Spurs Suite 907,Lake Angieville,Maryland,95759
+SALE00000629,U000071,P000096,S0037,5,500.55,2502.75,0.24,1902.09,2024-10-26,yes,482 Mendoza Stream,Ricardofurt,New York,56103
+SALE00000630,U000140,P000011,S0025,some,217.83,0.0,0.1,0.0,2025-01-05,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",69306
+SALE00000631,U000101,P000023,S0036,some,75.72,0.0,0.18,0.0,2025-03-30,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",05985
+SALE00000632,U000164,P000069,S0021,,,0.0,,0.0,,,,,,
+SALE00000633,U000123,P000074,S0023,9,460.95,4148.55,0.07,3858.15,2025-09-17,completed,84562 Manuel Vista,Johnnyberg,Virginia,55997
+SALE00000634,U000082,P000075,S0044,3,522.14,1566.42,-0.1,1723.06,2025-06-27,completed,329 Jason Glen,Franciston,New York,35635
+SALE00000635,U000028,P000098,S0034,9,959.48,8635.32,1.5,-4317.66,2025-07-06,completed,91361 Marissa Pine,Wagnerbury,Colorado,87281
+SALE00000636,U000090,P000007,S0036,-3,984.37,-2953.11,0.06,-2775.92,2024-10-16,completed,9564 Tate Motorway Suite 911,North Karen,Rhode Island,37015
+SALE00000637,,,S0020,7,461.59,3231.13,0.16,2714.15,2025-01-31,completed,1616 Watson Islands Suite 850,New Riley,Oregon,85347
+SALE00000638,U000013,P000038,S0020,5,413.21,2066.05,-0.1,2272.65,2025-01-13,completed,57678 Ashley Dam,Adrianberg,Iowa,68327
+SALE00000639,U000166,P000060,S0028,,,0.0,,0.0,,,,,,
+SALE00000640,U000056,P000019,S0002,-1,669.17,-669.17,0.2,-535.34,2024-12-23,completed,5584 Choi Plaza,Briantown,Illinois,41798
+SALE00000641,U000099,P000020,S0013,few,730.71,0.0,0.25,0.0,2024-12-15,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",96517
+SALE00000642,U000074,P000057,S0020,,,0.0,,0.0,,,,,,
+SALE00000643,U000065,P000032,S0021,-2,456.64,-913.28,0.05,-867.62,2025-07-23,completed,065 Larsen Spurs,Shawnberg,New Mexico,03134
+SALE00000644,,,S0018,6,847.14,5082.84,0.07,4727.04,2025-01-22,completed,3568 Collins Harbors Apt. 835,Tiffanyberg,Nevada,01366
+SALE00000645,U000144,P000085,S0045,10,548.9,5489.0,0.0,5489.0,2025-08-26,0,92331 Palmer Garden,East Raymondville,Pennsylvania,57224
+SALE00000646,,,S0012,10,478.48,4784.8,0.1,4306.32,2024-10-23,completed,763 Singh Parkways Suite 785,East Kathryn,Massachusetts,34430
+SALE00000647,,,S0002,7,309.78,2168.46,0.1,1951.61,2025-07-27,completed,03031 Richard Square Suite 576,Collinsport,Oregon,55040
+SALE00000648,U000147,P000014,S0025,6,902.7,5416.2,0.04,5199.55,2025-02-11,shipped,83607 Armstrong Bypass Apt. 792,Charlesland,New Jersey,82560
+SALE00000649,U000106,P000041,S0041,some,811.23,0.0,0.03,0.0,2025-09-04,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",96856
+SALE00000650,U000013,P000014,S0030,,,0.0,,0.0,,,,,,
+SALE00000651,U000166,P000079,S0039,8,363.88,2911.04,1.5,-1455.52,2024-10-11,completed,16028 Wood Station,Amyfurt,Florida,06501
+SALE00000652,U000043,P000098,S0029,,,0.0,,0.0,,,,,,
+SALE00000653,U000160,P000071,S0039,5,186.74,933.7,free,933.7,2025-04-12,completed,050 Cummings Rue,Curtisfort,Washington,39646
+SALE00000654,U000195,P000027,S0026,-9,105.22,-946.98,0.14,-814.4,2025-06-05,cancelled,8253 Hall Isle Apt. 619,East John,California,78929
+SALE00000655,,,S0044,2,891.04,1782.08,0.05,1692.98,2025-01-26,completed,27603 Johnson Walk Suite 777,New Jessicahaven,Massachusetts,49248
+SALE00000656,,,S0046,7,258.6,1810.2,0.09,1647.28,2025-02-23,pending,725 Crystal Shores,Stephanieshire,Missouri,22125
+SALE00000657,,,S0003,6,344.96,2069.76,0.14,1779.99,2024-10-24,completed,1608 King Curve,Jacquelineville,Kentucky,38754
+SALE00000658,U000167,P000002,S0023,,,0.0,,0.0,,,,,,
+SALE00000659,,,S0030,9,667.66,6008.94,0.24,4566.79,2025-03-15,completed,465 Weaver Island Apt. 621,Kellyborough,Minnesota,80325
+SALE00000660,U000012,P000042,S0033,some,140.82,0.0,0.11,0.0,2025-02-03,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",56814
+SALE00000661,U000196,P000082,S0027,-6,592.72,-3556.32,0.25,-2667.24,2025-04-17,completed,38974 Briggs Glens,Lake James,Hawaii,59899
+SALE00000662,U000037,P000025,S0033,7,784.73,5493.11,0.22,4284.63,2026-06-13,completed,3315 Lori Corners Apt. 493,North Kenneth,Rhode Island,92976
+SALE00000663,U000076,P000088,S0023,9,592.44,5331.96,0.23,4105.61,2025-12-23,completed,93995 Williams Harbors,Port Vanessaside,Ohio,73959
+SALE00000664,U000028,P000088,S0023,1,736.78,736.78,0.18,604.16,2025-12-24,completed,376 May Brook,Moraburgh,Maryland,99423
+SALE00000665,,,S0028,6,816.51,4899.06,0.17,4066.22,2024-10-26,completed,2634 Wallace Well Suite 158,Karenfurt,California,37910
+SALE00000666,,,S0046,10,928.42,9284.2,0.04,8912.83,2025-01-09,pending,09002 Johnson Extensions Apt. 724,Pricemouth,Indiana,38834
+SALE00000667,U000181,P000027,S0019,1,831.3,831.3,0.0,831.3,2026-05-24,completed,38191 Taylor Spurs,Port Angelaborough,Virginia,50860
+SALE00000668,U000001,P000036,S0020,many,50.41,0.0,0.05,0.0,2025-08-06,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",60939
+SALE00000669,U000104,P000099,S0043,9,382.13,3439.17,0.09,3129.64,2025-07-17,delivered,7353 David Square Apt. 610,West Dawn,Iowa,29647
+SALE00000670,U000104,P000024,S0045,6,622.1,3732.6,0.14,3210.04,2024-09-27,1,5109 Garcia Lodge Apt. 997,Myersland,Mississippi,42095
+SALE00000671,U000185,P000034,S0021,1,24.9,24.9,0.12,21.91,2026-01-22,cancelled,952 Matthew Springs Apt. 697,Traceyville,Kansas,49736
+SALE00000672,U000112,P000009,S0006,,,0.0,,0.0,,,,,,
+SALE00000673,U000040,P000071,S0002,,,0.0,,0.0,,,,,,
+SALE00000674,U000161,P000093,S0036,,,0.0,,0.0,,,,,,
+SALE00000675,,,S0003,10,775.17,7751.7,0.0,7751.7,2024-12-18,completed,8712 Munoz Highway,Michaelview,Utah,22618
+SALE00000676,U000001,P000083,S0010,1,733.98,733.98,0.19,594.52,2025-05-04,0,34662 Peggy Cove Apt. 715,South Jasonmouth,Idaho,26485
+SALE00000677,U000134,P000050,S0011,7,556.83,3897.81,0.23,3001.31,2025-12-22,completed,02096 Kaitlin Drives Apt. 792,Jonathanchester,Oregon,88259
+SALE00000678,U000076,P000027,S0047,10,298.93,2989.3,10%,2989.3,2024-11-18,completed,645 Freeman Ridges Suite 963,Millerchester,Iowa,16108
+SALE00000679,U000169,P000009,S0023,-1,481.04,-481.04,0.15,-408.88,2024-12-29,completed,1936 Clay Ville Apt. 935,South Michaelfurt,Kentucky,18047
+SALE00000680,U000078,P000081,S0003,few,650.66,0.0,0.18,0.0,2025-02-16,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",97925
+SALE00000681,U000163,P000079,S0010,5,18.33,91.65,0.03,88.9,2026-01-23,completed,733 Edwards Street Apt. 355,Haynesfurt,Ohio,17131
+SALE00000682,U000181,P000077,S0030,8,645.45,5163.6,10%,5163.6,2025-05-28,completed,84638 Powell Meadows,Port Michael,Kansas,88842
+SALE00000683,U000093,P000100,S0026,6,999.75,5998.5,0.18,4918.77,2026-04-30,completed,11914 Barber Park,Lehaven,Nebraska,07556
+SALE00000684,U000195,P000003,S0009,10,924.42,9244.2,0.14,7950.01,2024-09-28,1,04048 Daniel Extension Apt. 681,Hamiltonchester,Massachusetts,47551
+SALE00000685,U000167,P000026,S0013,some,371.94,0.0,0.11,0.0,2024-12-26,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",25892
+SALE00000686,U000025,P000091,S0016,7,890.06,6230.42,0.07,5794.29,2025-03-24,delivered,561 Lucas Locks Apt. 808,Williamschester,Arizona,55930
+SALE00000687,,,S0026,1,789.61,789.61,0.2,631.69,2025-04-20,cancelled,87925 Hurst Mission Suite 449,Lake Donaldborough,Alaska,56518
+SALE00000688,U000035,P000080,S0004,-2,116.94,-233.88,0.22,-182.43,2024-12-24,completed,1865 Kim Manor,East Jenniferchester,Nevada,35244
+SALE00000689,U000199,P000001,S0027,4,771.36,3085.44,0.24,2344.93,2026-04-15,completed,82882 Jennifer Spring Suite 545,Pamelaside,Missouri,54082
+SALE00000690,,,S0008,2,51.09,102.18,0.04,98.09,2024-11-20,cancelled,51637 Romero Stream Apt. 238,Silvamouth,Arizona,69448
+SALE00000691,U000006,P000016,S0015,-7,45.71,-319.97,0.2,-255.98,2025-04-17,completed,27376 Higgins Haven Apt. 297,Scottmouth,Georgia,51507
+SALE00000692,U000189,P000094,S0025,8,174.72,1397.76,free,1397.76,2024-12-17,completed,8225 Brown Junction Suite 351,Hillborough,Arizona,28005
+SALE00000693,U000152,P000051,S0033,,,0.0,,0.0,,,,,,
+SALE00000694,U000052,P000032,S0016,4,761.24,3044.96,0.03,2953.61,2026-06-10,completed,153 Sarah Villages,East Coltontown,Nebraska,74645
+SALE00000695,U000140,P000058,S0042,some,392.71,0.0,0.25,0.0,2024-10-04,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",94405
+SALE00000696,U000011,P000069,S0031,,,0.0,,0.0,,,,,,
+SALE00000697,U000112,P000100,S0032,-6,97.43,-584.58,0.13,-508.58,2025-09-03,completed,61224 Kayla Lodge Apt. 526,South Desireeview,Florida,77627
+SALE00000698,U000151,P000042,S0047,,,0.0,,0.0,,,,,,
+SALE00000699,U000033,P000096,S0039,-1,335.23,-335.23,0.05,-318.47,2025-04-04,pending,610 Norman Ferry Suite 533,Scottton,Oklahoma,80410
+SALE00000700,,,S0035,6,379.15,2274.9,0.11,2024.66,2025-04-06,completed,6044 Stevenson Throughway Suite 690,Lewisfort,Indiana,87771
+SALE00000701,,,S0050,9,256.59,2309.31,0.02,2263.12,2024-12-03,completed,981 Chambers Junction,East Melissa,Vermont,67024
+SALE00000702,U000159,P000068,S0046,many,575.47,0.0,0.01,0.0,2025-03-19,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",81282
+SALE00000703,U000081,P000062,S0029,-1,352.21,-352.21,0.12,-309.94,2025-03-25,completed,3842 Houston Squares,Whitebury,New Mexico,71133
+SALE00000704,,,S0042,8,728.13,5825.04,0.03,5650.29,2025-03-31,completed,20105 Lozano Drive Suite 233,Port Robert,New Jersey,37660
+SALE00000705,U000123,P000027,S0010,4,117.39,469.56,0.1,422.6,2025-02-10,delivered,730 Kevin Walk,East Lynnfurt,Pennsylvania,36045
+SALE00000706,U000131,P000084,S0002,-7,594.87,-4164.09,0.07,-3872.6,2025-04-14,completed,97676 Deborah Freeway,Rogerton,Virginia,88192
+SALE00000707,U000084,P000099,S0048,,,0.0,,0.0,,,,,,
+SALE00000708,,,S0011,8,176.4,1411.2,0.21,1114.85,2024-09-22,completed,8556 Morrison Parkways Apt. 951,North Kimberly,Arkansas,05923
+SALE00000709,,,S0006,8,656.22,5249.76,0.03,5092.27,2025-02-03,completed,756 Carrillo Courts Suite 799,East Heidi,Pennsylvania,30905
+SALE00000710,U000199,P000017,S0034,4,836.82,3347.28,1.5,-1673.64,2025-07-26,completed,376 Green Street Apt. 520,East Justin,Iowa,33984
+SALE00000711,U000162,P000028,S0007,-1,152.61,-152.61,0.08,-140.4,2025-03-11,cancelled,17266 Latasha Lane Suite 201,New Nicholasfurt,California,64311
+SALE00000712,U000081,P000025,S0022,,,0.0,,0.0,,,,,,
+SALE00000713,U000062,P000076,S0041,many,409.92,0.0,0.01,0.0,2025-05-29,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",67698
+SALE00000714,U000009,P000033,S0014,,,0.0,,0.0,,,,,,
+SALE00000715,U000197,P000052,S0020,9,254.47,2290.23,0.02,2244.43,2026-05-07,completed,139 Smith Trace Apt. 485,Knoxfort,Arizona,88928
+SALE00000716,,,S0014,6,409.32,2455.92,0.22,1915.62,2024-11-15,completed,632 Steve Oval,West Alyssaburgh,Washington,70931
+SALE00000717,U000030,P000039,S0009,-8,427.59,-3420.72,0.03,-3318.1,2025-04-22,completed,463 Watson Inlet,North Kelly,Kansas,56178
+SALE00000718,U000037,P000038,S0005,3,846.28,2538.84,0.18,2081.85,2025-12-05,completed,4609 Mayo Rue,New Cody,New York,13943
+SALE00000719,U000100,P000035,S0021,some,229.89,0.0,0.13,0.0,2025-08-08,cancelled,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",24442
+SALE00000720,U000017,P000028,S0044,5,374.25,1871.25,0.18,1534.43,2025-10-06,completed,58281 Angela Orchard Suite 062,Sarahside,Mississippi,95361
+SALE00000721,U000179,P000071,S0014,,,0.0,,0.0,,,,,,
+SALE00000722,,,S0037,9,722.24,6500.16,0.15,5525.14,2024-11-17,cancelled,41592 Klein Square,Port Georgechester,Mississippi,24183
+SALE00000723,U000053,P000078,S0035,6,174.62,1047.72,1.5,-523.86,2024-10-31,completed,5293 Jane Plaza,Teresafurt,Illinois,35036
+SALE00000724,U000039,P000063,S0035,-5,688.77,-3443.85,0.06,-3237.22,2025-04-24,completed,530 Johnson Mall,Collinsstad,New Mexico,20143
+SALE00000725,U000193,P000063,S0031,4,333.93,1335.72,0.09,1215.51,2025-09-16,completed,7742 Johnston Creek,Fryville,Colorado,48033
+SALE00000726,U000184,P000067,S0029,9,34.2,307.8,10%,307.8,2025-06-18,completed,9151 Smith Points Apt. 938,Lake Kimberlychester,Montana,35673
+SALE00000727,U000009,P000085,S0020,9,949.62,8546.58,0.05,8119.25,2025-01-13,processing,61214 Elizabeth Mission,Andrewmouth,Arizona,59643
+SALE00000728,U000022,P000016,S0014,6,203.17,1219.02,0.2,975.22,2024-12-02,0,94963 Elizabeth Turnpike,New William,Oklahoma,56295
+SALE00000729,U000059,P000092,S0004,9,507.74,4569.66,free,4569.66,2025-05-19,completed,5062 Jessica Stream,Keithberg,New York,10653
+SALE00000730,,,S0006,4,874.79,3499.16,0.08,3219.23,2024-11-12,completed,83962 Rice Union Apt. 674,Atkinsonview,Indiana,69136
+SALE00000731,U000151,P000069,S0041,2,951.15,1902.3,free,1902.3,2025-05-06,completed,37701 Smith Canyon,Johnsonfort,Ohio,65965
+SALE00000732,U000103,P000028,S0034,,,0.0,,0.0,,,,,,
+SALE00000733,U000125,P000096,S0005,8,881.38,7051.04,0.22,5499.81,2025-07-04,shipped,329 Lewis Fords,East Alyssa,Oklahoma,55271
+SALE00000734,U000149,P000044,S0032,1,249.37,249.37,10%,249.37,2025-07-20,completed,6035 Church Mills,Michaelview,Missouri,12660
+SALE00000735,U000182,P000097,S0022,,,0.0,,0.0,,,,,,
+SALE00000736,U000053,P000086,S0009,-4,294.03,-1176.12,0.17,-976.18,2025-03-22,completed,63363 Howard Unions,Lake Christina,Utah,42987
+SALE00000737,U000145,P000097,S0012,many,571.1,0.0,0.12,0.0,2024-10-05,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",81930
+SALE00000738,U000023,P000006,S0035,8,650.12,5200.96,0.09,4732.87,2025-09-07,yes,23975 Arroyo Harbors,Johnsonville,Alabama,86272
+SALE00000739,U000064,P000087,S0014,-1,888.91,-888.91,0.1,-800.02,2024-10-10,completed,73159 David Views,Port Jessicaland,New Hampshire,70751
+SALE00000740,U000104,P000040,S0014,-10,109.38,-1093.8,0.17,-907.85,2024-10-06,completed,93048 Joel Lakes,Lake Arthur,Wisconsin,33961
+SALE00000741,U000179,P000093,S0005,-10,509.04,-5090.4,0.08,-4683.17,2024-12-22,completed,4060 Day Stravenue Apt. 328,Stephenland,West Virginia,72495
+SALE00000742,U000163,P000064,S0019,8,215.9,1727.2,0.08,1589.02,2026-05-01,cancelled,118 Carter Tunnel Suite 110,Cooperland,Texas,02134
+SALE00000743,,,S0034,5,355.1,1775.5,0.07,1651.21,2025-07-01,completed,450 Colleen Unions,Tiffanyhaven,Iowa,53941
+SALE00000744,U000098,P000094,S0004,-9,517.18,-4654.62,0.05,-4421.89,2025-02-14,cancelled,4487 Brittany Ford,Lopezhaven,Delaware,20728
+SALE00000745,U000098,P000061,S0019,1,399.8,399.8,0.23,307.85,2025-11-26,completed,8285 Wilson Light,Katherinehaven,Florida,99267
+SALE00000746,U000023,P000046,S0029,7,347.79,2434.53,0.16,2045.01,2025-10-03,completed,666 Matthew Isle Apt. 205,South Peter,Nevada,10622
+SALE00000747,U000030,P000057,S0039,2,44.25,88.5,0.16,74.34,2024-12-14,no,7442 Bradley Neck,Mossshire,Utah,98735
+SALE00000748,U000135,P000045,S0043,many,10.17,0.0,0.04,0.0,2025-02-24,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",55373
+SALE00000749,U000093,P000044,S0046,,,0.0,,0.0,,,,,,
+SALE00000750,,,S0008,10,536.39,5363.9,0.19,4344.76,2025-09-05,pending,375 Jay Creek,West Dorothyfurt,Missouri,49466
+SALE00000751,U000131,P000005,S0003,,,0.0,,0.0,,,,,,
+SALE00000752,U000094,P000041,S0044,,,0.0,,0.0,,,,,,
+SALE00000753,U000118,P000040,S0011,-2,954.5,-1909.0,0.19,-1546.29,2025-05-28,completed,267 Diana Manor,Port Christopherfort,Louisiana,42109
+SALE00000754,U000011,P000043,S0026,7,670.34,4692.38,1.5,-2346.19,2025-03-27,pending,4149 Lisa Hills,Kingborough,New York,38773
+SALE00000755,,,S0001,7,343.76,2406.32,0.21,1900.99,2025-06-05,completed,536 Morrow Cape,Port Sophia,Missouri,64153
+SALE00000756,U000099,P000040,S0016,8,747.88,5983.04,0.13,5205.24,2025-11-24,completed,0732 Klein Skyway,South Charlestown,Mississippi,57662
+SALE00000757,U000132,P000074,S0041,3,31.45,94.35,0.07,87.75,2026-03-29,completed,1246 Santiago Causeway Apt. 360,Jacksonstad,Missouri,86928
+SALE00000758,U000100,P000062,S0031,-3,159.8,-479.4,0.17,-397.9,2025-01-17,completed,547 Donovan Village Suite 394,North Samantha,New Hampshire,31127
+SALE00000759,U000183,P000040,S0015,9,755.64,6800.76,0.11,6052.68,2025-12-22,completed,3550 Wallace Port,Sullivanton,Maine,46080
+SALE00000760,U000008,P000065,S0023,6,293.79,1762.74,0.07,1639.35,2026-04-23,completed,9610 Lewis Flats Apt. 482,Mendezburgh,Tennessee,35483
+SALE00000761,U000095,P000025,S0050,-1,658.92,-658.92,0.16,-553.49,2025-03-25,completed,29341 Davidson Mews,Andreaside,Missouri,39295
+SALE00000762,U000170,P000073,S0047,few,92.63,0.0,0.08,0.0,2024-11-21,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",82039
+SALE00000763,U000144,P000051,S0045,4,61.86,247.44,0.17,205.38,2025-07-09,processing,5966 Baker Path Apt. 949,Moodyborough,Texas,98238
+SALE00000764,U000017,P000042,S0008,,,0.0,,0.0,,,,,,
+SALE00000765,U000102,P000029,S0018,6,89.77,538.62,0.07,500.92,2026-06-19,completed,124 Victoria Villages Apt. 069,Lake Sarabury,Michigan,11514
+SALE00000766,U000070,P000031,S0011,,,0.0,,0.0,,,,,,
+SALE00000767,U000180,P000072,S0004,,,0.0,,0.0,,,,,,
+SALE00000768,U000072,P000061,S0007,-2,990.22,-1980.44,0.2,-1584.35,2025-03-19,completed,76236 Macdonald Circle,Lake Brittany,Florida,81851
+SALE00000769,U000153,P000099,S0038,,,0.0,,0.0,,,,,,
+SALE00000770,U000098,P000036,S0041,-9,501.15,-4510.35,0.06,-4239.73,2024-11-23,cancelled,86613 Madison Valleys,South Kenneth,Maine,18119
+SALE00000771,U000062,P000063,S0005,many,555.65,0.0,0.09,0.0,2024-10-22,cancelled,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",96161
+SALE00000772,U000047,P000046,S0015,7,16.37,114.59,10%,114.59,2024-10-09,completed,87901 Fox Walk Suite 779,Jefferyfort,Colorado,46719
+SALE00000773,U000079,P000093,S0044,-2,888.56,-1777.12,0.05,-1688.26,2025-08-29,pending,86052 Thompson Branch Suite 511,South Jeffreyburgh,Rhode Island,64109
+SALE00000774,U000136,P000082,S0007,2,539.04,1078.08,0.01,1067.3,2024-11-05,shipped,0771 Ellen Mews Apt. 970,New Maryborough,Arkansas,56011
+SALE00000775,U000078,P000024,S0010,-2,732.6,-1465.2,0.22,-1142.86,2025-07-15,completed,525 Michelle Oval,Ricardoside,Delaware,09669
+SALE00000776,,,S0010,4,290.46,1161.84,0.07,1080.51,2024-10-23,completed,247 Lee Extensions Suite 476,Jenkinshaven,Connecticut,20104
+SALE00000777,U000094,P000072,S0011,-8,287.42,-2299.36,0.14,-1977.45,2025-04-17,completed,306 Klein Mountain,West Jimmy,Kansas,52135
+SALE00000778,U000139,P000085,S0041,5,164.58,822.9,0.24,625.4,2025-09-15,pending,1880 Wilson Freeway Apt. 451,Joshuaberg,Nevada,23440
+SALE00000779,U000045,P000082,S0019,4,733.85,2935.4,0.17,2436.38,2026-04-16,completed,3609 Brittany Rest Apt. 269,Gainestown,Rhode Island,89420
+SALE00000780,,,S0045,2,926.19,1852.38,0.03,1796.81,2025-03-28,completed,42694 Jason Islands Apt. 310,Millerburgh,Louisiana,57276
+SALE00000781,U000046,P000029,S0007,8,687.73,5501.84,0.04,5281.77,2026-06-14,pending,3975 Stanton Ford Apt. 573,Shieldsland,North Dakota,12026
+SALE00000782,U000112,P000010,S0025,2,645.19,1290.38,0.2,1032.3,2026-06-14,completed,83928 Patterson Ports Apt. 512,South Michaelfort,New Hampshire,90455
+SALE00000783,,,S0036,1,487.84,487.84,0.09,443.93,2025-02-14,completed,3739 Timothy Creek Apt. 598,Beckburgh,Massachusetts,58474
+SALE00000784,U000116,P000011,S0010,8,915.53,7324.24,0.22,5712.91,2026-03-23,completed,7302 Mathews Pines Suite 973,Margaretmouth,Texas,45090
+SALE00000785,U000120,P000058,S0045,some,52.58,0.0,0.05,0.0,2025-09-06,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",38196
+SALE00000786,U000146,P000074,S0044,-5,250.73,-1253.65,0.22,-977.85,2025-05-30,completed,58052 Perez Valley Apt. 507,Port Gwendolynborough,Kansas,54777
+SALE00000787,U000173,P000014,S0008,6,90.21,541.26,0.04,519.61,2024-11-13,1,543 Michael Inlet Apt. 166,Hubbardview,Vermont,69843
+SALE00000788,U000106,P000015,S0022,,,0.0,,0.0,,,,,,
+SALE00000789,U000116,P000078,S0003,,,0.0,,0.0,,,,,,
+SALE00000790,U000135,P000010,S0035,-2,679.55,-1359.1,0.18,-1114.46,2025-06-23,completed,00249 Joseph Forks Apt. 271,Port Christopher,Illinois,01587
+SALE00000791,U000004,P000074,S0049,7,480.7,3364.9,0.24,2557.32,2024-12-01,1,88361 Townsend Passage Suite 847,Oliverburgh,California,64580
+SALE00000792,U000185,P000023,S0018,1,147.91,147.91,0.15,125.72,2025-01-12,shipped,636 Pearson Extension,Stephensonshire,Texas,55381
+SALE00000793,U000085,P000077,S0012,1,999.39,999.39,1.5,-499.69,2024-09-30,completed,58931 Joseph Haven Suite 023,Peggyfurt,Missouri,75860
+SALE00000794,,,S0018,8,947.76,7582.08,0.21,5989.84,2025-07-23,completed,1939 Harrison Cliff Suite 438,Thomasville,Virginia,96523
+SALE00000795,U000025,P000095,S0036,10,899.48,8994.8,0.24,6836.05,2026-06-07,completed,75086 Knox Isle Apt. 379,East Sarah,New Mexico,46281
+SALE00000796,U000103,P000036,S0002,9,764.72,6882.48,1.5,-3441.24,2025-02-26,completed,7891 Beard Dale,Barnesmouth,Illinois,72059
+SALE00000797,U000050,P000061,S0007,6,973.93,5843.58,free,5843.58,2025-08-02,completed,78753 Thomas Rapids Apt. 872,Adrianshire,Mississippi,75314
+SALE00000798,U000144,P000034,S0012,3,195.82,587.46,-0.1,646.21,2025-05-05,completed,967 Matthew Wall,Perryside,Minnesota,18059
+SALE00000799,U000144,P000049,S0021,-4,497.69,-1990.76,0.24,-1512.98,2024-12-06,completed,46039 Stephanie Street Apt. 764,Kirbyhaven,Kansas,82270
+SALE00000800,U000110,P000051,S0005,many,557.77,0.0,0.05,0.0,2025-07-29,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",12147
+SALE00000801,U000004,P000055,S0016,1,747.03,747.03,-0.1,821.73,2025-04-07,completed,1528 Crystal Common Apt. 669,Jacobshire,South Carolina,44642
+SALE00000802,U000120,P000054,S0015,-5,427.37,-2136.85,0.02,-2094.11,2025-04-15,completed,755 Shelly Ports Suite 052,North Christian,Maryland,67758
+SALE00000803,U000037,P000049,S0013,8,667.02,5336.16,0.15,4535.74,2026-04-16,pending,7121 Ann Meadows Apt. 640,East Katherine,Maine,45017
+SALE00000804,U000105,P000086,S0038,some,312.23,0.0,0.2,0.0,2025-08-11,cancelled,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",53032
+SALE00000805,U000110,P000006,S0031,,,0.0,,0.0,,,,,,
+SALE00000806,U000101,P000008,S0032,,,0.0,,0.0,,,,,,
+SALE00000807,U000108,P000028,S0018,-7,227.17,-1590.19,0.06,-1494.78,2025-05-25,completed,01239 Alexander Way Apt. 872,Michaelmouth,North Carolina,36138
+SALE00000808,U000080,P000086,S0007,,,0.0,,0.0,,,,,,
+SALE00000809,U000086,P000015,S0042,few,367.59,0.0,0.15,0.0,2025-03-03,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",56079
+SALE00000810,U000078,P000093,S0019,10,241.15,2411.5,0.16,2025.66,2025-03-07,shipped,2975 Gutierrez Wall,Port Rebecca,South Dakota,06637
+SALE00000811,,,S0010,3,668.44,2005.32,0.07,1864.95,2024-10-29,completed,909 Diana Stravenue Suite 443,East Toddbury,Iowa,07473
+SALE00000812,,,S0030,1,642.32,642.32,0.22,501.01,2024-11-06,completed,464 Jenna Mountains,Port Arianaton,New York,06444
+SALE00000813,,,S0034,2,248.42,496.84,0.24,377.6,2025-01-29,pending,165 King Plains,North Taylorfurt,Idaho,32776
+SALE00000814,U000142,P000033,S0035,,,0.0,,0.0,,,,,,
+SALE00000815,U000031,P000041,S0039,-5,497.43,-2487.15,0.14,-2138.95,2025-02-25,completed,004 Ashley Harbor,Salasville,Pennsylvania,04977
+SALE00000816,U000014,P000052,S0023,9,480.9,4328.1,0.24,3289.36,2026-01-31,completed,6435 Kathleen Terrace,East Shaunbury,Illinois,16816
+SALE00000817,,,S0012,10,762.27,7622.7,0.18,6250.61,2025-05-01,completed,7351 Watts Ports Suite 532,East Dana,Nevada,58473
+SALE00000818,U000148,P000097,S0038,9,777.47,6997.23,0.03,6787.31,2024-11-27,processing,292 Jimmy Lakes,Livingstontown,Missouri,85829
+SALE00000819,U000166,P000071,S0044,5,97.02,485.1,10%,485.1,2025-01-05,completed,71072 Keith Bypass,Morenoborough,Utah,14257
+SALE00000820,U000147,P000042,S0021,,,0.0,,0.0,,,,,,
+SALE00000821,U000123,P000048,S0008,,,0.0,,0.0,,,,,,
+SALE00000822,U000145,P000047,S0019,5,244.44,1222.2,0.14,1051.09,2024-10-05,delivered,305 Torres Crossing,Michaelbury,Vermont,71164
+SALE00000823,U000166,P000093,S0005,3,468.58,1405.74,1.5,-702.87,2025-05-27,completed,98586 Andrea Islands Apt. 165,Oscarland,Ohio,53528
+SALE00000824,U000175,P000044,S0006,7,312.06,2184.42,free,2184.42,2025-02-12,completed,97683 Jillian Walks,Hallberg,Missouri,68269
+SALE00000825,U000184,P000100,S0043,,,0.0,,0.0,,,,,,
+SALE00000826,U000155,P000081,S0019,3,617.36,1852.08,0.11,1648.35,2025-12-17,completed,184 Matthew Row,Wilsonfurt,Wisconsin,03936
+SALE00000827,U000105,P000025,S0014,-10,831.07,-8310.7,0.2,-6648.56,2025-03-04,pending,5999 Patricia Ways Apt. 448,Martinfurt,Maryland,14532
+SALE00000828,U000061,P000052,S0013,,,0.0,,0.0,,,,,,
+SALE00000829,U000002,P000072,S0023,some,21.63,0.0,0.12,0.0,2024-11-10,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",62092
+SALE00000830,,,S0042,1,308.43,308.43,0.05,293.01,2025-05-04,completed,272 Jones Streets,Castroview,Washington,24486
+SALE00000831,U000005,P000052,S0016,many,25.01,0.0,0.19,0.0,2025-08-24,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",44314
+SALE00000832,U000116,P000096,S0008,7,43.08,301.56,-0.1,331.72,2025-05-03,cancelled,3196 Sara Islands,North Kristenfurt,West Virginia,45763
+SALE00000833,U000007,P000021,S0023,some,989.72,0.0,0.04,0.0,2024-11-27,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",35897
+SALE00000834,U000190,P000041,S0035,-8,733.8,-5870.4,0.06,-5518.18,2024-11-28,completed,2051 Wheeler Squares,Grahammouth,Arkansas,72180
+SALE00000835,U000191,P000087,S0001,5,569.76,2848.8,free,2848.8,2025-07-24,cancelled,17969 Cline Mission,Victoriastad,Nevada,05969
+SALE00000836,U000046,P000038,S0006,6,436.23,2617.38,10%,2617.38,2025-03-09,completed,558 Randy Road Apt. 001,Philiptown,New Jersey,60619
+SALE00000837,U000153,P000084,S0004,2,720.8,1441.6,0.05,1369.52,2026-08-20,completed,3142 Romero Freeway Suite 990,Port Selena,Wyoming,47804
+SALE00000838,U000120,P000099,S0022,,,0.0,,0.0,,,,,,
+SALE00000839,U000178,P000034,S0005,4,120.13,480.52,0.19,389.22,2026-09-05,completed,4977 Young Glen,New Christopherbury,North Carolina,22164
+SALE00000840,U000187,P000020,S0004,-10,979.43,-9794.3,0.17,-8129.27,2025-07-08,completed,13233 Susan Wall Suite 486,Davidmouth,Vermont,02616
+SALE00000841,U000169,P000064,S0010,7,223.15,1562.05,1.5,-781.02,2025-02-10,pending,428 Stark Island Suite 986,West Adamville,Tennessee,50475
+SALE00000842,U000177,P000020,S0007,1,761.52,761.52,0.07,708.21,2026-03-08,completed,48989 Hannah Hill Apt. 428,South Brendaton,Missouri,44841
+SALE00000843,U000200,P000099,S0021,6,584.45,3506.7,free,3506.7,2025-04-02,completed,221 Foster Village,New Brandonview,Minnesota,65904
+SALE00000844,U000114,P000028,S0011,,,0.0,,0.0,,,,,,
+SALE00000845,U000187,P000074,S0021,1,644.82,644.82,0.16,541.65,2025-03-29,0,1503 Lopez Wells Suite 226,West Timothytown,Montana,83468
+SALE00000846,U000027,P000063,S0020,many,528.27,0.0,0.18,0.0,2025-01-08,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",29019
+SALE00000847,U000049,P000031,S0036,-9,448.3,-4034.7,0.01,-3994.35,2024-10-20,completed,19563 Simpson Prairie,North Laurenton,Missouri,80007
+SALE00000848,,,S0042,8,524.55,4196.4,0.06,3944.62,2025-07-16,cancelled,2401 Joseph Isle Suite 975,Port Erictown,North Carolina,92797
+SALE00000849,U000195,P000005,S0041,,,0.0,,0.0,,,,,,
+SALE00000850,U000135,P000072,S0011,-10,586.4,-5864.0,0.07,-5453.52,2024-09-10,completed,72337 Kimberly Parks Apt. 302,Annetteton,Rhode Island,61737
+SALE00000851,U000001,P000066,S0040,,,0.0,,0.0,,,,,,
+SALE00000852,U000096,P000039,S0032,some,280.09,0.0,0.22,0.0,2025-02-23,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",29427
+SALE00000853,U000091,P000044,S0008,,,0.0,,0.0,,,,,,
+SALE00000854,U000120,P000068,S0035,,,0.0,,0.0,,,,,,
+SALE00000855,,,S0020,4,936.2,3744.8,0.19,3033.29,2025-02-24,completed,41903 Davis Trail Apt. 680,West Tracy,South Carolina,40905
+SALE00000856,U000048,P000021,S0001,few,340.27,0.0,0.18,0.0,2025-01-29,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",41112
+SALE00000857,U000089,P000057,S0041,many,248.5,0.0,0.08,0.0,2024-11-17,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",90878
+SALE00000858,U000198,P000052,S0027,many,789.11,0.0,0.06,0.0,2024-11-12,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",79043
+SALE00000859,U000048,P000034,S0037,,,0.0,,0.0,,,,,,
+SALE00000860,U000175,P000007,S0031,6,775.39,4652.34,1.5,-2326.17,2025-05-24,completed,26202 Bird Camp Apt. 095,East Destinyside,California,75751
+SALE00000861,U000087,P000020,S0046,,,0.0,,0.0,,,,,,
+SALE00000862,U000176,P000076,S0039,,,0.0,,0.0,,,,,,
+SALE00000863,U000159,P000055,S0008,6,208.41,1250.46,0.08,1150.42,2025-03-21,1,946 Downs Fields Apt. 161,Johnsonview,North Carolina,40288
+SALE00000864,U000103,P000048,S0038,,,0.0,,0.0,,,,,,
+SALE00000865,U000186,P000087,S0010,3,773.96,2321.88,0.1,2089.69,2025-09-26,completed,0095 Turner Trail,Michaelmouth,Georgia,72759
+SALE00000866,U000022,P000056,S0044,-5,660.49,-3302.45,0.05,-3137.33,2025-06-21,completed,275 Sosa Via,Landryport,Idaho,80026
+SALE00000867,U000142,P000060,S0048,7,349.42,2445.94,free,2445.94,2025-06-16,completed,33624 Mccall Garden Apt. 126,South Danielfort,Ohio,10129
+SALE00000868,U000016,P000035,S0001,9,452.84,4075.56,free,4075.56,2024-11-11,completed,8362 Cynthia Avenue Apt. 423,Chaveztown,Arizona,15238
+SALE00000869,U000017,P000098,S0038,,,0.0,,0.0,,,,,,
+SALE00000870,U000198,P000002,S0031,9,731.85,6586.65,10%,6586.65,2024-09-21,completed,887 Delacruz Causeway Suite 034,Riveratown,Connecticut,18591
+SALE00000871,,,S0041,7,40.87,286.09,0.08,263.2,2024-12-20,pending,043 Smith Ville,North Amanda,Connecticut,01222
+SALE00000872,U000096,P000075,S0044,4,930.94,3723.76,0.06,3500.33,2025-02-03,yes,4594 Hensley Extension Suite 259,North Kathy,Alabama,84582
+SALE00000873,U000001,P000038,S0029,9,366.4,3297.6,0.24,2506.18,2026-04-19,completed,4263 Thomas Bridge Suite 589,East Jon,Washington,40982
+SALE00000874,U000145,P000057,S0045,many,879.48,0.0,0.0,0.0,2025-04-15,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",61346
+SALE00000875,U000004,P000060,S0034,3,628.5,1885.5,0.22,1470.69,2025-06-26,0,653 Howell Drive,Longside,New Jersey,67417
+SALE00000876,U000167,P000021,S0006,many,709.72,0.0,0.24,0.0,2025-04-14,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",38368
+SALE00000877,,,S0034,4,13.73,54.92,0.06,51.62,2024-10-11,pending,078 Costa Station Apt. 118,New Destinyland,Delaware,26599
+SALE00000878,U000069,P000093,S0032,,,0.0,,0.0,,,,,,
+SALE00000879,U000052,P000096,S0046,,,0.0,,0.0,,,,,,
+SALE00000880,U000147,P000046,S0036,-10,237.03,-2370.3,0.21,-1872.54,2024-11-27,completed,79074 Jonathan Ferry Suite 559,Burnsville,California,42257
+SALE00000881,U000184,P000061,S0024,,,0.0,,0.0,,,,,,
+SALE00000882,,,S0040,10,788.29,7882.9,0.2,6306.32,2024-09-07,completed,92041 Thomas Alley,New Heather,New Jersey,75137
+SALE00000883,U000109,P000002,S0020,9,552.9,4976.1,0.16,4179.92,2024-11-03,processing,27187 Ashley Junctions,New Chris,Kentucky,26018
+SALE00000884,,,S0024,5,966.17,4830.85,0.09,4396.07,2025-08-25,completed,938 Stone Ferry,Jacksonland,Hawaii,26278
+SALE00000885,U000169,P000015,S0012,some,392.34,0.0,0.07,0.0,2024-12-11,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",61645
+SALE00000886,U000011,P000033,S0035,3,626.3,1878.9,0.08,1728.59,2026-03-30,completed,3369 Edward Junction Suite 481,Brendahaven,South Carolina,66045
+SALE00000887,U000093,P000034,S0005,8,468.62,3748.96,0.25,2811.72,2025-02-13,0,9459 Jon Alley,New Pamelamouth,Alaska,53664
+SALE00000888,U000033,P000005,S0002,3,34.0,102.0,0.09,92.82,2025-07-01,1,44782 Justin Ways Apt. 924,Michelleport,Georgia,64857
+SALE00000889,U000120,P000074,S0003,some,473.84,0.0,0.21,0.0,2025-03-17,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",25578
+SALE00000890,U000180,P000018,S0008,9,14.94,134.46,1.5,-67.23,2025-08-23,cancelled,47256 Cesar Brook Suite 199,North Anthony,South Carolina,97593
+SALE00000891,,,S0002,5,953.46,4767.3,0.18,3909.19,2025-03-31,completed,335 Coleman Oval Apt. 079,Lake Dianeland,South Carolina,03057
+SALE00000892,U000056,P000073,S0028,,,0.0,,0.0,,,,,,
+SALE00000893,U000111,P000065,S0027,7,328.84,2301.88,0.04,2209.8,2025-01-19,no,13609 Jerry Squares,Smithmouth,Washington,53817
+SALE00000894,U000089,P000051,S0010,9,25.68,231.12,0.09,210.32,2024-09-27,delivered,261 Emily Motorway Suite 145,Annchester,Maine,33260
+SALE00000895,U000079,P000032,S0049,2,187.01,374.02,free,374.02,2024-11-25,completed,142 Lisa Overpass Suite 836,Ortegaburgh,Pennsylvania,79109
+SALE00000896,U000014,P000031,S0008,few,505.07,0.0,0.23,0.0,2025-06-01,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",64630
+SALE00000897,U000072,P000047,S0046,4,708.54,2834.16,0.19,2295.67,2024-09-07,0,46211 Cynthia Square Suite 766,West Markside,Delaware,14001
+SALE00000898,U000184,P000088,S0014,10,497.17,4971.7,0.05,4723.11,2026-03-08,cancelled,5059 Kristin Village Apt. 667,Jamesborough,South Carolina,29302
+SALE00000899,U000122,P000086,S0021,,,0.0,,0.0,,,,,,
+SALE00000900,,,S0050,2,56.95,113.9,0.19,92.26,2024-09-29,completed,81010 Frank Way Apt. 125,East Alan,Alabama,38616
+SALE00000901,U000066,P000003,S0047,many,207.37,0.0,0.01,0.0,2025-07-05,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",78271
+SALE00000902,U000154,P000049,S0044,,,0.0,,0.0,,,,,,
+SALE00000903,U000121,P000040,S0038,5,83.6,418.0,0.23,321.86,2026-06-01,completed,29549 Tanner Row,South Rachelchester,Mississippi,82475
+SALE00000904,U000179,P000075,S0021,many,79.49,0.0,0.15,0.0,2024-11-30,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",85493
+SALE00000905,U000071,P000048,S0007,-6,332.76,-1996.56,0.03,-1936.66,2025-05-20,completed,6633 Valerie Oval,West Tammyview,Arizona,38089
+SALE00000906,U000017,P000077,S0018,-7,261.8,-1832.6,0.06,-1722.64,2025-08-06,pending,7550 Powers Ferry,West Andreaside,Oklahoma,73604
+SALE00000907,U000079,P000087,S0036,8,457.03,3656.24,0.09,3327.18,2026-03-17,completed,7639 Hernandez Mall Suite 590,Chadberg,South Dakota,75941
+SALE00000908,U000139,P000042,S0009,,,0.0,,0.0,,,,,,
+SALE00000909,U000044,P000039,S0004,3,297.7,893.1,0.11,794.86,2024-11-23,delivered,514 Jessica Crossroad Suite 922,Robertshire,Louisiana,41018
+SALE00000910,,,S0035,7,926.69,6486.83,0.21,5124.6,2025-02-15,completed,039 Lee Stream,Baxterland,Rhode Island,71152
+SALE00000911,U000080,P000066,S0041,3,144.41,433.23,0.07,402.9,2024-12-28,1,55735 Eric Port Apt. 532,Nancyville,Kentucky,89552
+SALE00000912,,,S0041,2,207.82,415.64,0.2,332.51,2024-09-26,completed,6628 Melissa Underpass,Lake Jeffrey,Oklahoma,41851
+SALE00000913,U000116,P000053,S0026,8,143.43,1147.44,0.13,998.27,2025-11-09,completed,27197 Crystal Ranch,Port Patricia,Tennessee,53797
+SALE00000914,,,S0040,3,421.59,1264.77,0.09,1150.94,2024-11-19,completed,7887 Perez Mall Apt. 573,New Karen,Kansas,49800
+SALE00000915,U000124,P000059,S0043,,,0.0,,0.0,,,,,,
+SALE00000916,U000174,P000063,S0002,8,390.41,3123.28,free,3123.28,2025-08-28,completed,048 Andrews Court,Mayhaven,Arkansas,45305
+SALE00000917,U000179,P000024,S0037,-6,421.52,-2529.12,0.01,-2503.83,2025-04-17,completed,62595 Brandon Tunnel,Lake Davidtown,South Carolina,26439
+SALE00000918,U000187,P000071,S0040,few,889.85,0.0,0.16,0.0,2025-03-10,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",86091
+SALE00000919,U000094,P000074,S0006,3,280.02,840.06,free,840.06,2025-06-18,completed,307 Meyers Streets Suite 341,East Jessicaburgh,Nebraska,34686
+SALE00000920,U000070,P000061,S0017,many,31.28,0.0,0.18,0.0,2024-09-10,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",95308
+SALE00000921,,,S0044,4,319.65,1278.6,0.2,1022.88,2025-01-04,pending,7417 Rangel View,Port Jacob,North Dakota,08310
+SALE00000922,U000167,P000100,S0003,1,292.37,292.37,0.24,222.2,2025-12-03,completed,054 Ernest View Apt. 544,West Thomas,New Jersey,41684
+SALE00000923,,,S0001,8,112.99,903.92,0.1,813.53,2025-06-25,pending,4038 Smith Forks Suite 070,Donnaport,North Dakota,92433
+SALE00000924,,,S0003,1,150.0,150.0,0.2,120.0,2024-09-10,completed,50953 Michelle Summit,Phillipsburgh,Vermont,60748
+SALE00000925,U000006,P000028,S0050,some,732.82,0.0,0.2,0.0,2025-06-15,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",44470
+SALE00000926,U000174,P000003,S0045,1,76.3,76.3,1.5,-38.15,2024-12-05,completed,0355 Matthew Mountains,Andreafurt,New Hampshire,99495
+SALE00000927,U000146,P000043,S0007,some,274.4,0.0,0.0,0.0,2025-06-03,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",67236
+SALE00000928,U000043,P000018,S0010,-8,610.23,-4881.84,0.17,-4051.93,2024-12-11,completed,2779 Becker Fall,Mccormickmouth,Maine,79943
+SALE00000929,U000023,P000046,S0012,7,851.47,5960.29,0.1,5364.26,2026-04-03,completed,710 Sanders Loaf Apt. 995,North Nicholas,Pennsylvania,53097
+SALE00000930,,,S0007,10,303.62,3036.2,0.01,3005.84,2024-09-20,pending,306 Maxwell Expressway Suite 363,Lake Williamstad,Mississippi,04291
+SALE00000931,U000147,P000018,S0037,5,808.91,4044.55,0.02,3963.66,2025-09-24,completed,33532 Hendricks Mountains Suite 282,Port Brandonburgh,Oklahoma,02807
+SALE00000932,U000138,P000083,S0034,few,514.83,0.0,0.05,0.0,2024-11-29,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",99562
+SALE00000933,U000071,P000082,S0009,1,974.28,974.28,10%,974.28,2025-01-27,completed,70827 Julia Flats Apt. 045,Davidhaven,Oklahoma,79474
+SALE00000934,,,S0046,2,499.94,999.88,0.16,839.9,2025-06-09,pending,3716 Ronnie Crescent Apt. 661,West Cynthiaside,Indiana,92710
+SALE00000935,U000163,P000011,S0049,,,0.0,,0.0,,,,,,
+SALE00000936,U000198,P000037,S0014,-8,25.4,-203.2,0.0,-203.2,2025-04-30,completed,089 Albert Loaf Apt. 772,North Jason,South Dakota,27537
+SALE00000937,,,S0030,3,219.94,659.82,0.05,626.83,2025-01-16,completed,565 Howell Island,South Leah,Georgia,58806
+SALE00000938,U000166,P000010,S0036,-8,520.82,-4166.56,0.24,-3166.59,2024-09-20,pending,2587 Thomas Drive,New Matthewhaven,Connecticut,08739
+SALE00000939,U000088,P000094,S0019,-1,993.01,-993.01,0.23,-764.62,2025-04-05,completed,8865 Robert Islands Suite 272,Port Ellenburgh,Wyoming,07231
+SALE00000940,U000184,P000010,S0002,9,955.04,8595.36,free,8595.36,2025-08-08,pending,96742 Jacqueline Center,West Teresaburgh,Hawaii,05241
+SALE00000941,,,S0024,8,61.48,491.84,0.21,388.55,2025-02-12,completed,60857 Candace Junctions,Julieborough,Indiana,58138
+SALE00000942,U000027,P000091,S0013,10,913.13,9131.3,0.01,9039.99,2025-08-13,delivered,8769 Michael Fort,Port Tracyborough,New Jersey,84630
+SALE00000943,U000191,P000081,S0040,7,838.63,5870.41,0.25,4402.81,2025-03-14,1,349 Jeremy Field,Port Michaelfort,Massachusetts,96030
+SALE00000944,U000005,P000034,S0010,9,385.94,3473.46,1.5,-1736.73,2025-04-27,pending,894 Riddle Trail Suite 648,East Rebeccaburgh,North Carolina,10187
+SALE00000945,U000118,P000025,S0050,some,353.71,0.0,0.09,0.0,2025-02-10,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",20713
+SALE00000946,U000069,P000083,S0033,6,956.92,5741.52,0.21,4535.8,2025-12-10,completed,507 Rodriguez Knoll,Lake Robert,Vermont,57656
+SALE00000947,U000049,P000010,S0025,-6,261.73,-1570.38,0.05,-1491.86,2024-12-25,completed,864 Laurie Mountain Suite 595,Dominiquemouth,South Dakota,01671
+SALE00000948,U000133,P000030,S0029,5,98.46,492.3,free,492.3,2025-08-22,completed,7882 Tristan Fords Suite 039,Port Wendy,Minnesota,91964
+SALE00000949,U000110,P000070,S0009,5,286.93,1434.65,0.19,1162.07,2025-11-21,completed,0197 Wright Extension Suite 587,Claytonport,Iowa,88400
+SALE00000950,U000038,P000100,S0042,4,672.95,2691.8,free,2691.8,2025-08-26,completed,75606 Hansen Rue Suite 768,Port Denise,Pennsylvania,16438
+SALE00000951,U000077,P000052,S0029,2,615.73,1231.46,-0.1,1354.61,2025-01-28,pending,3363 Davis Burgs Suite 806,East Ryanton,Louisiana,87606
+SALE00000952,U000093,P000064,S0029,3,956.1,2868.3,0.21,2265.96,2026-01-21,completed,5070 Watkins Isle Apt. 488,North Karen,North Carolina,46496
+SALE00000953,U000098,P000012,S0047,2,122.81,245.62,0.0,245.62,2025-11-10,completed,1218 Long Vista Suite 008,Mcgrathstad,South Dakota,23282
+SALE00000954,,,S0011,6,78.1,468.6,0.03,454.54,2025-08-03,completed,793 Lindsey Shore Suite 933,Saraborough,Ohio,35899
+SALE00000955,U000044,P000055,S0038,,,0.0,,0.0,,,,,,
+SALE00000956,U000099,P000055,S0048,4,312.77,1251.08,0.22,975.84,2024-10-01,no,442 Thomas Fields,North Shannonbury,North Dakota,75213
+SALE00000957,,,S0030,5,112.69,563.45,0.18,462.03,2024-11-13,completed,37297 Krystal Inlet Apt. 226,West Shannonchester,Arkansas,14611
+SALE00000958,U000142,P000008,S0034,few,800.31,0.0,0.16,0.0,2024-09-29,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",73276
+SALE00000959,,,S0049,1,556.59,556.59,0.15,473.1,2025-02-23,completed,00670 Anderson Road,Ramosshire,Nebraska,53461
+SALE00000960,U000124,P000010,S0044,-9,922.04,-8298.36,0.21,-6555.7,2025-05-11,pending,8172 William Views,West Ryan,Rhode Island,01707
+SALE00000961,U000081,P000058,S0021,-8,832.22,-6657.76,0.23,-5126.48,2024-11-16,completed,284 Logan Shoal,South Johnborough,Connecticut,17575
+SALE00000962,U000088,P000052,S0013,10,716.15,7161.5,0.04,6875.04,2026-03-22,pending,042 Nicholson Mission Apt. 273,South David,Indiana,95262
+SALE00000963,U000076,P000020,S0025,some,398.6,0.0,0.06,0.0,2024-11-28,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",64662
+SALE00000964,U000151,P000042,S0013,,,0.0,,0.0,,,,,,
+SALE00000965,,,S0037,3,338.77,1016.31,0.09,924.84,2024-12-03,completed,63782 Schwartz Turnpike Apt. 844,East Amy,Arizona,14541
+SALE00000966,U000119,P000004,S0045,few,991.05,0.0,0.05,0.0,2025-01-05,pending,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",14156
+SALE00000967,U000174,P000014,S0026,-1,843.66,-843.66,0.11,-750.86,2025-06-02,pending,82634 Saunders Canyon,Jaredburgh,South Dakota,07640
+SALE00000968,U000104,P000083,S0009,1,745.58,745.58,1.5,-372.79,2025-01-22,completed,350 Martin Isle Suite 359,Williamsborough,Montana,83684
+SALE00000969,U000073,P000050,S0008,3,573.52,1720.56,0.01,1703.35,2024-12-18,0,179 Fuller View Apt. 107,South Joeside,Wisconsin,22260
+SALE00000970,U000068,P000012,S0026,some,494.25,0.0,0.22,0.0,2024-10-17,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",85589
+SALE00000971,U000085,P000001,S0019,-10,167.11,-1671.1,0.19,-1353.59,2024-12-21,completed,24889 Myers Overpass Suite 341,Port Jenniferview,Alabama,56821
+SALE00000972,U000075,P000091,S0033,,,0.0,,0.0,,,,,,
+SALE00000973,,,S0001,2,857.6,1715.2,0.21,1355.01,2024-11-04,completed,01411 Robinson Meadows,Ramirezburgh,Oregon,53360
+SALE00000974,U000100,P000067,S0033,,,0.0,,0.0,,,,,,
+SALE00000975,U000180,P000001,S0007,,,0.0,,0.0,,,,,,
+SALE00000976,U000028,P000082,S0042,,,0.0,,0.0,,,,,,
+SALE00000977,U000103,P000052,S0027,many,575.81,0.0,0.09,0.0,2025-01-09,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",69056
+SALE00000978,U000094,P000014,S0012,9,466.95,4202.55,0.21,3320.01,2025-06-21,0,87382 Hughes Dale,Smithport,Michigan,60932
+SALE00000979,U000085,P000006,S0025,6,835.53,5013.18,-0.1,5514.5,2025-08-04,completed,28155 Lopez Branch,Curtishaven,North Carolina,36032
+SALE00000980,U000036,P000058,S0038,10,255.67,2556.7,0.18,2096.49,2026-07-21,completed,730 Theodore Highway,East Tammyside,Arizona,59215
+SALE00000981,U000139,P000096,S0037,3,466.92,1400.76,0.06,1316.71,2026-09-06,completed,2868 Hampton Mountains Suite 914,Port Paulaview,Minnesota,52684
+SALE00000982,U000200,P000078,S0008,1,857.23,857.23,0.15,728.65,2025-04-30,yes,693 Ann Crossroad,North Jessica,Nevada,17062
+SALE00000983,U000110,P000038,S0004,8,458.54,3668.32,0.19,2971.34,2024-11-08,no,1284 Farrell Path,New David,Wyoming,16410
+SALE00000984,U000172,P000010,S0045,6,994.42,5966.52,0.12,5250.54,2026-03-01,completed,119 David Overpass Suite 349,West Christopherton,South Carolina,63194
+SALE00000985,U000172,P000074,S0033,9,645.82,5812.38,0.08,5347.39,2025-05-25,yes,514 Robert Skyway,Lake Michael,Massachusetts,27639
+SALE00000986,U000163,P000007,S0005,3,822.26,2466.78,-0.1,2713.46,2025-08-20,completed,53798 Ayala Brook,West Alexandrachester,Hawaii,20606
+SALE00000987,U000137,P000016,S0050,-6,188.42,-1130.52,0.14,-972.25,2025-03-26,completed,185 Nichols Inlet,West Angelaport,Wisconsin,52672
+SALE00000988,,,S0035,8,537.88,4303.04,0.17,3571.52,2025-05-25,pending,02740 Olivia Way,East Katherinehaven,Arkansas,03669
+SALE00000989,U000014,P000007,S0050,-4,682.22,-2728.88,0.22,-2128.53,2025-05-30,pending,308 Bridget Vista Apt. 384,East Dawnview,Oregon,66061
+SALE00000990,U000111,P000008,S0020,5,411.5,2057.5,0.14,1769.45,2025-02-27,no,727 Corey Via,Port Heatherport,Alabama,44101
+SALE00000991,U000129,P000060,S0049,9,282.09,2538.81,0.23,1954.88,2026-06-05,cancelled,5951 Sabrina Cliffs Apt. 109,East Laurafurt,California,74966
+SALE00000992,U000046,P000077,S0023,,,0.0,,0.0,,,,,,
+SALE00000993,U000140,P000019,S0036,some,572.08,0.0,0.07,0.0,2024-12-30,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",48727
+SALE00000994,U000124,P000020,S0037,-3,328.65,-985.95,0.22,-769.04,2025-02-02,cancelled,5268 William Lock Suite 564,Port Jason,Alaska,30832
+SALE00000995,U000035,P000094,S0015,6,872.99,5237.94,-0.1,5761.73,2025-07-19,cancelled,99846 Kemp Summit,Scottville,Iowa,72562
+SALE00000996,U000060,P000081,S0024,many,210.04,0.0,0.03,0.0,2024-11-28,completed,"Address<script>alert(""xss"")</script>","City<script>alert(""xss"")</script>","State<script>alert(""xss"")</script>",85039
+SALE00000997,U000083,P000008,S0049,1,58.91,58.91,0.17,48.9,2026-08-09,completed,75054 Matthew Overpass,North Marcus,Alaska,28014
+SALE00000998,U000129,P000028,S0046,3,424.28,1272.84,0.0,1272.84,2025-06-10,yes,51444 Sampson Corner,North Carolshire,Massachusetts,38879
+SALE00000999,U000184,P000046,S0047,2,287.63,575.26,0.23,442.95,2025-02-09,0,82991 Pittman Squares,East Matthewchester,Oklahoma,49650
+SALE00001000,U000164,P000013,S0020,3,800.54,2401.62,0.2,1921.3,2025-01-09,delivered,835 Peter Mews Apt. 622,Davidburgh,Idaho,41797

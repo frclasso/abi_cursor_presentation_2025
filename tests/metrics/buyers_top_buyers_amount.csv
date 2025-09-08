@@ -1,0 +1,11 @@
+user_id,first_name,last_name,email,city,state,total_spent,average_purchase,total_purchases,total_items
+U000059,Jacob,Fischer,twiggins@example.com,Jacksonland,Missouri,45258.18,3771.515,12,93
+U000761,Zachary,Benjamin,schmidtscott@example.org,Lake Deborahhaven,North Dakota,42706.58,2847.1053333333334,15,78
+U000068,Sarah,Wheeler,twilson@example.net,Welchmouth,Delaware,40279.59,4475.509999999999,9,58
+U000344,Seth,Carr,david25@example.com,Michelleburgh,California,39538.15,3041.396153846154,13,69
+U000365,Tonya,Hunter,carrieortega@example.org,Maryport,Missouri,39483.46,5640.494285714286,7,48
+U000313,Michael,Johnson,donnarodriguez@example.com,South Frank,Illinois,38512.8,2750.914285714286,14,91
+U000873,Michael,Hernandez,pdickson@example.net,Youngburgh,Nevada,38416.61,4268.512222222223,9,64
+U000775,Jacob,Jones,melissawalker@example.com,East Jenniferfort,New York,38066.119999999995,3172.1766666666663,12,80
+U000284,Jesus,Williams,tara24@example.org,East Cherylborough,Washington,37105.15,3092.0958333333333,12,75
+U000262,Geoffrey,Carson,barbarahernandez@example.com,Port Alex,Delaware,36859.340000000004,3071.611666666667,12,82

@@ -1,0 +1,51 @@
+seller_id,company_name,contact_name,email,phone,address,city,state,zip_code,country,tax_id,rating,total_sales,is_verified,joined_date
+S0001,"Hayes, Moore and Perez",Caroline Waller,jacob41@example.net,001-375-835-3898x12027,354 Frank Place Apt. 061,Lake Mary,Texas,93121,Moldova,49-7379976,3.2,368448,False,2023-12-12
+S0002,"Hawkins, Hernandez and Davidson",Benjamin Walton,juliaallen@example.net,(517)854-0136x91866,7011 French Centers,Emilymouth,Maryland,63774,Zambia,11-0799038,4.7,218740,False,2023-10-29
+S0003,Lee-Neal,Alyssa Moore,hayesjames@example.com,(355)938-9255x0872,67389 Amber Islands Suite 200,North Donport,Virginia,38027,Central African Republic,46-2057813,3.2,147582,True,2024-06-12
+S0004,Monroe-Morrow,Thomas Carney,troyoconnor@example.com,210-251-4806,49366 Murphy Parkway Suite 743,North Lisa,North Carolina,95503,Martinique,08-3586094,3.8,746648,True,2025-01-06
+S0005,"Reyes, Lin and Williams",Julie Henderson,natalieyoung@example.org,001-543-830-4725x7676,55930 Barton Parks,Weaverstad,Louisiana,85663,Puerto Rico,60-6951279,3.2,951513,False,2024-09-20
+S0006,Wong and Sons,Cheryl Garcia,mathew02@example.org,(848)880-9722x16292,604 Alexandra Fields Suite 467,Cooperbury,Wisconsin,62706,Norfolk Island,38-5075783,4.5,325413,False,2024-03-13
+S0007,"Campos, Brown and Clark",Angel Hartman,tanya90@example.net,001-798-542-1083,4973 Martin Lane,Davistown,Massachusetts,11411,Vietnam,96-5485855,4.3,331320,True,2025-07-28
+S0008,"Brewer, Price and Smith",Steven Freeman,autumn53@example.com,(775)360-7550,6742 Brandi Lodge Suite 156,Mariamouth,Missouri,48032,Iran,41-6820694,4.9,480018,True,2025-05-18
+S0009,Juarez-Chaney,Michelle Williams,allenpearson@example.org,564.232.6006,8569 Christopher Junction Apt. 376,Russellville,California,75765,Cape Verde,69-7341577,4.1,769482,False,2024-10-02
+S0010,Miller-Walker,Rebecca Johnson,bgarcia@example.com,995-513-3449x999,51428 Martinez Crossing,Conleyfort,Massachusetts,86860,Cyprus,54-9078614,3.2,385319,True,2024-03-05
+S0011,Fitzgerald Ltd,Elizabeth Pierce,jasonrodriguez@example.net,705-305-9324x08202,122 Collins Springs,Port Holly,Connecticut,26517,Greenland,23-5582199,3.9,960953,True,2023-11-23
+S0012,"Vasquez, Cooper and Munoz",John Robinson,garnercarmen@example.com,001-502-963-0402x28021,40122 Beltran Mountains Suite 442,Nguyenberg,Virginia,27464,Hong Kong,20-0244177,3.0,511023,True,2025-02-02
+S0013,Cook-Peters,Jose Dougherty,oclark@example.org,339-754-6881x50922,65048 Herrera Summit,Nicholasbury,Indiana,01952,Sudan,82-8502514,4.1,962556,False,2023-12-14
+S0014,"Dominguez, Nelson and Barrera",Gregory Perez,patrick33@example.org,001-580-398-3274x704,8037 Connor Village,Bairdland,Arkansas,92460,Pakistan,71-4001089,4.3,773314,True,2024-10-27
+S0015,"Krause, Sloan and Wood",Gregory Rodriguez,nhicks@example.net,001-298-685-4177x87627,53960 Wilson Track,Annaland,Ohio,46964,Saint Pierre and Miquelon,68-1411938,3.5,82826,True,2024-07-21
+S0016,Harris-Drake,Kyle Rivera DVM,courtney13@example.com,947.220.7180x8665,06496 Annette Valleys,North Wendyborough,Mississippi,40882,Bouvet Island (Bouvetoya),82-7238058,3.3,998119,False,2024-09-16
+S0017,Thomas Inc,Derrick Lamb,melissadavis@example.org,+1-809-564-1591x2076,3398 West Loaf Apt. 088,Nicholasberg,Utah,01918,Brunei Darussalam,29-8209963,4.8,941212,True,2024-02-11
+S0018,Smith Inc,Kimberly Weber,alexander66@example.org,618-647-0326x9498,397 Christina Fords Suite 627,Jennifertown,Michigan,68458,Burundi,98-0597330,4.3,597366,True,2024-05-08
+S0019,"Owen, Garcia and Collins",Christopher Gonzalez,dkeller@example.com,9966024377,4477 Mallory Park,West Lisa,Kentucky,20941,Armenia,78-8193186,4.2,926242,True,2024-06-19
+S0020,Moore LLC,Angela Johnson,arnoldbradley@example.org,(797)793-2154,15059 Gray Ridges,Lake Latoya,New Hampshire,13760,Georgia,24-9102895,5.0,973061,True,2024-10-08
+S0021,Ritter PLC,Dr. Toni Taylor,davidhancock@example.org,645-227-2367,741 Singh Throughway Apt. 196,Lake Johnhaven,Nebraska,97932,Ireland,16-8102770,4.1,224331,False,2024-04-08
+S0022,Castaneda PLC,Brandon Richards,wbell@example.com,(984)263-4977x62856,238 William Ramp,Charlestown,South Dakota,10458,Tajikistan,28-4749873,4.8,639378,True,2024-08-19
+S0023,"Ross, Vaughan and Smith",Brianna Hill,xramirez@example.org,+1-283-888-3380x098,53146 Tracy Mountains,Lake Anthonyland,Wyoming,39844,Mali,14-0079700,3.6,794905,True,2024-10-23
+S0024,Smith LLC,Richard Wong,nicholsnancy@example.org,976-377-1848x03218,12618 Natalie Mountain,South Amanda,Illinois,87794,Swaziland,52-0197073,4.7,391904,False,2025-02-25
+S0025,Hernandez PLC,Sarah Collier,erika06@example.org,518-656-9354x728,4054 Hogan Extension,Mitchellside,California,10624,Cocos (Keeling) Islands,32-5739866,4.0,246203,True,2023-12-01
+S0026,Howell LLC,Mr. Nathan Brown,rodney95@example.net,(444)460-1530x508,56670 Erica Mountain,Port Vincentton,North Carolina,22026,Guadeloupe,42-3738951,4.7,62214,False,2025-04-23
+S0027,"Salazar, Lewis and Davis",Eric Green,lawrence23@example.net,417-984-8488x8743,479 Hull Haven Apt. 785,Moyerborough,Delaware,42215,El Salvador,98-8987703,3.6,789265,True,2024-09-26
+S0028,Huynh-Rodgers,Mark Graham,phess@example.net,636.553.1175x80352,2426 Richard Ports,South Raymond,South Dakota,72353,Zambia,71-8670205,4.0,418753,True,2023-12-04
+S0029,Vazquez Ltd,Carolyn Ritter,eric64@example.com,(659)337-6734x805,829 Gina Lakes,Kingchester,New Jersey,15640,Serbia,62-6171615,3.2,482088,False,2025-03-11
+S0030,Powell PLC,Matthew Johnson,batesalan@example.org,465.348.8241,6892 Lisa Alley,Port Lindachester,Texas,37352,Luxembourg,76-2834378,5.0,645527,True,2023-11-21
+S0031,Kane Inc,Mark Parsons,phillipsheather@example.net,515-376-4914x293,3659 Rivera Turnpike,Woodstad,Nevada,99590,Sweden,62-1026820,3.5,704658,True,2024-05-20
+S0032,"Manning, Mcgrath and Munoz",Michael Glass,xlopez@example.com,+1-486-748-1648,69798 Leah Street,Laurieville,New Hampshire,32208,Iraq,71-0232454,4.5,597585,False,2024-01-18
+S0033,Williams-Harrell,Yvonne Mckay,robbinsrandy@example.org,376.885.2895x7980,500 Garcia Mountain,Lake Elizabeth,California,28644,United Kingdom,93-5805522,3.0,454613,True,2024-03-18
+S0034,Smith PLC,Justin Anderson,costabrandon@example.org,(513)628-4275x074,8475 Davis Inlet,Anitaborough,Colorado,15190,Ghana,68-5899263,3.1,419392,True,2024-06-24
+S0035,"Baldwin, Douglas and Smith",Miranda Robinson,jennifer78@example.net,001-426-588-9794x848,37706 Hawkins Station Apt. 937,South Erin,Nevada,28710,British Virgin Islands,02-4271962,3.0,635282,True,2023-09-09
+S0036,Jordan Ltd,Randall Hanson,cooperchristopher@example.org,+1-672-845-6925x93200,31432 Smith Vista,New Lisamouth,Tennessee,81641,Georgia,68-4611299,4.0,865077,False,2024-06-19
+S0037,Williams Inc,Margaret Bailey,kimberlystevenson@example.org,838-758-1460x11687,2202 Martin Haven Apt. 545,New Curtis,Montana,20441,Cook Islands,62-0045417,3.8,584740,True,2024-10-05
+S0038,"Hansen, Mccoy and Cunningham",Gregory Walker,rgraham@example.com,+1-414-749-6706x393,76357 Ellis Overpass Apt. 185,Port Peggy,Utah,61396,Kyrgyz Republic,46-0683135,3.3,207631,True,2025-05-04
+S0039,"Lucero, Smith and Allen",Brooke Chang,riverajoseph@example.org,001-581-343-2813x57581,6480 Kelli Island,Georgeburgh,Colorado,74680,Maldives,76-9208606,4.1,436073,False,2024-11-12
+S0040,Baldwin Inc,Dr. Bryan Snyder,mccarthydavid@example.com,901-711-1720x2259,2452 Davis Lane,North Erikamouth,Massachusetts,96669,Russian Federation,03-9486667,4.2,682443,True,2025-04-01
+S0041,Hall Group,Elizabeth Love,hchristensen@example.com,(453)689-5978x9583,51399 Ortega Forest,Hollowaystad,New Hampshire,69497,Cuba,68-0930733,3.3,180885,False,2023-12-28
+S0042,"Hall, Yates and Shelton",Rebecca Hendricks,kylelee@example.net,001-781-272-4962x202,3546 Price Centers,New Robertview,New York,44224,Vanuatu,85-3290089,3.7,106602,True,2025-02-25
+S0043,Campbell Group,Theresa Carey,jason94@example.net,859.263.4239x1626,110 Gilmore Spur,Morabury,Minnesota,57789,Niger,81-0579952,4.7,64104,True,2024-02-15
+S0044,"Richardson, James and Randall",Linda Salazar,shawndavies@example.com,2942845108,0555 Christopher Plain,Boydhaven,California,86329,Uzbekistan,28-9720070,3.9,144121,True,2024-05-20
+S0045,Hawkins-Cole,Amanda Davis PhD,davissteven@example.com,6526716728,33322 Tanya Locks Apt. 042,Robertchester,Florida,23371,Angola,17-4779327,3.6,133302,True,2024-12-13
+S0046,Martin Group,Cindy Davis,lori96@example.net,001-980-226-4894x00992,0875 Kane Fall,West Sean,Connecticut,76613,Panama,04-7469900,4.6,776447,False,2025-02-08
+S0047,Edwards and Sons,Jonathan Montoya,james54@example.net,001-696-432-8277x18251,366 Gray Drive Apt. 615,West Jacobport,Maine,90894,Turks and Caicos Islands,63-2037530,4.9,919819,True,2025-07-11
+S0048,"Oconnor, Carrillo and Key",Jennifer Guzman,shannondougherty@example.com,437-462-1463x432,27595 Wilson Wall,Lake Adam,Wyoming,90506,Togo,94-9690752,4.5,256409,True,2025-02-08
+S0049,Hernandez LLC,Elijah Cantrell,megancrane@example.com,(202)630-3256x55574,383 Johnson Knoll Apt. 793,Deborahbury,Iowa,51486,United States of America,86-6259246,3.8,23332,True,2024-11-26
+S0050,"Parks, Atkins and Mccann",Tanya Grant,sharonochoa@example.com,+1-315-413-0363x986,7193 Adam Neck,Mariahberg,Wyoming,64982,Syrian Arab Republic,72-5922787,3.7,534429,True,2025-02-22
