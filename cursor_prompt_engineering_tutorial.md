@@ -1,7 +1,7 @@
-# Cursor tutorial
-# ================================================================
+# Cursor prompt engineering tutorial
+# ==================================
 
-## Use case prompts ==============================================
+## Use case prompts
 1) Create two Python scritps:
     - generate_fake_data.py to generate fake valid data 
     - and generate_bad_records.py for  bad  records
