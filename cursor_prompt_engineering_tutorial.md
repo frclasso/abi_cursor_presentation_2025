@@ -4,16 +4,16 @@
 1) Create two Python scritps:
     - generate_fake_data.py to generate fake valid data 
     - and generate_bad_records.py for  bad  records
-    
     - To be used in this use case:
         - e-commerce aplication, with users, products , sellers, sales, payments
         - create .csv files:
-            -- tests/data_sources/sales.csv 
-            -- tests/data_sources/payments.csv
-            -- tests/data_sources/products.csv
-            -- tests/data_sources/users.csv
-        ** save all datasets at tests/data_sources/
-        ** save all .png file ate images
+            - tests/data_sources/sales.csv 
+            - tests/data_sources/payments.csv
+            - tests/data_sources/products.csv
+            - tests/data_sources/users.csv
+
+- save all datasets at tests/data_sources/
+- save all .png file ate images
 
 2) Create a Python script called generate_metrics_dataframes.py  in order to generate dataframes outputs with some metrics, like:
     - users distribution by address.
