@@ -394,13 +394,13 @@ class MetricsDataFrameGenerator:
 # Pytest fixtures for testing
 @pytest.fixture
 def sample_data():
-            """
-        Sample Data.
-        
-        Performs the sample data operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
-        """
+    """
+    Sample Data.
+    
+    Performs the sample data operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
+    """
     return {
         'users_df': pd.DataFrame({
             'user_id': ['U000001', 'U000002', 'U000003'],
@@ -438,16 +438,16 @@ def sample_data():
 
 @pytest.fixture
 def mock_data_loader(sample_data):
-            """
-        Load data from configured source.
-        
-        Loads data from the configured data source with proper error
-        handling and validation. Supports various data formats and
-        provides detailed loading status information.
-        
-        Returns:
-            bool: True if data loaded successfully, False otherwise
-        """
+    """
+    Load data from configured source.
+    
+    Loads data from the configured data source with proper error
+    handling and validation. Supports various data formats and
+    provides detailed loading status information.
+    
+    Returns:
+        bool: True if data loaded successfully, False otherwise
+    """
     def loader():
         return (
             sample_data['users_df'],
@@ -460,12 +460,12 @@ def mock_data_loader(sample_data):
 
 @pytest.fixture
 def metrics_generator(mock_data_loader, tmp_path):
-            """
-        Metrics Generator.
-        
-        Performs the metrics generator operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
+    """
+    Metrics Generator.
+    
+    Performs the metrics generator operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
         """
     return MetricsDataFrameGenerator(
         data_loader=mock_data_loader,
@@ -475,103 +475,103 @@ def metrics_generator(mock_data_loader, tmp_path):
 
 # Original functions for backward compatibility
 def load_data():
-            """
-        Load data from configured source.
-        
-        Loads data from the configured data source with proper error
-        handling and validation. Supports various data formats and
-        provides detailed loading status information.
-        
-        Returns:
-            bool: True if data loaded successfully, False otherwise
-        """
+    """
+    Load data from configured source.
+    
+    Loads data from the configured data source with proper error
+    handling and validation. Supports various data formats and
+    provides detailed loading status information.
+    
+    Returns:
+        bool: True if data loaded successfully, False otherwise
+    """
     generator = MetricsDataFrameGenerator()
     return generator.load_data()
 
 def users_distribution_by_address(users_df):
-            """
-        Users Distribution By Address.
-        
-        Performs the users distribution by address operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
+    """
+    Users Distribution By Address.
+    
+    Performs the users distribution by address operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
         """
     generator = MetricsDataFrameGenerator()
     return generator.users_distribution_by_address(users_df)
 
 def total_sales_metrics(sales_df, payments_df):
-            """
-        Total Sales Metrics.
-        
-        Performs the total sales metrics operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
-        """
+    """
+    Total Sales Metrics.
+    
+    Performs the total sales metrics operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
+    """
     generator = MetricsDataFrameGenerator()
     return generator.total_sales_metrics(sales_df, payments_df)
 
 def top_10_products(sales_df, products_df):
-            """
-        Top 10 Products.
-        
-        Performs the top 10 products operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
-        """
+    """
+    Top 10 Products.
+    
+    Performs the top 10 products operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
+    """
     generator = MetricsDataFrameGenerator()
     return generator.top_10_products(sales_df, products_df)
 
 def top_10_buyers(sales_df, users_df):
-            """
-        Top 10 Buyers.
-        
-        Performs the top 10 buyers operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
-        """
+    """
+    Top 10 Buyers.
+    
+    Performs the top 10 buyers operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
+    """
     generator = MetricsDataFrameGenerator()
     return generator.top_10_buyers(sales_df, users_df)
 
 def payment_method_analysis(payments_df):
-            """
-        Payment Method Analysis.
-        
-        Performs the payment method analysis operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
-        """
+    """
+    Payment Method Analysis.
+    
+    Performs the payment method analysis operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
+    """
     generator = MetricsDataFrameGenerator()
     return generator.payment_method_analysis(payments_df)
 
 def gender_purchase_analysis(sales_df, users_df):
-            """
-        Gender Purchase Analysis.
-        
-        Performs the gender purchase analysis operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
-        """
+    """
+    Gender Purchase Analysis.
+    
+    Performs the gender purchase analysis operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
+    """
     generator = MetricsDataFrameGenerator()
     return generator.gender_purchase_analysis(sales_df, users_df)
 
 def save_metrics_to_csv(metrics_data):
-            """
-        Save Metrics To Csv.
-        
-        Performs the save metrics to csv operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
+    """
+    Save Metrics To Csv.
+    
+    Performs the save metrics to csv operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
         """
     generator = MetricsDataFrameGenerator()
     generator.save_metrics_to_csv(metrics_data)
 
 def main():
-            """
-        Main.
-        
-        Performs the main operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
+    """
+    Main.
+    
+    Performs the main operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
         """
     generator = MetricsDataFrameGenerator()
     generator.generate_all_metrics()

@@ -15,30 +15,30 @@ import os
 fake = Faker()
 
 def create_directories():
-            """
-        Create new data or resources.
-        
-        Creates new data structures, files, or resources based on the
-        specified parameters. Handles creation with proper validation
-        and error handling.
-        
-        Returns:
-            Created data structure or resource
-        """
+    """
+    Create new data or resources.
+    
+    Creates new data structures, files, or resources based on the
+    specified parameters. Handles creation with proper validation
+    and error handling.
+    
+    Returns:
+        Created data structure or resource
+    """
     os.makedirs('tests/data_sources', exist_ok=True)
     os.makedirs('images', exist_ok=True)
 
 def generate_bad_users(num_users=200):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
-        """
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
+    """
     users = []
     
     for i in range(num_users):
@@ -76,16 +76,16 @@ def generate_bad_users(num_users=200):
     return pd.DataFrame(users)
 
 def generate_bad_email(bad_type):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
-        """
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
+    """
     if bad_type == 'invalid_email':
         invalid_emails = [
             'notanemail',
@@ -105,16 +105,16 @@ def generate_bad_email(bad_type):
         return fake.email()
 
 def generate_bad_phone(bad_type):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
-        """
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+    Generated data structure or processing result
+    """
     if bad_type == 'invalid_phone':
         invalid_phones = [
             '123',  # Too short
@@ -131,16 +131,16 @@ def generate_bad_phone(bad_type):
         return fake.phone_number()
 
 def generate_bad_zip(bad_type):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
-        """
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
+    """
     if bad_type == 'invalid_zip':
         invalid_zips = [
             '123',  # Too short
@@ -156,16 +156,16 @@ def generate_bad_zip(bad_type):
         return fake.zipcode()
 
 def generate_bad_date(bad_type):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
-        """
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
+    """
     if bad_type == 'missing_required':
         return None
     elif bad_type == 'empty_strings':
@@ -174,16 +174,16 @@ def generate_bad_date(bad_type):
         return fake.date_between(start_date='-2y', end_date='today')
 
 def generate_bad_boolean(bad_type):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
-        """
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
+    """
     if bad_type == 'special_chars':
         invalid_bools = ['yes', 'no', '1', '0', 'true', 'false', 'Y', 'N']
         return random.choice(invalid_bools)
@@ -193,15 +193,15 @@ def generate_bad_boolean(bad_type):
         return random.choice([True, False])
 
 def generate_bad_age(bad_type):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
         """
     if bad_type == 'negative_age':
         return random.randint(-100, -1)
@@ -232,15 +232,15 @@ def generate_bad_gender(bad_type):
         return random.choice(['M', 'F', 'Other'])
 
 def generate_bad_products(num_products=100):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
         """
     categories = ['Electronics', 'Clothing', 'Books', 'Home & Garden', 'Sports']
     products = []
@@ -278,15 +278,15 @@ def generate_bad_products(num_products=100):
     return pd.DataFrame(products)
 
 def generate_bad_product_name(bad_type):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
         """
     if bad_type == 'empty_strings':
         return ''
@@ -296,16 +296,16 @@ def generate_bad_product_name(bad_type):
         return fake.catch_phrase()
 
 def generate_bad_description(bad_type):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
-        """
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
+    """
     if bad_type == 'empty_strings':
         return ''
     elif bad_type == 'special_chars':

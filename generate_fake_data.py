@@ -15,16 +15,16 @@ import os
 fake = Faker()
 
 def create_directories():
-            """
-        Create new data or resources.
-        
-        Creates new data structures, files, or resources based on the
-        specified parameters. Handles creation with proper validation
-        and error handling.
-        
-        Returns:
-            Created data structure or resource
-        """
+    """
+    Create new data or resources.
+    
+    Creates new data structures, files, or resources based on the
+    specified parameters. Handles creation with proper validation
+    and error handling.
+    
+    Returns:
+        Created data structure or resource
+    """
     os.makedirs('tests/data_sources', exist_ok=True)
     os.makedirs('images', exist_ok=True)
 
@@ -110,16 +110,16 @@ def generate_products(num_products=500):
     return pd.DataFrame(products)
 
 def generate_sellers(num_sellers=50):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
-        """
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
+    """
     sellers = []
     
     for i in range(num_sellers):
@@ -145,16 +145,16 @@ def generate_sellers(num_sellers=50):
     return pd.DataFrame(sellers)
 
 def generate_sales(num_sales=5000, users_df=None, products_df=None, sellers_df=None):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
-        """
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
+    """
     if users_df is None or products_df is None or sellers_df is None:
         raise ValueError("Users, products, and sellers DataFrames must be provided")
     
@@ -198,16 +198,16 @@ def generate_sales(num_sales=5000, users_df=None, products_df=None, sellers_df=N
     return pd.DataFrame(sales)
 
 def generate_payments(sales_df=None):
-            """
-        Generate data or metrics based on configuration.
-        
-        Creates and processes data according to the specified parameters
-        and configuration. Handles data generation with proper validation
-        and error reporting.
-        
-        Returns:
-            Generated data structure or processing result
-        """
+    """
+    Generate data or metrics based on configuration.
+    
+    Creates and processes data according to the specified parameters
+    and configuration. Handles data generation with proper validation
+    and error reporting.
+    
+    Returns:
+        Generated data structure or processing result
+    """
     if sales_df is None:
         raise ValueError("Sales DataFrame must be provided")
     
@@ -244,13 +244,13 @@ def generate_payments(sales_df=None):
     return pd.DataFrame(payments)
 
 def main():
-            """
-        Main.
-        
-        Performs the main operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
-        """
+    """
+    Main.
+    
+    Performs the main operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
+    """
     print("Creating directories...")
     create_directories()
     

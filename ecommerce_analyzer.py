@@ -142,7 +142,7 @@ class EcommerceAnalyzer:
             return False
     
     def validate_data_quality(self):
-                """
+        """
         Validate data quality and compliance.
         
         Performs comprehensive data validation including schema validation,
@@ -215,7 +215,7 @@ class EcommerceAnalyzer:
         return validation_results
     
     def create_data_quality_dashboard(self):
-                """
+        """
         Create new data or resources.
         
         Creates new data structures, files, or resources based on the
@@ -272,7 +272,7 @@ class EcommerceAnalyzer:
         print("✓ Data quality dashboard created")
     
     def create_validation_comparison_chart(self):
-                """
+        """
         Create new data or resources.
         
         Creates new data structures, files, or resources based on the
@@ -316,7 +316,7 @@ class EcommerceAnalyzer:
         print("✓ Validation comparison chart created")
     
     def create_sales_overview_chart(self):
-                """
+        """
         Create new data or resources.
         
         Creates new data structures, files, or resources based on the
@@ -362,7 +362,7 @@ class EcommerceAnalyzer:
         print("✓ Sales overview chart created")
     
     def create_geographic_analysis(self):
-                """
+        """
         Create new data or resources.
         
         Creates new data structures, files, or resources based on the
