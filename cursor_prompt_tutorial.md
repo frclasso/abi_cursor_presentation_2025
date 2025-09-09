@@ -43,14 +43,3 @@
 7) Generate Documentantion (dosctring) for all *.py methods
 
 8) Create a simple README.md file with a step by step teaching how to use this projetc.
-
-# RUN COMMANDS
-python generate_fake_data.py
-python generate_bad_records.py
-python generate_metrics_dataframes.py
-python ecommerce_analysis.py
-
-## TESTS
-python -m pytest tests/ -v
-python -m pytest tests/unit/
-python -m pytest tests/unit/test_ecommerce_analyzer.py -v --tb=short
