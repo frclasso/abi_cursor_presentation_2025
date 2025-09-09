@@ -1,5 +1,4 @@
 # Cursor prompt engineering tutorial
-# ==================================
 
 ## Use case prompts
 1) Create two Python scritps:
