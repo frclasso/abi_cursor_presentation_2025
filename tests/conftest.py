@@ -248,13 +248,13 @@ def mock_validation_results():
 
 @pytest.fixture
 def temp_directories(tmp_path):
-            """
-        Temp Directories.
-        
-        Performs the temp directories operation with proper
-        validation and error handling. Provides comprehensive functionality
-        for the specified operation.
-        """
+    """
+    Temp Directories.
+    
+    Performs the temp directories operation with proper
+    validation and error handling. Provides comprehensive functionality
+    for the specified operation.
+    """
     data_dir = tmp_path / "data_sources"
     metrics_dir = tmp_path / "metrics"
     images_dir = tmp_path / "images"
